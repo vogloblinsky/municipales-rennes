@@ -2,11 +2,10 @@ language: node_js
 os: linux
 node_js:
     - 8
-before_script:
-    - npm install
 script: npm run build
 deploy:
     local_dir: dist
+    script: ls -al
     provider: pages
     cleanup: true
     token: $GITHUB_TOKEN
