@@ -1,0 +1,24 @@
+{
+    "name": "municipales-rennes",
+    "version": "1.0.0",
+    "description": "Plateforme de comparaison de programmes politiques aux municipales françaises à Rennes",
+    "main": "index.js",
+    "scripts": {
+        "start": "run-p 11ty watch:dev",
+        "build": "NODE_ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vogloblinsky/municipales-rennes.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vogloblinsky/municipales-rennes/issues"
+    },
+    "homepage": "https://github.com/vogloblinsky/municipales-rennes#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.10.0"
+    }
+}
