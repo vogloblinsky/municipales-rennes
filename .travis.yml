@@ -1,14 +1,15 @@
 language: node_js
+os: linux
 node_js:
     - 8
 before_script:
     - npm install
 script: npm run build
 deploy:
-    local-dir: dist
+    local_dir: dist
     provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    keep-history: true
+    cleanup: true
+    token: $GITHUB_TOKEN
+    keep_history: true
     on:
         branch: master
