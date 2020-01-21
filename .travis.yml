@@ -5,9 +5,8 @@ node_js:
 script: npm run build
 deploy:
     local_dir: dist
-    script: ls -al
     provider: pages
-    cleanup: true
+    skip_cleanup: true
     token: $GITHUB_TOKEN
     keep_history: true
     on:
