@@ -1,5 +1,22 @@
 [
     {
-        "label": ""
+        "label": "Economie numérique",
+        "id": "st-1"
+    },
+    {
+        "label": "Economie sociale et solidaire",
+        "id": "st-2"
+    },
+    {
+        "label": "Economie circulaire",
+        "id": "st-3"
+    },
+    {
+        "label": "Scolarité",
+        "id": "st-4"
+    },
+    {
+        "label": "Enfance et petite enfance",
+        "id": "st-5"
     }
 ]

@@ -1,9 +1,11 @@
 [
     {
-        "label": "Economie"
+        "label": "Economie",
+        "sous-thematiques": ["st-1", "st-2", "st-3"]
     },
     {
-        "label": "Education"
+        "label": "Education",
+        "sous-thematiques": ["st-4", "st-5"]
     },
     {
         "label": "Environnement"
