@@ -1,1 +1,1 @@
-!function(){"use strict";console.log("hello")}();
+!function(){"use strict";document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{console.log("hello");const e=document.querySelector(".nav-container");document.querySelector(".main-container").style.top=e.offsetHeight+"px"},500)})}();
