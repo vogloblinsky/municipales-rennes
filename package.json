@@ -4,9 +4,15 @@
     "description": "Plateforme de comparaison de programmes politiques aux municipales françaises à Rennes",
     "main": "index.js",
     "scripts": {
-        "start": "npm run 11ty",
+        "start": "npm run start:dev",
+        "start:dev": "run-p 11ty watch:dev",
+        "watch:dev": "npm-watch",
         "11ty": "npx @11ty/eleventy --serve",
-        "build": "NODE_ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\""
+        "build": "NODE_ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run js:prod",
+        "sass:dev": "NODE_ENV=dev node tools/sass-process.js",
+        "sass:prod": "NODE_ENV=prod node tools/sass-process.js",
+        "js:dev": "NODE_ENV=dev rollup -c rollup.config.js",
+        "js:prod": "NODE_ENV=prod rollup -c rollup.config.js"
     },
     "repository": {
         "type": "git",
@@ -20,6 +26,28 @@
     },
     "homepage": "https://github.com/vogloblinsky/municipales-rennes#readme",
     "devDependencies": {
-        "@11ty/eleventy": "^0.10.0"
+        "@11ty/eleventy": "^0.10.0",
+        "npm-run-all": "^4.1.5",
+        "npm-watch": "^0.6.0",
+        "rollup": "^1.29.1",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-terser": "^5.2.0",
+        "sass": "^1.25.0"
+    },
+    "watch": {
+        "sass:dev": {
+            "patterns": [
+                "src"
+            ],
+            "extensions": "scss",
+            "quiet": false
+        },
+        "js:dev": {
+            "patterns": [
+                "src"
+            ],
+            "extensions": "js",
+            "quiet": false
+        }
     }
 }
