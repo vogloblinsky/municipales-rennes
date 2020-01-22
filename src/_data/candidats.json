@@ -7,7 +7,9 @@
             }
         ],
         "partis": "PS-PC-G·s-PRG-PP",
-        "liste": "Pour Rennes"
+        "liste": "Pour Rennes",
+        "website": "https://avecnathalieappere.fr/",
+        "twitter": "PourRennes"
     },
     {
         "tetes": [
@@ -17,7 +19,20 @@
             }
         ],
         "parti": "LaREM",
-        "liste": "Révéler Rennes"
+        "liste": "Révéler Rennes",
+        "website": "https://reveler-rennes.bzh/",
+        "twitter": "RevelerRennes",
+        "polemiques": [
+            {
+                "label": "Mailing malencontreux",
+                "references": [
+                    {
+                        "titre": "",
+                        "url": ""
+                    }
+                ]
+            }
+        ]
     },
     {
         "tetes": [
@@ -31,7 +46,9 @@
             }
         ],
         "parti": "LFI",
-        "liste": "Rennes en commun"
+        "liste": "Rennes en commun",
+        "website": "https://rennes-en-commun-2020.fr/",
+        "twitter": "RennesEnCommun"
     },
     {
         "tetes": [
@@ -45,7 +62,9 @@
             }
         ],
         "parti": "EELV-UDB-ND",
-        "liste": "Choisir l'écologie pour Rennes"
+        "liste": "Choisir l'écologie pour Rennes",
+        "website": "https://rennes-ecologie.bzh/",
+        "twitter": "Rennes_Ecologie"
     },
     {
         "tetes": [
@@ -55,7 +74,9 @@
             }
         ],
         "parti": "DVD-LR-MoDem-UDI-PB",
-        "liste": "Libres d’agir pour Rennes"
+        "liste": "Libres d’agir pour Rennes",
+        "website": "https://www.compagnon2020.fr/",
+        "twitter": "compagnon2020"
     },
     {
         "tetes": [
@@ -64,7 +85,8 @@
                 "nom": "Salmon"
             }
         ],
-        "parti": "RN"
+        "parti": "RN",
+        "twitter": "EmericSalmon"
     },
     {
         "tetes": [
@@ -74,6 +96,8 @@
             }
         ],
         "parti": "REG",
-        "liste": "Rennes Bretagne Europe"
+        "liste": "Rennes Bretagne Europe",
+        "website": "http://rbe2020darcel.bzh/",
+        "twitter": "RBEdaViken"
     }
 ]
