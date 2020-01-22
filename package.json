@@ -8,11 +8,11 @@
         "start:dev": "run-p 11ty watch:dev",
         "watch:dev": "npm-watch",
         "11ty": "npx @11ty/eleventy --serve",
-        "build": "NODE_ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run js:prod",
-        "sass:dev": "NODE_ENV=dev node tools/sass-process.js",
-        "sass:prod": "NODE_ENV=prod node tools/sass-process.js",
-        "js:dev": "NODE_ENV=dev rollup -c rollup.config.js",
-        "js:prod": "NODE_ENV=prod rollup -c rollup.config.js"
+        "build": "ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run js:prod",
+        "sass:dev": "ENV=dev node tools/sass-process.js",
+        "sass:prod": "ENV=prod node tools/sass-process.js",
+        "js:dev": "ENV=dev rollup -c rollup.config.js",
+        "js:prod": "ENV=prod rollup -c rollup.config.js"
     },
     "repository": {
         "type": "git",

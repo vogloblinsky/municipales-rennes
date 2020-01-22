@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 const processSass = (scssPath, cssPath) => {
-    if (process.env.NODE_ENV && process.env.NODE_ENV === 'prod') {
+    if (process.env.ENV && process.env.ENV === 'prod') {
         console.log('Processing scss files for prod mode');
         const result = sass.renderSync({
             file: scssPath,
