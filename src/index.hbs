@@ -16,14 +16,21 @@
     <p class="browserupgrade">Vous utilisez un navigateur <strong>obsolète</strong>. Merci de le <a href="https://browsehappy.com/">mettre à jour</a>.</p>
     <![endif]-->
 
-    <nav class="main-nav">
-        <div class="navbar-header"><b>ÉLECTIONS MUNICIPALES Rennes 2020</b>&nbsp;&bull; Comparateur de programmes</div>
-        <div class="copyright">Réalisé citoyennement par <a href="https://www.vincentogloblinsky.com"
-                target="_blank">Vincent
-                Ogloblinsky</a>&nbsp;&bull; Copyright 2020</div>
-    </nav>
+    <div class="nav-container">
+        <nav class="main-nav">
+            <div class="navbar-header">
+                <span class="main-title">
+                    <b>ÉLECTIONS MUNICIPALES</b>
+                </span>
+                <span><b>Rennes 2020</b></span>
+                <span class="bull">&bull;</span>
+                <span>Comparateur de programmes</span>
+            </div>
+            <div class="copyright">Réalisé citoyennement par <a href="https://www.vincentogloblinsky.com"
+                    target="_blank">Vincent
+                    Ogloblinsky</a>&nbsp;&bull; &copy; 2020</div>
+        </nav>
 
-    <main>
         <nav class="second-nav">
             <select class="thematiques-selector">
                 <option value="">Toutes les thématiques</option>
@@ -42,21 +49,21 @@
                 {{/each}}
             </select>
         </nav>
+    </div>
 
-        <div class="main-container">
-            <ul>
-                {{#each alldata.candidats}}
-                {{#if this.liste}}
-                <li>
-                    {{this.liste}}
-                </li>
-                {{/if}}
-                {{/each}}
-            </ul>
-        </div>
+    <main class="main-container">
+        <ul>
+            {{#each alldata.candidats}}
+            {{#if this.liste}}
+            <li>
+                {{this.liste}}
+            </li>
+            {{/if}}
+            {{/each}}
+        </ul>
     </main>
 
-    <script src="scripts/index.js" async></script>
+    <script src="scripts/index.js" defer></script>
 
 </body>
 
