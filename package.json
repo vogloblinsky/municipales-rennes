@@ -4,7 +4,8 @@
     "description": "Plateforme de comparaison de programmes politiques aux municipales françaises à Rennes",
     "main": "index.js",
     "scripts": {
-        "start": "run-p 11ty watch:dev",
+        "start": "npm run 11ty",
+        "11ty": "npx @11ty/eleventy --serve",
         "build": "NODE_ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\""
     },
     "repository": {
