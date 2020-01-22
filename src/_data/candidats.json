@@ -1,0 +1,79 @@
+[
+    {
+        "tetes": [
+            {
+                "prenom": "Nathalie",
+                "nom": "Appéré"
+            }
+        ],
+        "partis": "PS-PC-G·s-PRG-PP",
+        "liste": "Pour Rennes"
+    },
+    {
+        "tetes": [
+            {
+                "prenom": "Carole",
+                "nom": "Gandon"
+            }
+        ],
+        "parti": "LaREM",
+        "liste": "Révéler Rennes"
+    },
+    {
+        "tetes": [
+            {
+                "prenom": "Enora",
+                "nom": "Le Pape"
+            },
+            {
+                "prenom": "Jean-Paul",
+                "nom": "Tual"
+            }
+        ],
+        "parti": "LFI",
+        "liste": "Rennes en commun"
+    },
+    {
+        "tetes": [
+            {
+                "prenom": "Matthieu",
+                "nom": "Theurier"
+            },
+            {
+                "prenom": "Priscilla",
+                "nom": "Zamord"
+            }
+        ],
+        "parti": "EELV-UDB-ND",
+        "liste": "Choisir l'écologie pour Rennes"
+    },
+    {
+        "tetes": [
+            {
+                "prenom": "Charles",
+                "nom": "Compagnon"
+            }
+        ],
+        "parti": "DVD-LR-MoDem-UDI-PB",
+        "liste": "Libres d’agir pour Rennes"
+    },
+    {
+        "tetes": [
+            {
+                "prenom": "Émeric",
+                "nom": "Salmon"
+            }
+        ],
+        "parti": "RN"
+    },
+    {
+        "tetes": [
+            {
+                "prenom": "Franck",
+                "nom": "Darcel"
+            }
+        ],
+        "parti": "REG",
+        "liste": "Rennes Bretagne Europe"
+    }
+]
