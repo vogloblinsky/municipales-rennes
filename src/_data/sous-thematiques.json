@@ -18,5 +18,65 @@
     {
         "label": "Enfance et petite enfance",
         "id": "st-5"
+    },
+    {
+        "label": "Propreté",
+        "id": "st-6"
+    },
+    {
+        "label": "Ecologie",
+        "id": "st-7"
+    },
+    {
+        "label": "Energie renouvelable",
+        "id": "st-8"
+    },
+    {
+        "label": "Culture",
+        "id": "st-9"
+    },
+    {
+        "label": "Démocratie locale",
+        "id": "st-10"
+    },
+    {
+        "label": "Sport",
+        "id": "st-11"
+    },
+    {
+        "label": "Santé publique",
+        "id": "st-12"
+    },
+    {
+        "label": "Aides sociales",
+        "id": "st-13"
+    },
+    {
+        "label": "Restauration",
+        "id": "st-14"
+    },
+    {
+        "label": "Logement",
+        "id": "st-15"
+    },
+    {
+        "label": "Emploi et travail",
+        "id": "st-16"
+    },
+    {
+        "label": "Institution",
+        "id": "st-17"
+    },
+    {
+        "label": "Rayonnement",
+        "id": "st-18"
+    },
+    {
+        "label": "Police et gendarmeire",
+        "id": "st-19"
+    },
+    {
+        "label": "Vélo",
+        "id": "st-20"
     }
 ]

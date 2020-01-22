@@ -8,16 +8,31 @@
         "sous-thematiques": ["st-4", "st-5"]
     },
     {
-        "label": "Environnement"
+        "label": "Environnement",
+        "sous-thematiques": ["st-6", "st-7", "st-8"]
     },
     {
-        "label": "Politiques publiques"
+        "label": "Politiques publiques",
+        "sous-thematiques": [
+            "st-9",
+            "st-10",
+            "st-11",
+            "st-12",
+            "st-13",
+            "st-14",
+            "st-15",
+            "st-16",
+            "st-17",
+            "st-18"
+        ]
     },
     {
-        "label": "Sécurité"
+        "label": "Sécurité",
+        "sous-thematiques": ["st-19"]
     },
     {
-        "label": "Transport"
+        "label": "Transport",
+        "sous-thematiques": ["st-20"]
     },
     {
         "label": "Urbanisme"
