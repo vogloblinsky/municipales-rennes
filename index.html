@@ -32,33 +32,40 @@
         </nav>
 
         <nav class="second-nav">
-            <select class="thematiques-selector">
-                <option value="">Toutes les thématiques</option>
-                <option value="Economie">
-                    Economie
-                </option>
-                <option value="Education">
-                    Education
-                </option>
-                <option value="Environnement">
-                    Environnement
-                </option>
-                <option value="Politiques publiques">
-                    Politiques publiques
-                </option>
-                <option value="Sécurité">
-                    Sécurité
-                </option>
-                <option value="Transport">
-                    Transport
-                </option>
-                <option value="Urbanisme">
-                    Urbanisme
-                </option>
-            </select>
-            <select class="thematiques-selector">
-                <option value="">Toutes les sous-thématiques</option>
-            </select>
+            <div>
+                <select class="thematiques-selector">
+                    <option value="">Toutes les thématiques</option>
+                    <option value="Economie">
+                        Economie
+                    </option>
+                    <option value="Education">
+                        Education
+                    </option>
+                    <option value="Environnement">
+                        Environnement
+                    </option>
+                    <option value="Politiques publiques">
+                        Politiques publiques
+                    </option>
+                    <option value="Sécurité">
+                        Sécurité
+                    </option>
+                    <option value="Transport">
+                        Transport
+                    </option>
+                    <option value="Urbanisme">
+                        Urbanisme
+                    </option>
+                </select>
+                <select class="thematiques-selector">
+                    <option value="">Toutes les sous-thématiques</option>
+                </select>
+            </div>
+            <div class="second-nav__right">
+                <ion-icon name="ios-arrow-back" size="small"></ion-icon>
+                <ion-icon name="ios-arrow-forward"></ion-icon>
+            </div>
+
         </nav>
     </div>
 
@@ -70,11 +77,12 @@
                         <img src="assets/appere.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Pour Rennes
                         </span>
-                        <br>
-                        <span>Nathalie Appéré</span>
+                        <span class="tetes">
+                            Nathalie Appéré
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -85,11 +93,12 @@
                         <img src="assets/gandon.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Révéler Rennes
                         </span>
-                        <br>
-                        <span>Carole Gandon</span>
+                        <span class="tetes">
+                            Carole Gandon
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -100,11 +109,13 @@
                         <img src="assets/verts.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Choisir l&#x27;écologie pour Rennes
                         </span>
-                        <br>
-                        <span>Matthieu Theurier</span>
+                        <span class="tetes">
+                            Matthieu Theurier<br />
+                            Priscilla Zamord
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -115,11 +126,13 @@
                         <img src="assets/lepape.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Rennes en commun
                         </span>
-                        <br>
-                        <span>Enora Le Pape</span>
+                        <span class="tetes">
+                            Enora Le Pape<br />
+                            Jean-Paul Tual
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -130,11 +143,12 @@
                         <img src="assets/compagnon.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Libres d’agir pour Rennes
                         </span>
-                        <br>
-                        <span>Charles Compagnon</span>
+                        <span class="tetes">
+                            Charles Compagnon
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -145,11 +159,12 @@
                         <img src="assets/darcel.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Rennes Bretagne Europe
                         </span>
-                        <br>
-                        <span>Franck Darcel</span>
+                        <span class="tetes">
+                            Franck Darcel
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -160,11 +175,12 @@
                         <img src="assets/hamon.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             Lutte ouvrière – faire entendre le camp des travailleurs
                         </span>
-                        <br>
-                        <span>Valérie Hamon</span>
+                        <span class="tetes">
+                            Valérie Hamon
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -172,6 +188,8 @@
         </div>
     </main>
 
+    <script type="module" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.js"></script>
     <script src="scripts/index.js" defer></script>
 
 </body>

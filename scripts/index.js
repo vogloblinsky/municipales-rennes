@@ -1,1 +1,1 @@
-!function(){"use strict";document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{console.log("hello");const e=document.querySelector(".nav-container");document.querySelector(".main-container").style.top=e.offsetHeight+"px"},500)})}();
+!function(){"use strict";document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{console.log("hello");const e=document.querySelector(".nav-container"),t=document.querySelector(".main-container");t.style.top=e.offsetHeight+"px",Array.from(t.querySelectorAll("article")).map(e=>{e.style.width=t.offsetWidth+"px"})},500)})}();
