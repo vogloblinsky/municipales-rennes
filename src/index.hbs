@@ -32,22 +32,29 @@
         </nav>
 
         <nav class="second-nav">
-            <select class="thematiques-selector">
-                <option value="">Toutes les thématiques</option>
-                {{#each alldata.thematiques}}
-                <option value="{{this.label}}">
-                    {{this.label}}
-                </option>
-                {{/each}}
-            </select>
-            <select class="thematiques-selector">
-                <option value="">Toutes les sous-thématiques</option>
-                {{#each alldata.sousthematiques}}
-                <option value="{{this.label}}">
-                    {{this.label}}
-                </option>
-                {{/each}}
-            </select>
+            <div>
+                <select class="thematiques-selector">
+                    <option value="">Toutes les thématiques</option>
+                    {{#each alldata.thematiques}}
+                    <option value="{{this.label}}">
+                        {{this.label}}
+                    </option>
+                    {{/each}}
+                </select>
+                <select class="thematiques-selector">
+                    <option value="">Toutes les sous-thématiques</option>
+                    {{#each alldata.sousthematiques}}
+                    <option value="{{this.label}}">
+                        {{this.label}}
+                    </option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="second-nav__right">
+                <ion-icon name="ios-arrow-back" size="small"></ion-icon>
+                <ion-icon name="ios-arrow-forward"></ion-icon>
+            </div>
+
         </nav>
     </div>
 
@@ -61,11 +68,17 @@
                         <img src="assets/{{this.id}}.jpg">
                     </figure>
                     <div class="candidat-infos">
-                        <span>
+                        <span class="liste">
                             {{this.liste}}
                         </span>
-                        <br>
-                        <span>{{this.tetes.0.prenom}} {{this.tetes.0.nom}}</span>
+                        <span class="tetes">
+                            {{#compare this.tetes.length 1 operator=">"}}
+                            {{this.tetes.0.prenom}} {{this.tetes.0.nom}}<br />
+                            {{this.tetes.1.prenom}} {{this.tetes.1.nom}}
+                            {{else}}
+                            {{this.tetes.0.prenom}} {{this.tetes.0.nom}}
+                            {{/compare}}
+                        </span>
                     </div>
                 </header>
                 <div class="candidat-content"></div>
@@ -75,6 +88,8 @@
         </div>
     </main>
 
+    <script type="module" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.js"></script>
     <script src="scripts/index.js" defer></script>
 
 </body>
