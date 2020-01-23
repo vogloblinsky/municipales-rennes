@@ -61,11 +61,16 @@ body {
 main {
     position: relative;
     top: 100px;
+    background: #a4b0be;
+}
 
-    .main-container {
-        position: relative;
-        padding-top: 50px;
-    }
+.candidats-wrapper {
+    position: absolute;
+}
+
+article {
+    float: left;
+    width: 250px;
 }
 
 .thematiques-selector {
@@ -109,4 +114,8 @@ main {
 
 .thematiques-selector option {
     font-weight: normal;
+}
+
+.avatar img {
+    width: 100px;
 }

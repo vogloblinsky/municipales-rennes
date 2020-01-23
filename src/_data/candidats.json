@@ -1,5 +1,6 @@
 [
     {
+        "id": "appere",
         "tetes": [
             {
                 "prenom": "Nathalie",
@@ -9,9 +10,11 @@
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "https://avecnathalieappere.fr/",
-        "twitter": "PourRennes"
+        "twitter": "PourRennes",
+        "propositions": []
     },
     {
+        "id": "gandon",
         "tetes": [
             {
                 "prenom": "Carole",
@@ -32,25 +35,11 @@
                     }
                 ]
             }
-        ]
-    },
-    {
-        "tetes": [
-            {
-                "prenom": "Enora",
-                "nom": "Le Pape"
-            },
-            {
-                "prenom": "Jean-Paul",
-                "nom": "Tual"
-            }
         ],
-        "parti": "LFI",
-        "liste": "Rennes en commun",
-        "website": "https://rennes-en-commun-2020.fr/",
-        "twitter": "RennesEnCommun"
+        "propositions": []
     },
     {
+        "id": "verts",
         "tetes": [
             {
                 "prenom": "Matthieu",
@@ -64,9 +53,29 @@
         "parti": "EELV-UDB-ND",
         "liste": "Choisir l'écologie pour Rennes",
         "website": "https://rennes-ecologie.bzh/",
-        "twitter": "Rennes_Ecologie"
+        "twitter": "Rennes_Ecologie",
+        "propositions": []
     },
     {
+        "id": "lepape",
+        "tetes": [
+            {
+                "prenom": "Enora",
+                "nom": "Le Pape"
+            },
+            {
+                "prenom": "Jean-Paul",
+                "nom": "Tual"
+            }
+        ],
+        "parti": "LFI",
+        "liste": "Rennes en commun",
+        "website": "https://rennes-en-commun-2020.fr/",
+        "twitter": "RennesEnCommun",
+        "propositions": []
+    },
+    {
+        "id": "compagnon",
         "tetes": [
             {
                 "prenom": "Charles",
@@ -76,9 +85,11 @@
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
         "website": "https://www.compagnon2020.fr/",
-        "twitter": "compagnon2020"
+        "twitter": "compagnon2020",
+        "propositions": []
     },
     {
+        "id": "salmon",
         "tetes": [
             {
                 "prenom": "Émeric",
@@ -86,9 +97,11 @@
             }
         ],
         "parti": "RN",
-        "twitter": "EmericSalmon"
+        "twitter": "EmericSalmon",
+        "propositions": []
     },
     {
+        "id": "darcel",
         "tetes": [
             {
                 "prenom": "Franck",
@@ -98,6 +111,21 @@
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
         "website": "http://rbe2020darcel.bzh/",
-        "twitter": "RBEdaViken"
+        "twitter": "RBEdaViken",
+        "propositions": []
+    },
+    {
+        "id": "hamon",
+        "tetes": [
+            {
+                "prenom": "Valérie",
+                "nom": "Hamon"
+            }
+        ],
+        "parti": "LO",
+        "liste": "Lutte ouvrière – faire entendre le camp des travailleurs",
+        "website": "https://www.lutte-ouvriere.org/en-regions/bretagne",
+        "twitter": "LutteOuvriere",
+        "propositions": []
     }
 ]

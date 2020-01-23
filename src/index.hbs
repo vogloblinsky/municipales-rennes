@@ -52,15 +52,27 @@
     </div>
 
     <main class="main-container">
-        <ul>
+        <div class="candidats-wrapper">
             {{#each alldata.candidats}}
             {{#if this.liste}}
-            <li>
-                {{this.liste}}
-            </li>
+            <article>
+                <header>
+                    <figure class="avatar">
+                        <img src="assets/{{this.id}}.jpg">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span>
+                            {{this.liste}}
+                        </span>
+                        <br>
+                        <span>{{this.tetes.0.prenom}} {{this.tetes.0.nom}}</span>
+                    </div>
+                </header>
+                <div class="candidat-content"></div>
+            </article>
             {{/if}}
             {{/each}}
-        </ul>
+        </div>
     </main>
 
     <script src="scripts/index.js" defer></script>
