@@ -54,5 +54,8 @@
             "extensions": "js",
             "quiet": false
         }
+    },
+    "dependencies": {
+        "sticky-js": "^1.2.2"
     }
 }

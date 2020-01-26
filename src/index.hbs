@@ -101,7 +101,9 @@
                 <div class="candidat-content">
                     {{#each this.orderedThematiques}}
                     <section data-thematique-id="{{this.id}}" class="thematique">
-                        <h2>{{this.label}}</h2>
+                        <h2>
+                            <span>{{this.label}}</span>
+                        </h2>
                         {{#each this.sous-thematiques}}
                         <section data-sous-thematique-id="{{this.id}}" class="sous-thematique">
                             <h3>{{this.label}}</h3>

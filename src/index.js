@@ -2,6 +2,8 @@ import sousThematiques from './_data/sous-thematiques.json';
 
 import allData from './_data/alldata';
 
+import Sticky from 'sticky-js';
+
 const thematiques = allData.thematiques;
 
 const findThematiqueForSousThematique = sousThematiqueToFind => {
@@ -217,6 +219,18 @@ const initUI = () => {
             resetSousThematiquesSelect();
         }
     });
+
+    const elementsToStick = Array.from(
+        document.querySelectorAll('.thematique h2')
+    );
+    elementsToStick.forEach(elementToStick => {
+        elementToStick.setAttribute(
+            'data-margin-top',
+            navContainer.offsetHeight
+        );
+    });
+
+    const sticky = new Sticky('.thematique h2');
 };
 
 document.addEventListener('DOMContentLoaded', () => {

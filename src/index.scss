@@ -209,6 +209,14 @@ article {
     text-transform: uppercase;
     font-size: 18px;
     padding: 10px;
+
+    span {
+        visibility: hidden;
+    }
+}
+
+article:first-child h2 > span {
+    visibility: visible;
 }
 
 .sous-thematique {
