@@ -11,7 +11,18 @@
         "liste": "Pour Rennes",
         "website": "https://avecnathalieappere.fr/",
         "twitter": "PourRennes",
-        "propositions": []
+        "propositions": [
+            {
+                "id": "appere-p-1",
+                "st": "st-21",
+                "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
+            },
+            {
+                "id": "appere-p-2",
+                "st": "st-1",
+                "label": "Un truc de fou moi je vous le dis !"
+            }
+        ]
     },
     {
         "id": "gandon",
@@ -36,7 +47,18 @@
                 ]
             }
         ],
-        "propositions": []
+        "propositions": [
+            {
+                "id": "appere-p-1",
+                "st": "st-1",
+                "label": "Un truc de fou moi je vous le dis de mieux qu'à gauche !"
+            },
+            {
+                "id": "appere-p-2",
+                "st": "st-1",
+                "label": "Un truc de fou moi je vous le dis de vraiment mieux qu'à gauche !"
+            }
+        ]
     },
     {
         "id": "verts",

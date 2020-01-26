@@ -90,7 +90,23 @@
                         </span>
                     </div>
                 </header>
-                <div class="candidat-content"></div>
+                <div class="candidat-content">
+                    {{#each this.orderedThematiques}}
+                    <section data-thematique-id="{{this.id}}" class="thematique">
+                        <h2>{{this.label}}</h2>
+                        {{#each this.sous-thematiques}}
+                        <section data-sous-thematique-id="{{this.id}}" class="sous-thematique">
+                            <h3>{{this.label}}</h3>
+                            <div class="proposition">
+                                {{#each this.propositions}}
+                                <p>{{this.label}}</p>
+                                {{/each}}
+                            </div>
+                        </section>
+                        {{/each}}
+                    </section>
+                    {{/each}}
+                </div>
             </article>
             {{/if}}
             {{/each}}

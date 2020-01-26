@@ -1,9 +1,10 @@
 import resolve from 'rollup-plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
+import json from '@rollup/plugin-json';
 
 const ENV = process.env.ENV || 'dev';
 
-const PLUGINS = [resolve()];
+const PLUGINS = [resolve(), json()];
 
 if (ENV !== 'dev') {
     PLUGINS.push(terser());

@@ -72,11 +72,15 @@
         "id": "st-18"
     },
     {
-        "label": "Police et gendarmeire",
+        "label": "Police et gendarmerie",
         "id": "st-19"
     },
     {
         "label": "Vélo",
         "id": "st-20"
+    },
+    {
+        "label": "Métro",
+        "id": "st-21"
     }
 ]

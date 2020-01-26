@@ -1,3 +1,8 @@
+import thematiques from './_data/thematiques.json';
+import sousThematiques from './_data/sous-thematiques.json';
+
+console.log(sousThematiques);
+
 const initUI = () => {
     const maxWidthCandidatBlock = 380;
     let currentWidthForCandidat = 0;
@@ -7,8 +12,10 @@ const initUI = () => {
 
     const mainContainerWidth = mainContainer.offsetWidth;
 
+    // Update mainContainer top position
     mainContainer.style.top = navContainer.offsetHeight + 'px';
 
+    // Update candidat column width
     const candidatBlocks = Array.from(
         mainContainer.querySelectorAll('article')
     );
@@ -21,7 +28,7 @@ const initUI = () => {
         candidatBlock.style.width = currentWidthForCandidat + 'px';
     });
 
-    // nav buttons
+    // Manage nav buttons
     let currentCandidatIndex = 0;
     const nbCandidats = candidatBlocks.length;
     const leftButton = document.querySelectorAll(
@@ -38,11 +45,11 @@ const initUI = () => {
         );
         if (direction === 1) {
             currentCandidatIndex += 1;
-            mainContainer.scrollLeft += currentWidthForCandidat;
         } else {
             currentCandidatIndex -= 1;
-            mainContainer.scrollLeft -= currentWidthForCandidat;
         }
+        mainContainer.scrollLeft =
+            currentCandidatIndex * currentWidthForCandidat;
         if (
             currentCandidatIndex > 0 &&
             currentCandidatIndex < nbCandidats - 1
@@ -60,6 +67,26 @@ const initUI = () => {
 
     leftButton.addEventListener('click', translateCandidats);
     rightButton.addEventListener('click', translateCandidats);
+
+    // Update cells lines and height for each sous-thematiques
+    sousThematiques.forEach(sousThematique => {
+        const allSectionsForSousThematique = Array.from(
+            document.querySelectorAll(
+                `[data-sous-thematique-id=${sousThematique.id}]`
+            )
+        );
+        let maxHeight = 0;
+        allSectionsForSousThematique.forEach(sectionSousThematique => {
+            if (sectionSousThematique.offsetHeight > maxHeight) {
+                maxHeight = sectionSousThematique.offsetHeight;
+            }
+        });
+        console.log(maxHeight);
+        allSectionsForSousThematique.forEach(sectionSousThematique => {
+            sectionSousThematique.style.height = maxHeight + 'px';
+        });
+        console.log(allSectionsForSousThematique);
+    });
 };
 
 document.addEventListener('DOMContentLoaded', () => {

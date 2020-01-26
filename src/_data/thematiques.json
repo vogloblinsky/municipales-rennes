@@ -1,17 +1,21 @@
 [
     {
+        "id": "t-1",
         "label": "Economie",
         "sous-thematiques": ["st-1", "st-2", "st-3"]
     },
     {
+        "id": "t-2",
         "label": "Education",
         "sous-thematiques": ["st-4", "st-5"]
     },
     {
+        "id": "t-3",
         "label": "Environnement",
         "sous-thematiques": ["st-6", "st-7", "st-8"]
     },
     {
+        "id": "t-4",
         "label": "Politiques publiques",
         "sous-thematiques": [
             "st-9",
@@ -27,14 +31,17 @@
         ]
     },
     {
+        "id": "t-5",
         "label": "Sécurité",
         "sous-thematiques": ["st-19"]
     },
     {
+        "id": "t-6",
         "label": "Transport",
-        "sous-thematiques": ["st-20"]
+        "sous-thematiques": ["st-20", "st-21"]
     },
     {
+        "id": "t-7",
         "label": "Urbanisme"
     }
 ]
