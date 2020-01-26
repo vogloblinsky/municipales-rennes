@@ -82,5 +82,13 @@
     {
         "label": "Métro",
         "id": "st-21"
+    },
+    {
+        "label": "Autres",
+        "id": "st-22"
+    },
+    {
+        "label": "Infrastructures",
+        "id": "st-23"
     }
 ]

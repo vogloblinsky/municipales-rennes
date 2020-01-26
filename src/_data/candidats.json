@@ -19,8 +19,53 @@
             },
             {
                 "id": "appere-p-2",
-                "st": "st-1",
-                "label": "Un truc de fou moi je vous le dis !"
+                "st": "st-13",
+                "label": "Baisser fortement les tarifs des abonnements STAR en particulier pour les moins de 25 ans"
+            },
+            {
+                "id": "appere-p-3",
+                "st": "st-23",
+                "label": "Aménager des places et des rues-jardins dans le centre-ville"
+            },
+            {
+                "id": "appere-p-4",
+                "st": "st-12",
+                "label": "Ouvrir des maisons de santé dans les quartiers pour garantir l’accès aux soins"
+            },
+            {
+                "id": "appere-p-5",
+                "st": "st-19",
+                "label": "Créer une police municipale de nuit et une brigade anti-incivilités"
+            },
+            {
+                "id": "appere-p-6",
+                "st": "st-7",
+                "label": "Transformer le parking Vilaine en un grand espace vert et convivial"
+            },
+            {
+                "id": "appere-p-7",
+                "st": "st-22",
+                "label": "Faire circuler des navettes électriques dans le centre-ville piétonnier"
+            },
+            {
+                "id": "appere-p-8",
+                "st": "st-13",
+                "label": "Travailler à un lieu d’accueil permanent pour les femmes victimes de violence"
+            },
+            {
+                "id": "appere-p-9",
+                "st": "st-7",
+                "label": "Planter 30 000 arbres durant le mandat"
+            },
+            {
+                "id": "appere-p-10",
+                "st": "st-20",
+                "label": "Déployer un réseau express vélo dans la métropole et des pistes sécurisées dans les communes"
+            },
+            {
+                "id": "appere-p-11",
+                "st": "st-2",
+                "label": "Créer une Réserve Citoyenne de bénévoles pour les associations"
             }
         ]
     },

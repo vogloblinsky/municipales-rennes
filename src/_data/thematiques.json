@@ -38,10 +38,11 @@
     {
         "id": "t-6",
         "label": "Transport",
-        "sous-thematiques": ["st-20", "st-21"]
+        "sous-thematiques": ["st-20", "st-21", "st-22"]
     },
     {
         "id": "t-7",
-        "label": "Urbanisme"
+        "label": "Urbanisme",
+        "sous-thematiques": ["st-23"]
     }
 ]
