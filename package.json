@@ -8,11 +8,13 @@
         "start:dev": "run-p 11ty watch:dev",
         "watch:dev": "npm-watch",
         "11ty": "npx @11ty/eleventy --serve",
-        "build": "ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run js:prod",
+        "prebuild": "rimraf dist && mkdir dist",
+        "build": "ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run js:prod && npm run images-optimization",
         "sass:dev": "ENV=dev node tools/sass-process.js",
         "sass:prod": "ENV=prod node tools/sass-process.js",
         "js:dev": "ENV=dev rollup -c rollup.config.js",
-        "js:prod": "ENV=prod rollup -c rollup.config.js"
+        "js:prod": "ENV=prod rollup -c rollup.config.js",
+        "images-optimization": "node tools/images-optimization && cp -R dist2/* dist && rm -rf dist2"
     },
     "repository": {
         "type": "git",
@@ -28,6 +30,7 @@
     "devDependencies": {
         "@11ty/eleventy": "^0.10.0",
         "@rollup/plugin-json": "^4.0.1",
+        "compress-images": "^1.5.8",
         "npm-run-all": "^4.1.5",
         "npm-watch": "^0.6.0",
         "rollup": "^1.29.1",
