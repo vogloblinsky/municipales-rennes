@@ -8,8 +8,7 @@
     <meta name="author" content="Vincent Ogloblinsky" />
     <meta name="generator" content="Vincent Ogloblinsky" />
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
@@ -38,7 +37,8 @@
 
         <nav class="second-nav">
             <div>
-                <select class="thematiques-selector">
+                <label for="thematiques">Choisissez votre thématique</label>
+                <select class="thematiques-selector" id="thematiques">
                     <option value="">Toutes les thématiques</option>
                     {{#each alldata.thematiques}}
                     <option value="{{this.label}}">
@@ -46,7 +46,8 @@
                     </option>
                     {{/each}}
                 </select>
-                <select class="thematiques-selector">
+                <label for="sous-thematiques">Choisissez votre sous-thématique</label>
+                <select class="thematiques-selector" id="sous-thematiques">
                     <option value="">Toutes les sous-thématiques</option>
                     {{#each alldata.sousthematiques}}
                     <option value="{{this.label}}">
@@ -63,7 +64,31 @@
                     <ion-icon name="ios-arrow-forward"></ion-icon>
                 </div>
             </div>
+        </nav>
 
+        <nav class="candidats-list">
+            {{#each alldata.candidats}}
+            {{#if this.liste}}
+            <header>
+                <figure class="avatar">
+                    <img src="assets/{{this.id}}.jpg" alt="{{this.liste}}">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        {{this.liste}}
+                    </span>
+                    <span class="tetes">
+                        {{#compare this.tetes.length 1 operator=">"}}
+                        {{this.tetes.0.prenom}} {{this.tetes.0.nom}}<br />
+                        {{this.tetes.1.prenom}} {{this.tetes.1.nom}}
+                        {{else}}
+                        {{this.tetes.0.prenom}} {{this.tetes.0.nom}}
+                        {{/compare}}
+                    </span>
+                </div>
+            </header>
+            {{/if}}
+            {{/each}}
         </nav>
     </div>
 
@@ -72,24 +97,7 @@
             {{#each alldata.candidats}}
             {{#if this.liste}}
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/{{this.id}}.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            {{this.liste}}
-                        </span>
-                        <span class="tetes">
-                            {{#compare this.tetes.length 1 operator=">"}}
-                            {{this.tetes.0.prenom}} {{this.tetes.0.nom}}<br />
-                            {{this.tetes.1.prenom}} {{this.tetes.1.nom}}
-                            {{else}}
-                            {{this.tetes.0.prenom}} {{this.tetes.0.nom}}
-                            {{/compare}}
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     {{#each this.orderedThematiques}}
                     <section data-thematique-id="{{this.id}}" class="thematique">

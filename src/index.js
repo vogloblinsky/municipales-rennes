@@ -1,14 +1,13 @@
 import thematiques from './_data/thematiques.json';
 import sousThematiques from './_data/sous-thematiques.json';
 
-console.log(sousThematiques);
-
 const initUI = () => {
     const maxWidthCandidatBlock = 380;
     let currentWidthForCandidat = 0;
 
     const navContainer = document.querySelector('.nav-container');
     const mainContainer = document.querySelector('.main-container');
+    const candidatsList = document.querySelector('.candidats-list');
 
     const mainContainerWidth = mainContainer.offsetWidth;
 
@@ -50,6 +49,8 @@ const initUI = () => {
         }
         mainContainer.scrollLeft =
             currentCandidatIndex * currentWidthForCandidat;
+        candidatsList.scrollLeft =
+            currentCandidatIndex * currentWidthForCandidat;
         if (
             currentCandidatIndex > 0 &&
             currentCandidatIndex < nbCandidats - 1
@@ -81,11 +82,9 @@ const initUI = () => {
                 maxHeight = sectionSousThematique.offsetHeight;
             }
         });
-        console.log(maxHeight);
         allSectionsForSousThematique.forEach(sectionSousThematique => {
             sectionSousThematique.style.height = maxHeight + 'px';
         });
-        console.log(allSectionsForSousThematique);
     });
 };
 

@@ -23,6 +23,7 @@ a {
     left: 0;
     width: 100%;
     z-index: 10;
+    overflow-x: auto;
 }
 
 .main-nav {
@@ -56,6 +57,10 @@ a {
     width: 100%;
     position: relative;
     color: $white;
+
+    label {
+        display: none;
+    }
 
     .second-nav__right {
         position: absolute;
@@ -102,7 +107,7 @@ main {
     top: 100px;
     background: #a4b0be;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .candidats-wrapper {
@@ -152,18 +157,14 @@ main {
     font-weight: normal;
 }
 
-article {
-    float: left;
-    width: 380px;
-
+.candidats-list {
     display: flex;
-    flex-direction: column;
-
+    overflow-x: hidden;
     header {
+        flex: 0 0 380px;
         display: flex;
         background: $color2;
     }
-
     .candidat-infos {
         font-size: 18px;
         width: 100%;
@@ -180,6 +181,14 @@ article {
             color: #2f3542;
         }
     }
+}
+
+article {
+    float: left;
+    width: 380px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .thematique h2 {
