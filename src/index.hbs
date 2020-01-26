@@ -41,16 +41,16 @@
                 <select class="thematiques-selector" id="thematiques">
                     <option value="">Toutes les thématiques</option>
                     {{#each alldata.thematiques}}
-                    <option value="{{this.label}}">
+                    <option value="{{this.id}}">
                         {{this.label}}
                     </option>
                     {{/each}}
                 </select>
                 <label for="sous-thematiques">Choisissez votre sous-thématique</label>
-                <select class="thematiques-selector" id="sous-thematiques">
+                <select class="thematiques-selector" id="sous-thematiques" disabled>
                     <option value="">Toutes les sous-thématiques</option>
                     {{#each alldata.sousthematiques}}
-                    <option value="{{this.label}}">
+                    <option value="{{this.id}}">
                         {{this.label}}
                     </option>
                     {{/each}}

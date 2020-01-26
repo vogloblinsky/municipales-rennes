@@ -137,20 +137,29 @@ main {
     background-repeat: no-repeat, repeat;
     background-position: right 0.7em top 50%, 0 0;
     background-size: 0.65em auto, 100%;
+
+    &:focus {
+        color: $white;
+        border-color: $color4;
+        outline: none;
+
+        option {
+            color: #222;
+        }
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    &:hover {
+        border-color: $color4;
+    }
 }
 
 .thematiques-selector::-ms-expand {
     display: none;
-}
-
-.thematiques-selector:hover {
-    border-color: $color4;
-}
-
-.thematiques-selector:focus {
-    border-color: $color4;
-    color: #222;
-    outline: none;
 }
 
 .thematiques-selector option {
@@ -160,11 +169,13 @@ main {
 .candidats-list {
     display: flex;
     overflow-x: hidden;
+
     header {
         flex: 0 0 380px;
         display: flex;
         background: $color2;
     }
+
     .candidat-infos {
         font-size: 18px;
         width: 100%;

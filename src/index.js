@@ -1,5 +1,8 @@
-import thematiques from './_data/thematiques.json';
 import sousThematiques from './_data/sous-thematiques.json';
+
+import allData from './_data/alldata';
+
+const thematiques = allData.thematiques;
 
 const initUI = () => {
     const maxWidthCandidatBlock = 380;
@@ -85,6 +88,65 @@ const initUI = () => {
         allSectionsForSousThematique.forEach(sectionSousThematique => {
             sectionSousThematique.style.height = maxHeight + 'px';
         });
+    });
+
+    // Manage thematiques selector
+    const thematiquesSelect = document.querySelector('#thematiques');
+    let sousThematiquesSelect = document.querySelector('#sous-thematiques');
+
+    const defaultSousThematiqueOption = document.createElement('option');
+    defaultSousThematiqueOption.text = 'Toutes les sous-thématiques';
+
+    const clearSousThematiques = () => {
+        sousThematiquesSelect.options.length = 0;
+    };
+
+    const populateSousThematiques = sousThematiques => {
+        clearSousThematiques();
+        sousThematiquesSelect.disabled = false;
+        sousThematiquesSelect.add(defaultSousThematiqueOption);
+        sousThematiques.forEach(sousThematique => {
+            let option = document.createElement('option');
+            option.text = sousThematique.label;
+            option.value = sousThematique.id;
+            sousThematiquesSelect.add(option);
+        });
+        sousThematiquesSelect.selectedIndex = 0;
+    };
+
+    const filterForThematique = thematique => {
+        const sectionsThematiqueToHide = Array.from(
+            document.querySelectorAll(
+                `[data-thematique-id]:not([data-thematique-id="${thematique.id}"])`
+            )
+        );
+        sectionsThematiqueToHide.forEach(sectionThematiqueToHide => {
+            sectionThematiqueToHide.style.display = 'none';
+        });
+        const sectionsThematiqueToShow = Array.from(
+            document.querySelectorAll(`[data-thematique-id="${thematique.id}"]`)
+        );
+        sectionsThematiqueToShow.forEach(sectionThematiqueToShow => {
+            sectionThematiqueToShow.style.display = 'block';
+        });
+    };
+
+    thematiquesSelect.addEventListener('change', e => {
+        const thematiqueToSelect = thematiques.find(
+            thematique => thematique.id === e.currentTarget.value
+        );
+        if (thematiqueToSelect) {
+            if (thematiqueToSelect['sous-thematiques']) {
+                populateSousThematiques(thematiqueToSelect['sous-thematiques']);
+            } else {
+                sousThematiquesSelect.disabled = true;
+            }
+            // filter for thematique
+            filterForThematique(thematiqueToSelect);
+        }
+    });
+    sousThematiquesSelect.addEventListener('change', e => {
+        console.log('sousThematiquesSelect change: ', e.currentTarget.value);
     });
 };
 
