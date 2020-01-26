@@ -8,8 +8,7 @@
     <meta name="author" content="Vincent Ogloblinsky" />
     <meta name="generator" content="Vincent Ogloblinsky" />
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
@@ -38,7 +37,8 @@
 
         <nav class="second-nav">
             <div>
-                <select class="thematiques-selector">
+                <label for="thematiques">Choisissez votre thématique</label>
+                <select class="thematiques-selector" id="thematiques">
                     <option value="">Toutes les thématiques</option>
                     <option value="Economie">
                         Economie
@@ -62,7 +62,8 @@
                         Urbanisme
                     </option>
                 </select>
-                <select class="thematiques-selector">
+                <label for="sous-thematiques">Choisissez votre sous-thématique</label>
+                <select class="thematiques-selector" id="sous-thematiques">
                     <option value="">Toutes les sous-thématiques</option>
                 </select>
             </div>
@@ -74,26 +75,109 @@
                     <ion-icon name="ios-arrow-forward"></ion-icon>
                 </div>
             </div>
+        </nav>
 
+        <nav class="candidats-list">
+            <header>
+                <figure class="avatar">
+                    <img src="assets/appere.jpg" alt="Pour Rennes">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Pour Rennes
+                    </span>
+                    <span class="tetes">
+                        Nathalie Appéré
+                    </span>
+                </div>
+            </header>
+            <header>
+                <figure class="avatar">
+                    <img src="assets/gandon.jpg" alt="Révéler Rennes">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Révéler Rennes
+                    </span>
+                    <span class="tetes">
+                        Carole Gandon
+                    </span>
+                </div>
+            </header>
+            <header>
+                <figure class="avatar">
+                    <img src="assets/verts.jpg" alt="Choisir l&#x27;écologie pour Rennes">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Choisir l&#x27;écologie pour Rennes
+                    </span>
+                    <span class="tetes">
+                        Matthieu Theurier<br />
+                        Priscilla Zamord
+                    </span>
+                </div>
+            </header>
+            <header>
+                <figure class="avatar">
+                    <img src="assets/lepape.jpg" alt="Rennes en commun">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Rennes en commun
+                    </span>
+                    <span class="tetes">
+                        Enora Le Pape<br />
+                        Jean-Paul Tual
+                    </span>
+                </div>
+            </header>
+            <header>
+                <figure class="avatar">
+                    <img src="assets/compagnon.jpg" alt="Libres d’agir pour Rennes">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Libres d’agir pour Rennes
+                    </span>
+                    <span class="tetes">
+                        Charles Compagnon
+                    </span>
+                </div>
+            </header>
+            <header>
+                <figure class="avatar">
+                    <img src="assets/darcel.jpg" alt="Rennes Bretagne Europe">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Rennes Bretagne Europe
+                    </span>
+                    <span class="tetes">
+                        Franck Darcel
+                    </span>
+                </div>
+            </header>
+            <header>
+                <figure class="avatar">
+                    <img src="assets/hamon.jpg" alt="Lutte ouvrière – faire entendre le camp des travailleurs">
+                </figure>
+                <div class="candidat-infos">
+                    <span class="liste">
+                        Lutte ouvrière – faire entendre le camp des travailleurs
+                    </span>
+                    <span class="tetes">
+                        Valérie Hamon
+                    </span>
+                </div>
+            </header>
         </nav>
     </div>
 
     <main class="main-container">
         <div class="candidats-wrapper">
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/appere.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Pour Rennes
-                        </span>
-                        <span class="tetes">
-                            Nathalie Appéré
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
@@ -226,19 +310,7 @@
                 </div>
             </article>
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/gandon.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Révéler Rennes
-                        </span>
-                        <span class="tetes">
-                            Carole Gandon
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
@@ -371,20 +443,7 @@
                 </div>
             </article>
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/verts.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Choisir l&#x27;écologie pour Rennes
-                        </span>
-                        <span class="tetes">
-                            Matthieu Theurier<br />
-                            Priscilla Zamord
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
@@ -515,20 +574,7 @@
                 </div>
             </article>
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/lepape.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Rennes en commun
-                        </span>
-                        <span class="tetes">
-                            Enora Le Pape<br />
-                            Jean-Paul Tual
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
@@ -659,19 +705,7 @@
                 </div>
             </article>
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/compagnon.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Libres d’agir pour Rennes
-                        </span>
-                        <span class="tetes">
-                            Charles Compagnon
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
@@ -802,19 +836,7 @@
                 </div>
             </article>
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/darcel.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Rennes Bretagne Europe
-                        </span>
-                        <span class="tetes">
-                            Franck Darcel
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
@@ -945,19 +967,7 @@
                 </div>
             </article>
             <article>
-                <header>
-                    <figure class="avatar">
-                        <img src="assets/hamon.jpg">
-                    </figure>
-                    <div class="candidat-infos">
-                        <span class="liste">
-                            Lutte ouvrière – faire entendre le camp des travailleurs
-                        </span>
-                        <span class="tetes">
-                            Valérie Hamon
-                        </span>
-                    </div>
-                </header>
+
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>Economie</h2>
