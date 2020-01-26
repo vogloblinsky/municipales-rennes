@@ -15,8 +15,6 @@ const findThematiqueForSousThematique = sousThematiqueToFind => {
             });
         }
     });
-    console.log(finalThematique);
-
     return finalThematique;
 };
 
@@ -202,16 +200,16 @@ const initUI = () => {
         }
         if (value === '') {
             resetThematiquesSelect();
+            resetSousThematiquesSelect();
+            sousThematiquesSelect.selectedIndex = 0;
+            sousThematiquesSelect.disabled = true;
         }
     });
     sousThematiquesSelect.addEventListener('change', e => {
-        console.log('sousThematiquesSelect change: ', e.currentTarget.value);
         const value = e.currentTarget.value;
         const sousThematiqueToSelect = sousThematiques.find(
             sousThematique => sousThematique.id === value
         );
-        console.log(sousThematiqueToSelect);
-
         if (sousThematiqueToSelect) {
             filterForSousThematique(sousThematiqueToSelect);
         }
@@ -222,5 +220,5 @@ const initUI = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(initUI, 0);
+    setTimeout(initUI, 250);
 });
