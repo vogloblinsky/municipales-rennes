@@ -4,6 +4,22 @@ import allData from './_data/alldata';
 
 const thematiques = allData.thematiques;
 
+const findThematiqueForSousThematique = sousThematiqueToFind => {
+    let finalThematique;
+    thematiques.forEach(thematique => {
+        if (thematique['sous-thematiques']) {
+            thematique['sous-thematiques'].forEach(sousThematique => {
+                if (sousThematique.id === sousThematiqueToFind.id) {
+                    finalThematique = thematique;
+                }
+            });
+        }
+    });
+    console.log(finalThematique);
+
+    return finalThematique;
+};
+
 const initUI = () => {
     const maxWidthCandidatBlock = 380;
     let currentWidthForCandidat = 0;
@@ -92,10 +108,11 @@ const initUI = () => {
 
     // Manage thematiques selector
     const thematiquesSelect = document.querySelector('#thematiques');
-    let sousThematiquesSelect = document.querySelector('#sous-thematiques');
+    const sousThematiquesSelect = document.querySelector('#sous-thematiques');
 
     const defaultSousThematiqueOption = document.createElement('option');
     defaultSousThematiqueOption.text = 'Toutes les sous-thématiques';
+    defaultSousThematiqueOption.value = '';
 
     const clearSousThematiques = () => {
         sousThematiquesSelect.options.length = 0;
@@ -131,9 +148,48 @@ const initUI = () => {
         });
     };
 
+    const resetThematiquesSelect = () => {
+        const sectionsToShow = Array.from(
+            document.querySelectorAll(`.thematique`)
+        );
+        sectionsToShow.forEach(sectionToShow => {
+            sectionToShow.style.display = 'block';
+        });
+    };
+
+    const filterForSousThematique = ssthematique => {
+        const parentThematique = findThematiqueForSousThematique(ssthematique);
+        const sectionsSousThematiqueToHide = Array.from(
+            document.querySelectorAll(
+                `[data-thematique-id="${parentThematique.id}"] [data-sous-thematique-id]:not([data-sous-thematique-id="${ssthematique.id}"])`
+            )
+        );
+        sectionsSousThematiqueToHide.forEach(sectionSousThematiqueToHide => {
+            sectionSousThematiqueToHide.style.display = 'none';
+        });
+        const sectionsSousThematiqueToShow = Array.from(
+            document.querySelectorAll(
+                `[data-sous-thematique-id="${ssthematique.id}"]`
+            )
+        );
+        sectionsSousThematiqueToShow.forEach(sectionSousThematiqueToShow => {
+            sectionSousThematiqueToShow.style.display = 'block';
+        });
+    };
+
+    const resetSousThematiquesSelect = () => {
+        const sectionsToShow = Array.from(
+            document.querySelectorAll(`.sous-thematique`)
+        );
+        sectionsToShow.forEach(sectionToShow => {
+            sectionToShow.style.display = 'block';
+        });
+    };
+
     thematiquesSelect.addEventListener('change', e => {
+        const value = e.currentTarget.value;
         const thematiqueToSelect = thematiques.find(
-            thematique => thematique.id === e.currentTarget.value
+            thematique => thematique.id === value
         );
         if (thematiqueToSelect) {
             if (thematiqueToSelect['sous-thematiques']) {
@@ -144,12 +200,27 @@ const initUI = () => {
             // filter for thematique
             filterForThematique(thematiqueToSelect);
         }
+        if (value === '') {
+            resetThematiquesSelect();
+        }
     });
     sousThematiquesSelect.addEventListener('change', e => {
         console.log('sousThematiquesSelect change: ', e.currentTarget.value);
+        const value = e.currentTarget.value;
+        const sousThematiqueToSelect = sousThematiques.find(
+            sousThematique => sousThematique.id === value
+        );
+        console.log(sousThematiqueToSelect);
+
+        if (sousThematiqueToSelect) {
+            filterForSousThematique(sousThematiqueToSelect);
+        }
+        if (value === '') {
+            resetSousThematiquesSelect();
+        }
     });
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(initUI, 500);
+    setTimeout(initUI, 0);
 });
