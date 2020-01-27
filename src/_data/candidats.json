@@ -1,18 +1,14 @@
-[
-    {
+[{
         "id": "appere",
-        "tetes": [
-            {
-                "prenom": "Nathalie",
-                "nom": "Appéré"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Nathalie",
+            "nom": "Appéré"
+        }],
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
-        "website": "https://avecnathalieappere.fr/",
+        "website": "avecnathalieappere.fr",
         "twitter": "PourRennes",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "appere-p-1",
                 "st": "st-21",
                 "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
@@ -71,29 +67,22 @@
     },
     {
         "id": "gandon",
-        "tetes": [
-            {
-                "prenom": "Carole",
-                "nom": "Gandon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Carole",
+            "nom": "Gandon"
+        }],
         "parti": "LaREM",
         "liste": "Révéler Rennes",
-        "website": "https://reveler-rennes.bzh/",
+        "website": "reveler-rennes.bzh",
         "twitter": "RevelerRennes",
-        "polemiques": [
-            {
-                "label": "Mailing malencontreux",
-                "references": [
-                    {
-                        "titre": "",
-                        "url": ""
-                    }
-                ]
-            }
-        ],
-        "propositions": [
-            {
+        "polemiques": [{
+            "label": "Mailing malencontreux",
+            "references": [{
+                "titre": "",
+                "url": ""
+            }]
+        }],
+        "propositions": [{
                 "id": "gandon-p-1",
                 "st": "st-19",
                 "label": "Création au sein de la police municipale une brigade d’agents à cheval ou à vélo"
@@ -182,8 +171,7 @@
     },
     {
         "id": "verts",
-        "tetes": [
-            {
+        "tetes": [{
                 "prenom": "Matthieu",
                 "nom": "Theurier"
             },
@@ -194,14 +182,13 @@
         ],
         "parti": "EELV-UDB-ND",
         "liste": "Choisir l'écologie pour Rennes",
-        "website": "https://rennes-ecologie.bzh/",
+        "website": "rennes-ecologie.bzh",
         "twitter": "Rennes_Ecologie",
         "propositions": []
     },
     {
         "id": "lepape",
-        "tetes": [
-            {
+        "tetes": [{
                 "prenom": "Enora",
                 "nom": "Le Pape"
             },
@@ -212,61 +199,53 @@
         ],
         "parti": "LFI",
         "liste": "Rennes en commun",
-        "website": "https://rennes-en-commun-2020.fr/",
+        "website": "rennes-en-commun-2020.fr",
         "twitter": "RennesEnCommun",
         "propositions": []
     },
     {
         "id": "compagnon",
-        "tetes": [
-            {
-                "prenom": "Charles",
-                "nom": "Compagnon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Charles",
+            "nom": "Compagnon"
+        }],
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
-        "website": "https://www.compagnon2020.fr/",
+        "website": "www.compagnon2020.fr",
         "twitter": "compagnon2020",
         "propositions": []
     },
     {
         "id": "salmon",
-        "tetes": [
-            {
-                "prenom": "Émeric",
-                "nom": "Salmon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Émeric",
+            "nom": "Salmon"
+        }],
         "parti": "RN",
         "twitter": "EmericSalmon",
         "propositions": []
     },
     {
         "id": "darcel",
-        "tetes": [
-            {
-                "prenom": "Franck",
-                "nom": "Darcel"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Franck",
+            "nom": "Darcel"
+        }],
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
-        "website": "http://rbe2020darcel.bzh/",
+        "website": "rbe2020darcel.bzh",
         "twitter": "RBEdaViken",
         "propositions": []
     },
     {
         "id": "hamon",
-        "tetes": [
-            {
-                "prenom": "Valérie",
-                "nom": "Hamon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Valérie",
+            "nom": "Hamon"
+        }],
         "parti": "LO",
         "liste": "Lutte ouvrière – faire entendre le camp des travailleurs",
-        "website": "https://www.lutte-ouvriere.org/en-regions/bretagne",
+        "website": "www.lutte-ouvriere.org/en-regions/bretagne",
         "twitter": "LutteOuvriere",
         "propositions": []
     }
