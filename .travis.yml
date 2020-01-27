@@ -8,7 +8,7 @@ deploy:
     provider: pages
     skip_cleanup: true
     token: $GITHUB_TOKEN
-    fqdn: municipales-rennes.fr
+    fqdn: www.municipales-rennes.fr
     keep_history: true
     on:
         branch: master
