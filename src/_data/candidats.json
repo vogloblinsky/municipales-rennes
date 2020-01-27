@@ -94,14 +94,24 @@
         ],
         "propositions": [
             {
-                "id": "appere-p-1",
-                "st": "st-1",
-                "label": "Un truc de fou moi je vous le dis de mieux qu'à gauche !"
+                "id": "gandon-p-1",
+                "st": "st-19",
+                "label": "Création au sein de la police municipale une brigade d’agents à cheval ou à vélo"
             },
             {
-                "id": "appere-p-2",
-                "st": "st-1",
-                "label": "Un truc de fou moi je vous le dis de vraiment mieux qu'à gauche !"
+                "id": "gandon-p-2",
+                "st": "st-19",
+                "label": "Triplement du nombre de caméras de vidéoprotection pour prévenir les actes de délinquance. Recrutement, formation et déploiement de 30 policiers municipaux supplémentaires pour améliorer la sécurité des habitants de tous les quartiers."
+            },
+            {
+                "id": "gandon-p-3",
+                "st": "st-19",
+                "label": "Généralisation de la sécurisation des zones à proximité de toutes les crèches, les écoles primaires et les maisons de retraite."
+            },
+            {
+                "id": "gandon-p-4",
+                "st": "st-5",
+                "label": "Ouverture de 400 nouvelles places en crèche"
             }
         ]
     },
