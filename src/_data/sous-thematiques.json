@@ -84,11 +84,15 @@
         "id": "st-21"
     },
     {
-        "label": "Autres",
+        "label": "Multiples",
         "id": "st-22"
     },
     {
         "label": "Infrastructures",
         "id": "st-23"
+    },
+    {
+        "label": "Bus",
+        "id": "st-24"
     }
 ]
