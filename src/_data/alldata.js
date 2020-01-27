@@ -21,15 +21,17 @@ candidats.forEach(candidat => {
         if (candidatThematique['sous-thematiques']) {
             candidatThematique['sous-thematiques'].forEach(
                 candidatSousThematique => {
-                    candidatSousThematique.propositions = [];
-                    candidatSousThematique.propositions = candidat.propositions.filter(
-                        candidatProposition => {
-                            return (
-                                candidatProposition.st ===
-                                candidatSousThematique.id
-                            );
-                        }
-                    );
+                    if (candidatSousThematique) {
+                        candidatSousThematique.propositions = [];
+                        candidatSousThematique.propositions = candidat.propositions.filter(
+                            candidatProposition => {
+                                return (
+                                    candidatProposition.st ===
+                                    candidatSousThematique.id
+                                );
+                            }
+                        );
+                    }
                 }
             );
         }

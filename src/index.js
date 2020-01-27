@@ -4,6 +4,8 @@ import allData from './_data/alldata';
 
 import Sticky from 'sticky-js';
 
+import bsn from 'bootstrap.native/dist/bootstrap-native-v4_light';
+
 const thematiques = allData.thematiques;
 
 const findThematiqueForSousThematique = sousThematiqueToFind => {

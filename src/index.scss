@@ -1,3 +1,10 @@
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/modal';
+@import '../node_modules/bootstrap/scss/close';
+@import '../node_modules/bootstrap/scss/transitions';
+
 // https://coolors.co/d8dbe2-a9bcd0-58a4b0-373f51-1b1b1e
 $color1: #d8dbe2;
 $color2: #a9bcd0;
@@ -46,8 +53,15 @@ a {
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+    ion-icon {
+        font-size: 22px;
+        cursor: pointer;
+    }
 }
 
 .second-nav {
@@ -173,7 +187,32 @@ main {
     header {
         flex: 0 0 380px;
         display: flex;
+        flex-direction: column;
         background: $color2;
+        color: #2f3542;
+
+        .header_main-infos {
+            display: flex;
+        }
+
+        .header_second-infos {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            ion-icon {
+                margin: 2px 5px;
+                font-size: 20px;
+            }
+            & > div {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        a {
+            color: $color3;
+        }
     }
 
     .candidat-infos {
@@ -190,6 +229,16 @@ main {
 
         .tetes {
             color: #2f3542;
+        }
+    }
+}
+
+@media (min-width: 650px) {
+    .candidats-list {
+        header {
+            .header_second-infos {
+                display: flex;
+            }
         }
     }
 }
@@ -249,6 +298,16 @@ article:first-child h2 > span {
     height: 100px;
 }
 
-.avatar img {
-    width: 100px;
+// Modal
+
+.modal-title {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.modal-body {
+    a {
+        color: $color3;
+    }
 }

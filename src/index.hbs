@@ -61,9 +61,12 @@
                 <span class="bull">&bull;</span>
                 <span>Comparateur de programmes</span>
             </div>
-            <div class="copyright">Réalisé citoyennement par <a href="https://www.vincentogloblinsky.com"
-                    target="_blank">Vincent
-                    Ogloblinsky</a>&nbsp;&bull; &copy; 2020</div>
+            <div class="copyright">
+                <ion-icon name="information-circle-outline" data-toggle="modal" data-target="#infoModal"></ion-icon>
+                <span>&nbsp;- &copy; 2020 <a href="https://www.vincentogloblinsky.com" target="_blank">Vincent
+                        Ogloblinsky</a>
+                </span>
+            </div>
         </nav>
 
         <nav class="second-nav">
@@ -101,21 +104,34 @@
             {{#each alldata.candidats}}
             {{#if this.liste}}
             <header>
-                <figure class="avatar">
-                    <img src="assets/{{this.id}}_100.jpg" alt="{{this.liste}}" loading="lazy" width="100" height="100">
-                </figure>
-                <div class="candidat-infos">
-                    <span class="liste">
-                        {{this.liste}}
-                    </span>
-                    <span class="tetes">
-                        {{#compare this.tetes.length 1 operator=">"}}
-                        {{this.tetes.0.prenom}} {{this.tetes.0.nom}}<br />
-                        {{this.tetes.1.prenom}} {{this.tetes.1.nom}}
-                        {{else}}
-                        {{this.tetes.0.prenom}} {{this.tetes.0.nom}}
-                        {{/compare}}
-                    </span>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/{{this.id}}_100.jpg" alt="{{this.liste}}" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="liste">
+                            {{this.liste}}
+                        </span>
+                        <span class="tetes">
+                            {{#compare this.tetes.length 1 operator=">"}}
+                            {{this.tetes.0.prenom}} {{this.tetes.0.nom}}<br />
+                            {{this.tetes.1.prenom}} {{this.tetes.1.nom}}
+                            {{else}}
+                            {{this.tetes.0.prenom}} {{this.tetes.0.nom}}
+                            {{/compare}}
+                        </span>
+                    </div>
+                </div>
+                <div class="header_second-infos">
+                    <div>
+                        <ion-icon name="globe"></ion-icon><a href="{{this.website}}"
+                            target="_blank">{{this.website}}</a>
+                    </div>
+                    <div>
+                        <ion-icon name="calculator"></ion-icon>{{this.propositions.length}} propositions référencées
+                    </div>
                 </div>
             </header>
             {{/if}}
@@ -128,7 +144,6 @@
             {{#each alldata.candidats}}
             {{#if this.liste}}
             <article>
-
                 <div class="candidat-content">
                     {{#each this.orderedThematiques}}
                     <section data-thematique-id="{{this.id}}" class="thematique">
@@ -139,9 +154,14 @@
                         <section data-sous-thematique-id="{{this.id}}" class="sous-thematique">
                             <h3>{{this.label}}</h3>
                             <div class="proposition">
+                                {{#compare this.propositions.length 0 operator="==="}}
+                                <p><i>Aucune proposition référencée</i></p>
+                                {{else}}
                                 {{#each this.propositions}}
                                 <p>{{this.label}}</p>
                                 {{/each}}
+                                {{/compare}}
+
                             </div>
                         </section>
                         {{/each}}
@@ -153,6 +173,36 @@
             {{/each}}
         </div>
     </main>
+
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Informations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Ce site a été réalisé de manière citoyenne par <a href="https://www.vincentogloblinsky.com"
+                            target="_blank">Vincent Ogloblinsky</a>.
+                    </p>
+                    <p>
+                        Les sources du projet sont disponible sur Github : <a
+                            href="https://github.com/vogloblinsky/municipales-rennes"
+                            target="_blank">github.com/vogloblinsky/municipales-rennes</a>
+                    </p>
+                    <p>
+                        Pour toute demande de modification/correction, merci d'utiliser le volet <a
+                            href="https://github.com/vogloblinsky/municipales-rennes/issues"
+                            target="_blank">"issues"</a> de Github.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script type="module" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.js"></script>
