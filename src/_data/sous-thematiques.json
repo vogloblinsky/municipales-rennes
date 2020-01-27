@@ -1,5 +1,4 @@
-[
-    {
+[{
         "label": "Economie numérique",
         "id": "st-1"
     },
@@ -94,5 +93,17 @@
     {
         "label": "Bus",
         "id": "st-24"
+    },
+    {
+        "label": "Autres",
+        "id": "st-25"
+    },
+    {
+        "label": "Train",
+        "id": "st-26"
+    },
+    {
+        "label": "Accessibilité",
+        "id": "st-26"
     }
 ]

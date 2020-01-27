@@ -62,6 +62,96 @@
                 "id": "appere-p-11",
                 "st": "st-2",
                 "label": "Créer une Réserve Citoyenne de bénévoles pour les associations"
+            },
+            {
+                "id": "appere-p-12",
+                "st": "st-23",
+                "label": "Acquérir la prison Jacques-Cartier"
+            },
+            {
+                "id": "appere-p-13",
+                "st": "st-9",
+                "label": "Gratuité de l'abonnement aux bibliothèques et des musées"
+            },
+            {
+                "id": "appere-p-14",
+                "st": "st-13",
+                "label": "Délivrer automatiquement la carte Sortir"
+            },
+            {
+                "id": "appere-p-15",
+                "st": "st-9",
+                "label": "Rénover et agrandir le Musée des Beaux-arts"
+            },
+            {
+                "id": "appere-p-16",
+                "st": "st-9",
+                "label": "Ouvrir un lieu dédié à la photographie"
+            },
+            {
+                "id": "appere-p-17",
+                "st": "st-23",
+                "label": "Transformer l’ancien réservoir des Gallets"
+            },
+            {
+                "id": "appere-p-18",
+                "st": "st-9",
+                "label": "Multiplier les lieux de culture dans les quartiers"
+            },
+            {
+                "id": "appere-p-19",
+                "st": "st-9",
+                "label": "Un grand rendez-vous culturel estival autour de l'art contemporain"
+            },
+            {
+                "id": "appere-p-20",
+                "st": "st-9",
+                "label": "Attribuer une bourse au moment de la première création artistique"
+            },
+            {
+                "id": "appere-p-21",
+                "st": "st-9",
+                "label": "Instaurer des « Cartes blanches » pour les jeunes"
+            },
+            {
+                "id": "appere-p-22",
+                "st": "st-11",
+                "label": "Un centre aqualudique à Villejean"
+            },
+            {
+                "id": "appere-p-23",
+                "st": "st-23",
+                "label": "Rénovation thermique de tous les gymnases"
+            },
+            {
+                "id": "appere-p-23",
+                "st": "st-11",
+                "label": "Une salle de 2 500 places dédiée au sport collectif"
+            },
+            {
+                "id": "appere-p-23",
+                "st": "st-11",
+                "label": "Une halle sportive au Blosne"
+            },
+            {
+                "id": "appere-p-24",
+                "st": "st-11",
+                "label": "Rénover la piste d’athlétisme du stade Courtemanche"
+            },
+            {
+                "id": "appere-p-25",
+                "st": "st-11",
+                "label": "Créer un pôle sportif rugby au stade Alain-Crubillé"
+            },
+            {
+                "id": "appere-p-26",
+                "st": "st-11",
+                "label": "Rennes centre de préparation des JO 2024"
+            },
+            {
+                "id": "appere-p-27",
+                "st": "st-11",
+                "label": "Soutenir le sport-santé"
             }
         ]
     },
@@ -235,7 +325,171 @@
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
         "twitter": "RBEdaViken",
-        "propositions": []
+        "propositions": [{
+            "id": "darcel-p-1",
+            "st": "st-19",
+            "label": "Redéfinir les tâches de la Police Municipale"
+        }, {
+            "id": "darcel-p-2",
+            "st": "st-19",
+            "label": "Création d'un service de Police Municipale de nuit pour lutter contre le tapage nocturne"
+        }, {
+            "id": "darcel-p-3",
+            "st": "st-19",
+            "label": "S'assurer que la Police Municipale recrute en fonction de la diversité culturelle de la ville et que ses effectifs soient ainsi représentatifs de la population rennaise"
+        }, {
+            "id": "darcel-p-4",
+            "st": "st-25",
+            "label": "Les conciergeries dans les immeubles doivent être développées, certains des concierges à demeure pourront être assermentés pour dresser un constat, qui aura une valeur en justice"
+        }, {
+            "id": "darcel-p-5",
+            "st": "st-25",
+            "label": "Les horaires d'ouverture et de fermeture des établissements de nuit en ville doivent dépendre à l'avenir d’une discussion constructive entre la mairie et la préfecture"
+        }, {
+            "id": "darcel-p-6",
+            "st": "st-25",
+            "label": "Limitation de détention de Licence IV."
+        }, {
+            "id": "darcel-p-7",
+            "st": "st-19",
+            "label": "Création d'un lieu dédié, hors des commissariats pour les dépôts de plaintes relatives aux insultes sexistes ou au harcèlement de rue"
+        }, {
+            "id": "darcel-p-8",
+            "st": "st-25",
+            "label": "Ouverture d'un débat à l'échelle régionale sur la légalisation du cannabis"
+        }, {
+            "id": "darcel-p-9",
+            "st": "st-25",
+            "label": "Mise en place d'une politique beaucoup plus contraignante concernant la vente des alcools forts"
+        }, {
+            "id": "darcel-p-10",
+            "st": "st-25",
+            "label": "Augmentation des peines, et réelle application, envers les personnes agressant les pompiers et les personnels médicaux et paramédicaux"
+        }, {
+            "id": "darcel-p-11",
+            "st": "st-25",
+            "label": "Consultation citoyenne quant à l'installation de caméras"
+        }, {
+            "id": "darcel-p-12",
+            "st": "st-25",
+            "label": "Création d'un poste de médiateur dédié à la sécurité"
+        }, {
+            "id": "darcel-p-13",
+            "st": "st-25",
+            "label": "Les établissements scolaires et leurs abords doivent être protégés en priorité"
+        }, {
+            "id": "darcel-p-14",
+            "st": "st-23",
+            "label": "Aller vers le mieux-disant qualitatif lors des appels d'offres et faire participer les citoyens aux choix les plus importants"
+        }, {
+            "id": "darcel-p-15",
+            "st": "st-23",
+            "label": "Inviter les conseillers municipaux en charge de l'urbanisme à visiter d’autres villes d'Europe"
+        }, {
+            "id": "darcel-p-16",
+            "st": "st-23",
+            "label": "Exiger l'excellence en termes de conception écologique pour tout nouvelles constructions collectives dans le cadre du Grand Rennes"
+        }, {
+            "id": "darcel-p-17",
+            "st": "st-23",
+            "label": "Exiger un moratoire sur les destructions de maisons et d'immeubles anciens dans Rennes et sa première couronne"
+        }, {
+            "id": "darcel-p-18",
+            "st": "st-23",
+            "label": "Les possibilités ouvertes par le Grand Rennes permettront d'envisager de dessiner le Rennes de demain en établissant des perspectives dignes d'une ville européenne d'envergure"
+        }, {
+            "id": "darcel-p-19",
+            "st": "st-21",
+            "label": "Prolongement par le tramway classique, et non le trambus, des lignes de métro"
+        }, {
+            "id": "darcel-p-20",
+            "st": "st-21",
+            "label": "Financement du prolongement sera fait en demandant tout d'abord à Bercy de rendre une partie de l'argent que l'Île-de-France capte tout au long de l'année"
+        }, {
+            "id": "darcel-p-21",
+            "st": "st-26",
+            "label": "Augmentation des haltes SNCF et des fréquences sur les ligne TER qui relient les communes du Pays de Rennes à la gare de Rennes"
+        }, {
+            "id": "darcel-p-22",
+            "st": "st-22",
+            "label": "gratuité des transports pour tous les étudiants"
+        }, {
+            "id": "darcel-p-23",
+            "st": "st-20",
+            "label": "Plan vélo digne de ce qui se fait de mieux dans les autres pays européens"
+        }, {
+            "id": "darcel-p-24",
+            "st": "st-22",
+            "label": "Agrandissement du plateau piétonnier à la rue de la Monnaie à partir de la Place des Lices ainsi qu’aux rues délimitant la place de la Mairie et du parlement de Bretagne"
+        }, {
+            "id": "darcel-p-25",
+            "st": "st-22",
+            "label": "Remise à l’étude le barreau de contournement de Rennes pour éviter aux personnes allant, entre autres, de Paris vers la Bretagne Sud de passer par la rocade de Rennes"
+        }, {
+            "id": "darcel-p-26",
+            "st": "st-22",
+            "label": "Mise à l’étude d’une bretelle de déviation pour sortir de la rocade en direction de l’axe Lorient/Vannes"
+        }, {
+            "id": "darcel-p-27",
+            "st": "st-9",
+            "label": "Réhabilitation de la Salle de la Cité en salle de concerts"
+        }, {
+            "id": "darcel-p-28",
+            "st": "st-9",
+            "label": "Aide aux cafés concerts de la ville pour une insonorisation de qualité"
+        }, {
+            "id": "darcel-p-29",
+            "st": "st-9",
+            "label": "Transformer la salle Guy Ropartz en lieu de culture Hip-Hop"
+        }, {
+            "id": "darcel-p-30",
+            "st": "st-9",
+            "label": "Construction d'une Arena, avec consultation de la population sur le lieu à choisir"
+        }, {
+            "id": "darcel-p-31",
+            "st": "st-9",
+            "label": "Travailler à l'idée d'un grand musée des peintres de Bretagne"
+        }, {
+            "id": "darcel-p-32",
+            "st": "st-9",
+            "label": "Pérenniser un lieu d'exposition pour la photographie"
+        }, {
+            "id": "darcel-p-33",
+            "st": "st-9",
+            "label": "Création d'un Musée du Patrimoine Ducal dans les Portes Mordelaises"
+        }, {
+            "id": "darcel-p-34",
+            "st": "st-9",
+            "label": "Création d'une maison des langues patrimoniales"
+        }, {
+            "id": "darcel-p-35",
+            "st": "st-9",
+            "label": "Aide au développement de media puissants propres à la Bretagne et dont les sièges pourraient s’installer à Rennes"
+        }, {
+            "id": "darcel-p-36",
+            "st": "st-9",
+            "label": "Rennes doit pousser le gouvernement à ratifier la Charte des Langues Minoritaires"
+        }, {
+            "id": "darcel-p-37",
+            "st": "st-9",
+            "label": "Répéter que le racisme sous toutes ses formes doit être combattu"
+        }, {
+            "id": "darcel-p-38",
+            "st": "st-9",
+            "label": "S’assurer que les nouveaux arrivants ont bien compris qu’il y a des règles communes à tous intangibles pour que le vivre-ensemble soit possible"
+        }, {
+            "id": "darcel-p-39",
+            "st": "st-9",
+            "label": "Aider à l’intégration par des cours de français plus soutenus, et des cours sur l’histoire locale"
+        }, {
+            "id": "darcel-p-40",
+            "st": "st-9",
+            "label": "Créer une Maison des Communautés, qui soit un lieu d’échange, en centre-ville, entre les différentes communautés qui composent la ville"
+        }, {
+            "id": "darcel-p-41",
+            "st": "st-9",
+            "label": "Demander à la préfecture et à toutes les autorités la transparence totale sur les populations accueillies, et sur la mise à disposition des logements sociaux pour des personnes dont la plupart ne sont pas des demandeurs d'asile (cf réserve préfectorale)"
+        }]
     },
     {
         "id": "hamon",

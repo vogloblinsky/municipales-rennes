@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "t-1",
         "label": "Economie",
         "sous-thematiques": ["st-1", "st-2", "st-3"]
@@ -27,18 +26,19 @@
             "st-15",
             "st-16",
             "st-17",
-            "st-18"
+            "st-18",
+            "st-27"
         ]
     },
     {
         "id": "t-5",
         "label": "Sécurité",
-        "sous-thematiques": ["st-19"]
+        "sous-thematiques": ["st-19", "st-25"]
     },
     {
         "id": "t-6",
         "label": "Transport",
-        "sous-thematiques": ["st-20", "st-21", "st-24", "st-22"]
+        "sous-thematiques": ["st-20", "st-21", "st-24", "st-22", "st-26"]
     },
     {
         "id": "t-7",
