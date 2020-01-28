@@ -206,7 +206,17 @@
 
     <script type="module" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.6.3/dist/ionicons/ionicons.js"></script>
-    <script src="scripts/index.js" defer></script>
+
+    <script type="module" src="scripts/index.js" defer></script>
+    <script nomodule src="scripts/index_es5.js" defer></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157120237-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-157120237-1');
+    </script>
 
 </body>
 
