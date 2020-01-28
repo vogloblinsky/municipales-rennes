@@ -190,6 +190,7 @@ main {
         flex-direction: column;
         background: $color2;
         color: #2f3542;
+        border-right: 1px solid #a5a5a5;
 
         .header_main-infos {
             display: flex;
@@ -199,12 +200,15 @@ main {
             display: none;
             flex-direction: column;
             justify-content: center;
-            height: 100%;
+            flex-grow: 2;
+            padding: 5px;
+
             ion-icon {
                 margin: 2px 5px;
                 font-size: 20px;
             }
-            & > div {
+
+            &>div {
                 display: flex;
                 align-items: center;
             }
@@ -217,11 +221,11 @@ main {
 
     .candidat-infos {
         font-size: 18px;
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 20px;
+        flex: 0 0 260px;
 
         .liste {
             color: #57606f;
@@ -264,7 +268,7 @@ article {
     }
 }
 
-article:first-child h2 > span {
+article:first-child h2>span {
     visibility: visible;
 }
 
@@ -295,6 +299,7 @@ article:first-child h2 > span {
 
 .avatar {
     margin: 0;
+    width: 100px;
     height: 100px;
 }
 

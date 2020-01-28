@@ -23,7 +23,7 @@ const findThematiqueForSousThematique = sousThematiqueToFind => {
 };
 
 const initUI = () => {
-    const maxWidthCandidatBlock = 380;
+    let maxWidthCandidatBlock = 380;
     let currentWidthForCandidat = 0;
 
     const navContainer = document.querySelector('.nav-container');
@@ -48,6 +48,14 @@ const initUI = () => {
         candidatBlock.style.width = currentWidthForCandidat + 'px';
     });
 
+    // Update candidat header column width
+    const candidatHeaderBlocks = Array.from(
+        candidatsList.querySelectorAll('header')
+    );
+    candidatHeaderBlocks.map(candidatHeaderBlock => {
+        candidatHeaderBlock.style.flex = `0 0 ${currentWidthForCandidat - 1}px`; // -1 for border-right
+    });
+
     // Manage nav buttons
     let currentCandidatIndex = 0;
     const nbCandidats = candidatBlocks.length;
@@ -68,6 +76,7 @@ const initUI = () => {
         } else {
             currentCandidatIndex -= 1;
         }
+
         mainContainer.scrollLeft =
             currentCandidatIndex * currentWidthForCandidat;
         candidatsList.scrollLeft =
