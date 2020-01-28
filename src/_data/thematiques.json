@@ -1,7 +1,8 @@
-[{
+[
+    {
         "id": "t-1",
         "label": "Economie",
-        "sous-thematiques": ["st-1", "st-2", "st-3"]
+        "sous-thematiques": ["st-1", "st-2", "st-3", "st-28"]
     },
     {
         "id": "t-2",

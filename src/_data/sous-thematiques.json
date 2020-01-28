@@ -106,5 +106,9 @@
     {
         "label": "Accessibilité",
         "id": "st-27"
+    },
+    {
+        "label": "Commerce",
+        "id": "st-28"
     }
 ]

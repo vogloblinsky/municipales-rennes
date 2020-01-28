@@ -3,17 +3,21 @@ let sousthematiques = require('./sous-thematiques.json');
 
 let candidats = require('./candidats.json');
 
-thematiques.forEach(thematique => {
-    if (thematique['sous-thematiques']) {
-        thematique['sous-thematiques'] = thematique['sous-thematiques'].map(
-            ssthematiqueid => {
-                return sousthematiques.find(
-                    sousthematique => sousthematique.id === ssthematiqueid
-                );
-            }
-        );
-    }
-});
+const mergeThematiquesAndSousThematiques = () => {
+    thematiques.forEach(thematique => {
+        if (thematique['sous-thematiques']) {
+            thematique['sous-thematiques'] = thematique['sous-thematiques'].map(
+                ssthematiqueid => {
+                    return sousthematiques.find(
+                        sousthematique => sousthematique.id === ssthematiqueid
+                    );
+                }
+            );
+        }
+    });
+};
+
+mergeThematiquesAndSousThematiques();
 
 candidats.forEach(candidat => {
     candidat.orderedThematiques = JSON.parse(JSON.stringify(thematiques));
@@ -37,6 +41,26 @@ candidats.forEach(candidat => {
         }
     });
 });
+
+// Clean sous-thematiques empty
+let mergedPropositions = [];
+candidats.forEach(candidat => {
+    mergedPropositions = [...mergedPropositions, ...candidat.propositions];
+});
+
+// console.log(mergedPropositions);
+
+sousthematiques = sousthematiques.filter(sousthematique => {
+    return mergedPropositions.find(
+        proposition => proposition.st === sousthematique.id
+    );
+});
+
+// console.log(sousthematiques);
+
+// mergeThematiquesAndSousThematiques();
+
+// console.log(thematiques);
 
 module.exports = {
     candidats: candidats,
