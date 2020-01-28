@@ -13,7 +13,10 @@ const findThematiqueForSousThematique = sousThematiqueToFind => {
     thematiques.forEach(thematique => {
         if (thematique['sous-thematiques']) {
             thematique['sous-thematiques'].forEach(sousThematique => {
-                if (sousThematique.id === sousThematiqueToFind.id) {
+                if (
+                    sousThematique &&
+                    sousThematique.id === sousThematiqueToFind.id
+                ) {
                     finalThematique = thematique;
                 }
             });
@@ -36,7 +39,9 @@ const initUI = () => {
     mainContainer.style.top = navContainer.offsetHeight + 'px';
 
     // Update candidat column width
-    const candidatBlocks = Array.from(mainContainer.querySelectorAll('article'));
+    const candidatBlocks = Array.from(
+        mainContainer.querySelectorAll('article')
+    );
     candidatBlocks.map(candidatBlock => {
         if (mainContainerWidth > maxWidthCandidatBlock) {
             currentWidthForCandidat = maxWidthCandidatBlock;
@@ -47,7 +52,9 @@ const initUI = () => {
     });
 
     // Update candidat header column width
-    const candidatHeaderBlocks = Array.from(candidatsList.querySelectorAll('header'));
+    const candidatHeaderBlocks = Array.from(
+        candidatsList.querySelectorAll('header')
+    );
     candidatHeaderBlocks.map(candidatHeaderBlock => {
         candidatHeaderBlock.style.flex = `0 0 ${currentWidthForCandidat - 1}px`; // -1 for border-right
     });
@@ -55,8 +62,12 @@ const initUI = () => {
     // Manage nav buttons
     let currentCandidatIndex = 0;
     const nbCandidats = candidatBlocks.length;
-    const leftButton = document.querySelectorAll('.second-nav__right .button')[0];
-    const rightButton = document.querySelectorAll('.second-nav__right .button')[1];
+    const leftButton = document.querySelectorAll(
+        '.second-nav__right .button'
+    )[0];
+    const rightButton = document.querySelectorAll(
+        '.second-nav__right .button'
+    )[1];
 
     const hideAllH2 = () => {
         const allh2 = Array.from(document.querySelectorAll('article h2 span'));
@@ -66,7 +77,11 @@ const initUI = () => {
     };
 
     const showForCurrentIndex = index => {
-        const h2s = Array.from(document.querySelectorAll(`.candidats-wrapper article:nth-child(${index + 1}) h2 span`));
+        const h2s = Array.from(
+            document.querySelectorAll(
+                `.candidats-wrapper article:nth-child(${index + 1}) h2 span`
+            )
+        );
         h2s.map(h2 => {
             h2.style.visibility = 'visible';
         });
@@ -74,16 +89,23 @@ const initUI = () => {
 
     const translateCandidats = e => {
         if (e.currentTarget.classList.contains('disabled')) return;
-        const direction = parseInt(e.currentTarget.getAttribute('data-direction'));
+        const direction = parseInt(
+            e.currentTarget.getAttribute('data-direction')
+        );
         if (direction === 1) {
             currentCandidatIndex += 1;
         } else {
             currentCandidatIndex -= 1;
         }
 
-        mainContainer.scrollLeft = currentCandidatIndex * currentWidthForCandidat;
-        candidatsList.scrollLeft = currentCandidatIndex * currentWidthForCandidat;
-        if (currentCandidatIndex > 0 && currentCandidatIndex < nbCandidats - 1) {
+        mainContainer.scrollLeft =
+            currentCandidatIndex * currentWidthForCandidat;
+        candidatsList.scrollLeft =
+            currentCandidatIndex * currentWidthForCandidat;
+        if (
+            currentCandidatIndex > 0 &&
+            currentCandidatIndex < nbCandidats - 1
+        ) {
             leftButton.classList.remove('disabled');
             rightButton.classList.remove('disabled');
         } else if (currentCandidatIndex === 0) {
@@ -105,7 +127,9 @@ const initUI = () => {
     // Update cells lines and height for each sous-thematiques
     sousThematiques.forEach(sousThematique => {
         const allSectionsForSousThematique = Array.from(
-            document.querySelectorAll(`[data-sous-thematique-id=${sousThematique.id}]`)
+            document.querySelectorAll(
+                `[data-sous-thematique-id=${sousThematique.id}]`
+            )
         );
         let maxHeight = 0;
         allSectionsForSousThematique.forEach(sectionSousThematique => {
@@ -145,7 +169,9 @@ const initUI = () => {
 
     const filterForThematique = thematique => {
         const sectionsThematiqueToHide = Array.from(
-            document.querySelectorAll(`[data-thematique-id]:not([data-thematique-id="${thematique.id}"])`)
+            document.querySelectorAll(
+                `[data-thematique-id]:not([data-thematique-id="${thematique.id}"])`
+            )
         );
         sectionsThematiqueToHide.forEach(sectionThematiqueToHide => {
             sectionThematiqueToHide.style.display = 'none';
@@ -159,7 +185,9 @@ const initUI = () => {
     };
 
     const resetThematiquesSelect = () => {
-        const sectionsToShow = Array.from(document.querySelectorAll(`.thematique`));
+        const sectionsToShow = Array.from(
+            document.querySelectorAll(`.thematique`)
+        );
         sectionsToShow.forEach(sectionToShow => {
             sectionToShow.style.display = 'block';
         });
@@ -176,7 +204,9 @@ const initUI = () => {
             sectionSousThematiqueToHide.style.display = 'none';
         });
         const sectionsSousThematiqueToShow = Array.from(
-            document.querySelectorAll(`[data-sous-thematique-id="${ssthematique.id}"]`)
+            document.querySelectorAll(
+                `[data-sous-thematique-id="${ssthematique.id}"]`
+            )
         );
         sectionsSousThematiqueToShow.forEach(sectionSousThematiqueToShow => {
             sectionSousThematiqueToShow.style.display = 'block';
@@ -184,7 +214,9 @@ const initUI = () => {
     };
 
     const resetSousThematiquesSelect = () => {
-        const sectionsToShow = Array.from(document.querySelectorAll(`.sous-thematique`));
+        const sectionsToShow = Array.from(
+            document.querySelectorAll(`.sous-thematique`)
+        );
         sectionsToShow.forEach(sectionToShow => {
             sectionToShow.style.display = 'block';
         });
@@ -192,7 +224,9 @@ const initUI = () => {
 
     thematiquesSelect.addEventListener('change', e => {
         const value = e.currentTarget.value;
-        const thematiqueToSelect = thematiques.find(thematique => thematique.id === value);
+        const thematiqueToSelect = thematiques.find(
+            thematique => thematique.id === value
+        );
         if (thematiqueToSelect) {
             if (thematiqueToSelect['sous-thematiques']) {
                 populateSousThematiques(thematiqueToSelect['sous-thematiques']);
@@ -211,7 +245,9 @@ const initUI = () => {
     });
     sousThematiquesSelect.addEventListener('change', e => {
         const value = e.currentTarget.value;
-        const sousThematiqueToSelect = sousThematiques.find(sousThematique => sousThematique.id === value);
+        const sousThematiqueToSelect = sousThematiques.find(
+            sousThematique => sousThematique.id === value
+        );
         if (sousThematiqueToSelect) {
             filterForSousThematique(sousThematiqueToSelect);
         }
@@ -220,9 +256,14 @@ const initUI = () => {
         }
     });
 
-    const elementsToStick = Array.from(document.querySelectorAll('.thematique h2'));
+    const elementsToStick = Array.from(
+        document.querySelectorAll('.thematique h2')
+    );
     elementsToStick.forEach(elementToStick => {
-        elementToStick.setAttribute('data-margin-top', navContainer.offsetHeight);
+        elementToStick.setAttribute(
+            'data-margin-top',
+            navContainer.offsetHeight
+        );
     });
 
     const sticky = new Sticky('.thematique h2');
