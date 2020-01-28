@@ -132,7 +132,7 @@ main {
     display: inline-block;
     cursor: pointer;
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: sans-serif;
     font-weight: 700;
     color: $white;
@@ -215,7 +215,7 @@ main {
         }
 
         a {
-            color: $color3;
+            color: $color4;
         }
     }
 
@@ -228,9 +228,10 @@ main {
         flex: 0 0 260px;
 
         .liste {
-            color: #57606f;
+            font-weight: bold;
         }
 
+        .liste,
         .tetes {
             color: #2f3542;
         }
