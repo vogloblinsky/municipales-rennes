@@ -1,4 +1,5 @@
-[{
+[
+    {
         "label": "Economie numérique",
         "id": "st-1"
     },
@@ -104,6 +105,6 @@
     },
     {
         "label": "Accessibilité",
-        "id": "st-26"
+        "id": "st-27"
     }
 ]
