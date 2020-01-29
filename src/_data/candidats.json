@@ -10,7 +10,10 @@
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "avecnathalieappere.fr",
-        "twitter": "PourRennes",
+        "twitter": "Appere_2020",
+        "twitterFollowers": "797",
+        "facebook": "avecnathalieappere",
+        "facebookFollowers": "444",
         "propositions": [
             {
                 "id": "appere-p-1",
@@ -171,6 +174,9 @@
         "liste": "Révéler Rennes",
         "website": "reveler-rennes.bzh",
         "twitter": "RevelerRennes",
+        "twitterFollowers": "839",
+        "facebook": "RevelerRennes",
+        "facebookFollowers": "394",
         "polemiques": [
             {
                 "label": "Mailing malencontreux",
@@ -286,6 +292,9 @@
         "liste": "Choisir l'écologie pour Rennes",
         "website": "rennes-ecologie.bzh",
         "twitter": "Rennes_Ecologie",
+        "twitterFollowers": "415",
+        "facebook": "RennesEcologie",
+        "facebookFollowers": "1009",
         "propositions": []
     },
     {
@@ -304,6 +313,9 @@
         "liste": "Rennes en commun",
         "website": "rennes-en-commun-2020.fr",
         "twitter": "RennesEnCommun",
+        "twitterFollowers": "346",
+        "facebook": "RennesEnCommun",
+        "facebookFollowers": "1910",
         "propositions": [
             {
                 "id": "lepape-p-1",
@@ -394,6 +406,9 @@
         "liste": "Libres d’agir pour Rennes",
         "website": "www.compagnon2020.fr",
         "twitter": "compagnon2020",
+        "twitterFollowers": "295",
+        "facebook": "Compagnon2020",
+        "facebookFollowers": "612",
         "propositions": [
             {
                 "id": "compagnon-p-1",
@@ -454,6 +469,56 @@
                 "id": "compagnon-p-12",
                 "st": "st-22",
                 "label": "Donner plus d'espace aux piétons dans le centre-ville historique"
+            },
+            {
+                "id": "compagnon-p-13",
+                "st": "st-19",
+                "label": "Accueil public de la police municipale, en centre-ville, identifié et visible"
+            },
+            {
+                "id": "compagnon-p-14",
+                "st": "st-19",
+                "label": "Application numérique et plateforme téléphonique pour communiquer avec la police municipale"
+            },
+            {
+                "id": "compagnon-p-15",
+                "st": "st-19",
+                "label": "Permanence dans les quartiers de la PM sur le marché ou à la mairie de quartier"
+            },
+            {
+                "id": "compagnon-p-15",
+                "st": "st-19",
+                "label": "Personnels de la PM durable affectés dans les quartiers pour créer du lien"
+            },
+            {
+                "id": "compagnon-p-16",
+                "st": "st-19",
+                "label": "Poste mobile sur site pendant des grands évènements pour prévention et sensibilisation"
+            },
+            {
+                "id": "compagnon-p-17",
+                "st": "st-19",
+                "label": "Développer les coopérations avec les partenaires de la ville (Police, gendarmerie, associations, etc)"
+            },
+            {
+                "id": "compagnon-p-18",
+                "st": "st-19",
+                "label": "Développer les coopérations avec les habitants (conseils de quartier, voisins vigilants, opérations de sensibilisation/prévention)"
+            },
+            {
+                "id": "compagnon-p-19",
+                "st": "st-19",
+                "label": "Doublement des effectifs de la police municipale"
+            },
+            {
+                "id": "compagnon-p-20",
+                "st": "st-19",
+                "label": "Former et équiper la police municipale"
+            },
+            {
+                "id": "compagnon-p-21",
+                "st": "st-19",
+                "label": "Etendre la vidéoprotection"
             }
         ]
     },
@@ -469,6 +534,9 @@
         "website": "rassemblement-national35.fr",
         "liste": "Rassemblement national",
         "twitter": "EmericSalmon",
+        "twitterFollowers": "2913",
+        "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
+        "facebookFollowers": "212",
         "propositions": []
     },
     {
@@ -483,6 +551,9 @@
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
         "twitter": "RBEdaViken",
+        "twitterFollowers": "181",
+        "facebook": "DarcelRennesBretagneEurope",
+        "facebookFollowers": "574",
         "propositions": [
             {
                 "id": "darcel-p-1",
