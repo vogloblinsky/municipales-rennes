@@ -270,5 +270,5 @@ const initUI = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(initUI, 250);
+    setTimeout(initUI, 500);
 });

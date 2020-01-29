@@ -159,7 +159,7 @@
                             <h3>{{this.label}}</h3>
                             <div class="proposition">
                                 {{#compare this.propositions.length 0 operator="==="}}
-                                <p><i>Aucune proposition référencée</i></p>
+                                <p class="empty"><i>Aucune proposition référencée</i></p>
                                 {{else}}
                                 {{#each this.propositions}}
                                 <p>{{this.label}}</p>

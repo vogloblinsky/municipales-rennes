@@ -6,16 +6,33 @@ let candidats = require('./candidats.json');
 const mergeThematiquesAndSousThematiques = () => {
     thematiques.forEach(thematique => {
         if (thematique['sous-thematiques']) {
-            thematique['sous-thematiques'] = thematique['sous-thematiques'].map(
-                ssthematiqueid => {
+            thematique['sous-thematiques'] = thematique['sous-thematiques']
+                .map(ssthematiqueid => {
                     return sousthematiques.find(
                         sousthematique => sousthematique.id === ssthematiqueid
                     );
-                }
-            );
+                })
+                .filter(ssthematique => ssthematique !== undefined);
         }
     });
 };
+
+// 1. merge de toutes les propositions
+
+let mergedPropositions = [];
+candidats.forEach(candidat => {
+    mergedPropositions = [...mergedPropositions, ...candidat.propositions];
+});
+
+// 2. filtrage des sous-thematiques non utilisées
+
+sousthematiques = sousthematiques.filter(sousthematique => {
+    return mergedPropositions.find(
+        proposition => proposition.st === sousthematique.id
+    );
+});
+
+// 3. merge des thematiques et sous-thematiques
 
 mergeThematiquesAndSousThematiques();
 
@@ -41,26 +58,6 @@ candidats.forEach(candidat => {
         }
     });
 });
-
-// Clean sous-thematiques empty
-let mergedPropositions = [];
-candidats.forEach(candidat => {
-    mergedPropositions = [...mergedPropositions, ...candidat.propositions];
-});
-
-// console.log(mergedPropositions);
-
-sousthematiques = sousthematiques.filter(sousthematique => {
-    return mergedPropositions.find(
-        proposition => proposition.st === sousthematique.id
-    );
-});
-
-// console.log(sousthematiques);
-
-// mergeThematiquesAndSousThematiques();
-
-// console.log(thematiques);
 
 module.exports = {
     candidats: candidats,
