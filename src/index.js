@@ -41,7 +41,7 @@ const initUI = () => {
      * Update candidat column width
      */
     const candidatBlocks = Array.from(mainContainer.querySelectorAll('article'));
-    candidatBlocks.map(candidatBlock => {
+    candidatBlocks.forEach(candidatBlock => {
         if (mainContainerWidth > maxWidthCandidatBlock) {
             currentWidthForCandidat = maxWidthCandidatBlock;
         } else {
@@ -55,12 +55,12 @@ const initUI = () => {
      */
 
     const candidatHeaderBlocks = Array.from(candidatsList.querySelectorAll('header'));
-    candidatHeaderBlocks.map(candidatHeaderBlock => {
+    candidatHeaderBlocks.forEach(candidatHeaderBlock => {
         candidatHeaderBlock.style.flex = `0 0 ${currentWidthForCandidat - 1}px`; // -1 for border-right
     });
 
     /**
-     * Manage nav buttons
+     * Manage slide buttons
      */
 
     let currentCandidatIndex = 0;
@@ -68,26 +68,44 @@ const initUI = () => {
     const leftButton = document.querySelectorAll('.second-nav__right .button')[0];
     const rightButton = document.querySelectorAll('.second-nav__right .button')[1];
 
+    const disableSlideButtons = () => {
+        leftButton.classList.add('disabled');
+        rightButton.classList.add('disabled');
+    };
+
+    const activateSlideButtons = () => {
+        if (currentCandidatIndex > 0 && currentCandidatIndex < nbCandidats - 1) {
+            leftButton.classList.remove('disabled');
+            rightButton.classList.remove('disabled');
+        } else if (currentCandidatIndex === 0) {
+            leftButton.classList.add('disabled');
+            rightButton.classList.remove('disabled');
+        } else {
+            leftButton.classList.remove('disabled');
+            rightButton.classList.add('disabled');
+        }
+    };
+
     const hideAllH2 = () => {
         const allh2 = Array.from(document.querySelectorAll('article h2 span'));
-        allh2.map(h2 => {
+        allh2.forEach(h2 => {
             h2.style.visibility = 'hidden';
         });
         const allh2Icons = Array.from(document.querySelectorAll('article h2 ion-icon'));
-        allh2Icons.map(icon => {
+        allh2Icons.forEach(icon => {
             icon.style.visibility = 'hidden';
         });
     };
 
     const showForCurrentIndex = index => {
         const h2s = Array.from(document.querySelectorAll(`.candidats-wrapper article:nth-child(${index + 1}) h2 span`));
-        h2s.map(h2 => {
+        h2s.forEach(h2 => {
             h2.style.visibility = 'visible';
         });
         const icons = Array.from(
             document.querySelectorAll(`.candidats-wrapper article:nth-child(${index + 1}) h2 ion-icon`)
         );
-        icons.map(icon => {
+        icons.forEach(icon => {
             icon.style.visibility = 'visible';
         });
     };
@@ -100,19 +118,14 @@ const initUI = () => {
         } else {
             currentCandidatIndex -= 1;
         }
+        if (currentCandidatIndex >= coundVisibleCandidats()) {
+            currentCandidatIndex = coundVisibleCandidats() - 1;
+        }
 
         mainContainer.scrollLeft = currentCandidatIndex * currentWidthForCandidat;
         candidatsList.scrollLeft = currentCandidatIndex * currentWidthForCandidat;
-        if (currentCandidatIndex > 0 && currentCandidatIndex < nbCandidats - 1) {
-            leftButton.classList.remove('disabled');
-            rightButton.classList.remove('disabled');
-        } else if (currentCandidatIndex === 0) {
-            leftButton.classList.add('disabled');
-            rightButton.classList.remove('disabled');
-        } else {
-            leftButton.classList.remove('disabled');
-            rightButton.classList.add('disabled');
-        }
+
+        activateSlideButtons();
 
         //Manage h2s
         hideAllH2();
@@ -126,20 +139,29 @@ const initUI = () => {
      * Update cells lines and height for each sous-thematiques
      */
 
-    sousThematiques.forEach(sousThematique => {
-        const allSectionsForSousThematique = Array.from(
-            document.querySelectorAll(`[data-sous-thematique-id=${sousThematique.id}]`)
-        );
-        let maxHeight = 0;
-        allSectionsForSousThematique.forEach(sectionSousThematique => {
-            if (sectionSousThematique.offsetHeight > maxHeight) {
-                maxHeight = sectionSousThematique.offsetHeight;
-            }
+    const updateCellsHeight = () => {
+        sousThematiques.forEach(sousThematique => {
+            const allSectionsForSousThematique = Array.from(
+                document.querySelectorAll(`article.visible [data-sous-thematique-id=${sousThematique.id}]`)
+            );
+            let maxHeight = 0;
+            allSectionsForSousThematique.forEach(sectionSousThematique => {
+                const h3Height = sectionSousThematique.querySelector('h3').offsetHeight;
+                const propositions = sectionSousThematique.querySelector('.propositions');
+                let propositionsHeight = 0;
+                if (propositions) {
+                    propositionsHeight = propositions.offsetHeight;
+                }
+                if (h3Height + propositionsHeight > maxHeight) {
+                    maxHeight = h3Height + propositionsHeight;
+                }
+            });
+            allSectionsForSousThematique.forEach(sectionSousThematique => {
+                sectionSousThematique.style.height = maxHeight + 'px';
+            });
         });
-        allSectionsForSousThematique.forEach(sectionSousThematique => {
-            sectionSousThematique.style.height = maxHeight + 'px';
-        });
-    });
+    };
+    updateCellsHeight();
 
     /**
      * Manage thematiques selector
@@ -292,6 +314,47 @@ const initUI = () => {
 
     document.querySelector('.selector-button').addEventListener('click', toggleSelectorCandidats);
 
+    const coundVisibleCandidats = () => {
+        let count = 0;
+        Object.keys(candidatsSelectorStatus).forEach(key => {
+            if (candidatsSelectorStatus[key]) {
+                count += 1;
+            }
+        });
+        return count;
+    };
+
+    const expandColumnsForVisibleCandidats = () => {
+        const currentWidth = mainContainerWidth;
+        const countVisibleCandidats = coundVisibleCandidats();
+        const widthPerCandidat = currentWidth / countVisibleCandidats;
+
+        const candidatHeaders = document.querySelectorAll('.candidats-list header');
+        candidatHeaders.forEach(candidatHeader => {
+            candidatHeader.style.flex = `0 0 ${widthPerCandidat}px`;
+        });
+        const candidatArticles = document.querySelectorAll('.main-container article');
+        candidatArticles.forEach(candidatHeader => {
+            candidatHeader.style.width = `${widthPerCandidat}px`;
+        });
+        updateCellsHeight();
+        sticky.update();
+    };
+
+    const resetColumnsToDefaultWidth = () => {
+        const widthPerCandidat = currentWidthForCandidat;
+        const candidatHeaders = document.querySelectorAll('.candidats-list header');
+        candidatHeaders.forEach(candidatHeader => {
+            candidatHeader.style.flex = `0 0 ${widthPerCandidat}px`;
+        });
+        const candidatArticles = document.querySelectorAll('.main-container article');
+        candidatArticles.forEach(candidatHeader => {
+            candidatHeader.style.width = `${widthPerCandidat}px`;
+        });
+        updateCellsHeight();
+        sticky.update();
+    };
+
     const toggleCandidat = e => {
         const candidatId = e.currentTarget.getAttribute('data-candidatid');
         const icon = e.currentTarget.querySelector('ion-icon');
@@ -304,15 +367,34 @@ const initUI = () => {
             icon.setAttribute('name', 'close-circle-outline');
             candidatColumn.style.display = 'none';
             candidatHeader.style.display = 'none';
+            candidatColumn.classList.add('hidden');
+            candidatColumn.classList.remove('visible');
         } else {
             candidatsSelectorStatus[candidatId] = true;
             icon.setAttribute('name', 'checkmark-circle-outline');
             candidatColumn.style.display = 'flex';
             candidatHeader.style.display = 'flex';
+            candidatColumn.classList.add('visible');
+            candidatColumn.classList.remove('hidden');
+        }
+
+        const countVisibleCandidats = coundVisibleCandidats();
+        if (countVisibleCandidats === 1) {
+            disableSlideButtons();
+        } else if (countVisibleCandidats > 1) {
+            activateSlideButtons();
+        }
+
+        // Resize columns ?
+        const totalWidthForVisibleCandidats = countVisibleCandidats * currentWidthForCandidat;
+        if (totalWidthForVisibleCandidats < mainContainerWidth && countVisibleCandidats > 1) {
+            expandColumnsForVisibleCandidats();
+        } else {
+            resetColumnsToDefaultWidth();
         }
     };
 
-    const candidatsCheckmarks = Array.from(document.querySelectorAll(`.checkmark`));
+    const candidatsCheckmarks = Array.from(document.querySelectorAll('.selector-nav header'));
     candidatsCheckmarks.forEach(candidatsCheckmark => {
         candidatsCheckmark.addEventListener('click', toggleCandidat);
     });

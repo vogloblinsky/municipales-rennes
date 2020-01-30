@@ -150,8 +150,8 @@
         <div class="container">
             {{#each alldata.candidats}}
             {{#if this.liste}}
-            <header>
-                <div class="checkmark" data-candidatid="{{this.id}}">
+            <header data-candidatid="{{this.id}}">
+                <div class="checkmark">
                     <ion-icon name="checkmark-circle-outline"></ion-icon>
                 </div>
                 <div class="header_main-infos">
@@ -181,7 +181,7 @@
         <div class="candidats-wrapper">
             {{#each alldata.candidats}}
             {{#if this.liste}}
-            <article data-candidatid="{{this.id}}">
+            <article data-candidatid="{{this.id}}" class="visible">
                 <div class="candidat-content">
                     {{#each this.orderedThematiques}}
                     <section data-thematique-id="{{this.id}}" class="thematique">
@@ -192,7 +192,7 @@
                         {{#each this.sous-thematiques}}
                         <section data-sous-thematique-id="{{this.id}}" class="sous-thematique">
                             <h3>{{this.label}}</h3>
-                            <div class="proposition">
+                            <div class="propositions">
                                 {{#compare this.propositions.length 0 operator="==="}}
                                 <p class="empty"><i>Aucune proposition référencée</i></p>
                                 {{else}}
