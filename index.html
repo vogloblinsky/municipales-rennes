@@ -74,6 +74,9 @@
         </nav>
 
         <nav class="second-nav">
+            <div class="selector-button button">
+                <ion-icon name="funnel"></ion-icon>
+            </div>
             <div>
                 <label for="thematiques">Choisissez votre thématique</label>
                 <select class="thematiques-selector" id="thematiques">
@@ -122,7 +125,7 @@
         </nav>
 
         <nav class="candidats-list">
-            <header>
+            <header data-candidatid="appere">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -148,7 +151,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="gandon">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -174,7 +177,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="verts">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -201,7 +204,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="compagnon">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -227,7 +230,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="lepape">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -254,7 +257,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="darcel">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -280,7 +283,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="salmon">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -306,7 +309,7 @@
                     </div>
                 </div>
             </header>
-            <header>
+            <header data-candidatid="hamon">
                 <div class="header_main-infos">
 
                     <figure class="avatar">
@@ -335,12 +338,156 @@
         </nav>
     </div>
 
+    <nav class="selector-nav">
+        <div class="container">
+            <header>
+                <div class="checkmark" data-candidatid="appere">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/appere_100.jpg" alt="Pour Rennes" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Nathalie Appéré
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="gandon">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/gandon_100.jpg" alt="Révéler Rennes" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Carole Gandon
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="verts">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/verts_100.jpg" alt="Choisir l&#x27;écologie pour Rennes" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Matthieu Theurier<br />
+                            Priscilla Zamord
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="compagnon">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/compagnon_100.jpg" alt="Libres d’agir pour Rennes" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Charles Compagnon
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="lepape">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/lepape_100.jpg" alt="Rennes en commun" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Enora Le Pape<br />
+                            Jean-Paul Tual
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="darcel">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/darcel_100.jpg" alt="Rennes Bretagne Europe" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Franck Darcel
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="salmon">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/salmon_100.jpg" alt="Rassemblement national" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Émeric Salmon
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <header>
+                <div class="checkmark" data-candidatid="hamon">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                </div>
+                <div class="header_main-infos">
+
+                    <figure class="avatar">
+                        <img src="assets/hamon_100.jpg" alt="Lutte ouvrière – Faire entendre le camp des travailleurs" loading="lazy" width="100"
+                            height="100">
+                    </figure>
+                    <div class="candidat-infos">
+                        <span class="tetes">
+                            Valérie Hamon
+                        </span>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </nav>
+
     <main class="main-container">
         <div class="candidats-wrapper">
-            <article>
+            <article data-candidatid="appere">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -367,6 +514,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -379,6 +527,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -399,6 +548,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -462,6 +612,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -481,6 +632,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -521,6 +673,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -536,6 +689,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -548,6 +702,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -579,10 +734,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="gandon">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -611,6 +767,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -623,6 +780,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -643,6 +801,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -711,6 +870,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -735,6 +895,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -780,6 +941,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -793,6 +955,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -805,6 +968,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -824,10 +988,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="verts">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -854,6 +1019,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -866,6 +1032,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -885,6 +1052,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -946,6 +1114,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -965,6 +1134,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -1005,6 +1175,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -1017,6 +1188,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -1029,6 +1201,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -1048,10 +1221,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="compagnon">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -1078,6 +1252,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -1090,6 +1265,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -1114,6 +1290,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -1175,6 +1352,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -1203,6 +1381,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -1248,6 +1427,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -1260,6 +1440,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -1272,6 +1453,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -1291,10 +1473,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="lepape">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -1321,6 +1504,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -1333,6 +1517,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -1352,6 +1537,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -1415,6 +1601,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -1434,6 +1621,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -1475,6 +1663,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -1487,6 +1676,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -1500,6 +1690,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -1519,10 +1710,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="darcel">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -1552,6 +1744,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -1564,6 +1757,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -1583,6 +1777,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -1652,6 +1847,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -1682,6 +1878,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -1726,6 +1923,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -1744,6 +1942,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -1756,6 +1955,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -1789,10 +1989,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="salmon">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -1819,6 +2020,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -1831,6 +2033,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -1850,6 +2053,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -1911,6 +2115,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -1930,6 +2135,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -1970,6 +2176,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -1982,6 +2189,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -1994,6 +2202,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
@@ -2013,10 +2222,11 @@
                     </section>
                 </div>
             </article>
-            <article>
+            <article data-candidatid="hamon">
                 <div class="candidat-content">
                     <section data-thematique-id="t-1" class="thematique">
                         <h2>
+                            <ion-icon name="ios-calculator"></ion-icon>
                             <span>Economie / emploi</span>
                         </h2>
                         <section data-sous-thematique-id="st-2" class="sous-thematique">
@@ -2043,6 +2253,7 @@
                     </section>
                     <section data-thematique-id="t-2" class="thematique">
                         <h2>
+                            <ion-icon name="ios-bookmarks"></ion-icon>
                             <span>Éducation</span>
                         </h2>
                         <section data-sous-thematique-id="st-5" class="sous-thematique">
@@ -2055,6 +2266,7 @@
                     </section>
                     <section data-thematique-id="t-3" class="thematique">
                         <h2>
+                            <ion-icon name="ios-leaf"></ion-icon>
                             <span>Environnement</span>
                         </h2>
                         <section data-sous-thematique-id="st-6" class="sous-thematique">
@@ -2074,6 +2286,7 @@
                     </section>
                     <section data-thematique-id="t-4" class="thematique">
                         <h2>
+                            <ion-icon name="ios-megaphone"></ion-icon>
                             <span>Politiques publiques</span>
                         </h2>
                         <section data-sous-thematique-id="st-12" class="sous-thematique">
@@ -2135,6 +2348,7 @@
                     </section>
                     <section data-thematique-id="t-5" class="thematique">
                         <h2>
+                            <ion-icon name="ios-people"></ion-icon>
                             <span>Sécurité</span>
                         </h2>
                         <section data-sous-thematique-id="st-19" class="sous-thematique">
@@ -2154,6 +2368,7 @@
                     </section>
                     <section data-thematique-id="t-6" class="thematique">
                         <h2>
+                            <ion-icon name="ios-car"></ion-icon>
                             <span>Transports / mobilite</span>
                         </h2>
                         <section data-sous-thematique-id="st-20" class="sous-thematique">
@@ -2194,6 +2409,7 @@
                     </section>
                     <section data-thematique-id="t-7" class="thematique">
                         <h2>
+                            <ion-icon name="ios-home"></ion-icon>
                             <span>Urbanisme / aménagement</span>
                         </h2>
                         <section data-sous-thematique-id="st-23" class="sous-thematique">
@@ -2206,6 +2422,7 @@
                     </section>
                     <section data-thematique-id="t-8" class="thematique">
                         <h2>
+                            <ion-icon name="ios-chatbubbles"></ion-icon>
                             <span>Démocratie locale</span>
                         </h2>
                         <section data-sous-thematique-id="st-10" class="sous-thematique">
@@ -2218,6 +2435,7 @@
                     </section>
                     <section data-thematique-id="t-9" class="thematique">
                         <h2>
+                            <ion-icon name="ios-book"></ion-icon>
                             <span>Culture et sport</span>
                         </h2>
                         <section data-sous-thematique-id="st-9" class="sous-thematique">
