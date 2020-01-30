@@ -1,7 +1,7 @@
 [{
         "id": "t-1",
         "label": "Economie / emploi",
-        "sous-thematiques": ["st-1", "st-2", "st-3", "st-28"]
+        "sous-thematiques": ["st-1", "st-2", "st-3", "st-28", "st-29"]
     },
     {
         "id": "t-2",
