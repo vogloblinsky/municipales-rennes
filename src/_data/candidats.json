@@ -1,12 +1,9 @@
-[
-    {
+[{
         "id": "appere",
-        "tetes": [
-            {
-                "prenom": "Nathalie",
-                "nom": "Appéré"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Nathalie",
+            "nom": "Appéré"
+        }],
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "avecnathalieappere.fr",
@@ -14,8 +11,7 @@
         "twitterFollowers": "797",
         "facebook": "avecnathalieappere",
         "facebookFollowers": "444",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "appere-p-1",
                 "st": "st-21",
                 "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
@@ -164,12 +160,10 @@
     },
     {
         "id": "gandon",
-        "tetes": [
-            {
-                "prenom": "Carole",
-                "nom": "Gandon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Carole",
+            "nom": "Gandon"
+        }],
         "parti": "LaREM",
         "liste": "Révéler Rennes",
         "website": "reveler-rennes.bzh",
@@ -177,22 +171,17 @@
         "twitterFollowers": "839",
         "facebook": "RevelerRennes",
         "facebookFollowers": "394",
-        "polemiques": [
-            {
-                "label": "Mailing malencontreux",
-                "references": [
-                    {
-                        "titre": "",
-                        "url": ""
-                    }
-                ]
-            }
-        ],
-        "propositions": [
-            {
+        "polemiques": [{
+            "label": "Mailing malencontreux",
+            "references": [{
+                "titre": "",
+                "url": ""
+            }]
+        }],
+        "propositions": [{
                 "id": "gandon-p-1",
                 "st": "st-19",
-                "label": "Création au sein de la police municipale une brigade d’agents à cheval ou à vélo"
+                "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
             },
             {
                 "id": "gandon-p-2",
@@ -217,7 +206,7 @@
             {
                 "id": "gandon-p-6",
                 "st": "st-22",
-                "label": "Baisse pour les jeunes de moins de 25 ans des tarifs d'abonnement sur le réseau Star et facilitation de la location de vélo longue durée"
+                "label": "Baisse par deux pour les jeunes de moins de 25 ans des tarifs d'abonnement sur le réseau Star et facilitation de la location de vélo longue durée"
             },
             {
                 "id": "gandon-p-7",
@@ -273,13 +262,67 @@
                 "id": "gandon-p-17",
                 "st": "st-23",
                 "label": "Relancer la réflexion sur le projet du Palais du commerce en y associant les actuelles parties prenantes mais aussi les citoyens et les commerçants"
+            },
+            {
+                "id": "gandon-p-18",
+                "st": "st-19",
+                "label": "Installation dans chaque quartier d'une antenne de police municipale"
+            },
+            {
+                "id": "gandon-p-19",
+                "st": "st-19",
+                "label": "Renforcer l'accès à l'hébergement et au logement pour les femmes victimes de violence"
+            },
+            {
+                "id": "gandon-p-20",
+                "st": "st-19",
+                "label": "Faire de Rennes une ville anti-prostitution, notamment celle des mineurs"
+            },
+            {
+                "id": "gandon-p-21",
+                "st": "st-28",
+                "label": "Numéro unique pour les commerçants pour le traitement des tags ou dépôt d'ordures sauvages"
+            },
+            {
+                "id": "gandon-p-22",
+                "st": "st-20",
+                "label": "Expérimenter une ou plusieurs vélo-rues dans le centre-ville"
+            },
+            {
+                "id": "gandon-p-23",
+                "st": "st-22",
+                "label": "Création de parkings relais au-delà de la rocade"
+            },
+            {
+                "id": "gandon-p-24",
+                "st": "st-15",
+                "label": "Intégration de services, commerçants et équipements simultanément à toute construction de logements collectifs"
+            },
+            {
+                "id": "gandon-p-25",
+                "st": "st-15",
+                "label": "Partage de l'effort d'accueil et de densification à l'échelle de la métropole"
+            },
+            {
+                "id": "gandon-p-26",
+                "st": "st-7",
+                "label": "Végétaliser la ville"
+            },
+            {
+                "id": "gandon-p-26",
+                "st": "st-23",
+                "label": "Priorité à l'aménagement et requalification urbaine et économique de l'hôpital sud"
+            },
+            {
+                "id": "gandon-p-27",
+                "st": "st-15",
+                "label": "Préserver le patrimoine bâti"
             }
         ]
     },
     {
         "id": "verts",
-        "tetes": [
-            {
+        "tetes": [{
                 "prenom": "Matthieu",
                 "nom": "Theurier"
             },
@@ -298,110 +341,11 @@
         "propositions": []
     },
     {
-        "id": "lepape",
-        "tetes": [
-            {
-                "prenom": "Enora",
-                "nom": "Le Pape"
-            },
-            {
-                "prenom": "Jean-Paul",
-                "nom": "Tual"
-            }
-        ],
-        "parti": "LFI",
-        "liste": "Rennes en commun",
-        "website": "rennes-en-commun-2020.fr",
-        "twitter": "RennesEnCommun",
-        "twitterFollowers": "346",
-        "facebook": "RennesEnCommun",
-        "facebookFollowers": "1910",
-        "propositions": [
-            {
-                "id": "lepape-p-1",
-                "st": "st-22",
-                "label": "La gratuité progressive des transports en commun"
-            },
-            {
-                "id": "lepape-p-2",
-                "st": "st-22",
-                "label": "La mise en place du RER métropolitain"
-            },
-            {
-                "id": "lepape-p-3",
-                "st": "st-14",
-                "label": "100% d'alimentation bio"
-            },
-            {
-                "id": "lepape-p-4",
-                "st": "st-10",
-                "label": "Une journée du référendum d'initiative citoyenne (RIC) chaque année"
-            },
-            {
-                "id": "lepape-p-5",
-                "st": "st-13",
-                "label": "Un centre d'hébergement pour sans-abris"
-            },
-            {
-                "id": "lepape-p-6",
-                "st": "st-15",
-                "label": "La priorité aux 3R (Réquisition, Rénovation, Reconstruction) en matière de logement"
-            },
-            {
-                "id": "lepape-p-7",
-                "st": "st-7",
-                "label": "L'interdiction des pesticides"
-            },
-            {
-                "id": "lepape-p-8",
-                "st": "st-10",
-                "label": "Des votations systématiques"
-            },
-            {
-                "id": "lepape-p-9",
-                "st": "st-17",
-                "label": "Création d'un Fond Public Métropolitain"
-            },
-            {
-                "id": "lepape-p-10",
-                "st": "st-16",
-                "label": "L'extension du projet de territoire 'zéro chômeur'"
-            },
-            {
-                "id": "lepape-p-11",
-                "st": "st-16",
-                "label": "Inciter et faciliter l’installation d’artisans et de petit.e.s commerçant.e.s"
-            },
-            {
-                "id": "lepape-p-12",
-                "st": "st-20",
-                "label": "Sécuriser en urgence des voies cyclables"
-            },
-            {
-                "id": "lepape-p-13",
-                "st": "st-12",
-                "label": "Construire des EHPAD de qualité"
-            },
-            {
-                "id": "lepape-p-14",
-                "st": "st-9",
-                "label": "Favoriser la culture populaire et l’organisation d'événements gratuit"
-            },
-            {
-                "id": "lepape-p-15",
-                "st": "st-17",
-                "label": "Instaurer la révocabilité des élu.e.s"
-            }
-        ]
-    },
-    {
         "id": "compagnon",
-        "tetes": [
-            {
-                "prenom": "Charles",
-                "nom": "Compagnon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Charles",
+            "nom": "Compagnon"
+        }],
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
         "website": "www.compagnon2020.fr",
@@ -409,8 +353,7 @@
         "twitterFollowers": "295",
         "facebook": "Compagnon2020",
         "facebookFollowers": "612",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "compagnon-p-1",
                 "st": "st-7",
                 "label": "Verdir la ville (cours d'écoles, toits, abris-bus, rues et boulevards)"
@@ -523,30 +466,106 @@
         ]
     },
     {
-        "id": "salmon",
-        "tetes": [
+        "id": "lepape",
+        "tetes": [{
+                "prenom": "Enora",
+                "nom": "Le Pape"
+            },
             {
-                "prenom": "Émeric",
-                "nom": "Salmon"
+                "prenom": "Jean-Paul",
+                "nom": "Tual"
             }
         ],
-        "parti": "RN",
-        "website": "rassemblement-national35.fr",
-        "liste": "Rassemblement national",
-        "twitter": "EmericSalmon",
-        "twitterFollowers": "2913",
-        "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
-        "facebookFollowers": "212",
-        "propositions": []
+        "parti": "LFI",
+        "liste": "Rennes en commun",
+        "website": "rennes-en-commun-2020.fr",
+        "twitter": "RennesEnCommun",
+        "twitterFollowers": "346",
+        "facebook": "RennesEnCommun",
+        "facebookFollowers": "1910",
+        "propositions": [{
+                "id": "lepape-p-1",
+                "st": "st-22",
+                "label": "La gratuité progressive des transports en commun"
+            },
+            {
+                "id": "lepape-p-2",
+                "st": "st-22",
+                "label": "La mise en place du RER métropolitain"
+            },
+            {
+                "id": "lepape-p-3",
+                "st": "st-14",
+                "label": "100% d'alimentation bio"
+            },
+            {
+                "id": "lepape-p-4",
+                "st": "st-10",
+                "label": "Une journée du référendum d'initiative citoyenne (RIC) chaque année"
+            },
+            {
+                "id": "lepape-p-5",
+                "st": "st-13",
+                "label": "Un centre d'hébergement pour sans-abris"
+            },
+            {
+                "id": "lepape-p-6",
+                "st": "st-15",
+                "label": "La priorité aux 3R (Réquisition, Rénovation, Reconstruction) en matière de logement"
+            },
+            {
+                "id": "lepape-p-7",
+                "st": "st-7",
+                "label": "L'interdiction des pesticides"
+            },
+            {
+                "id": "lepape-p-8",
+                "st": "st-10",
+                "label": "Des votations systématiques"
+            },
+            {
+                "id": "lepape-p-9",
+                "st": "st-17",
+                "label": "Création d'un Fond Public Métropolitain"
+            },
+            {
+                "id": "lepape-p-10",
+                "st": "st-16",
+                "label": "L'extension du projet de territoire 'zéro chômeur'"
+            },
+            {
+                "id": "lepape-p-11",
+                "st": "st-16",
+                "label": "Inciter et faciliter l’installation d’artisans et de petit.e.s commerçant.e.s"
+            },
+            {
+                "id": "lepape-p-12",
+                "st": "st-20",
+                "label": "Sécuriser en urgence des voies cyclables"
+            },
+            {
+                "id": "lepape-p-13",
+                "st": "st-12",
+                "label": "Construire des EHPAD de qualité"
+            },
+            {
+                "id": "lepape-p-14",
+                "st": "st-9",
+                "label": "Favoriser la culture populaire et l’organisation d'événements gratuit"
+            },
+            {
+                "id": "lepape-p-15",
+                "st": "st-17",
+                "label": "Instaurer la révocabilité des élu.e.s"
+            }
+        ]
     },
     {
         "id": "darcel",
-        "tetes": [
-            {
-                "prenom": "Franck",
-                "nom": "Darcel"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Franck",
+            "nom": "Darcel"
+        }],
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
@@ -554,8 +573,7 @@
         "twitterFollowers": "181",
         "facebook": "DarcelRennesBretagneEurope",
         "facebookFollowers": "574",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "darcel-p-1",
                 "st": "st-19",
                 "label": "Redéfinir les tâches de la Police Municipale"
@@ -843,13 +861,26 @@
         ]
     },
     {
+        "id": "salmon",
+        "tetes": [{
+            "prenom": "Émeric",
+            "nom": "Salmon"
+        }],
+        "parti": "RN",
+        "website": "rassemblement-national35.fr",
+        "liste": "Rassemblement national",
+        "twitter": "EmericSalmon",
+        "twitterFollowers": "2913",
+        "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
+        "facebookFollowers": "212",
+        "propositions": []
+    },
+    {
         "id": "hamon",
-        "tetes": [
-            {
-                "prenom": "Valérie",
-                "nom": "Hamon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Valérie",
+            "nom": "Hamon"
+        }],
         "parti": "LO",
         "liste": "Lutte ouvrière – Faire entendre le camp des travailleurs",
         "website": "www.lutte-ouvriere.org",
