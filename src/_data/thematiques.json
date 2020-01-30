@@ -1,21 +1,25 @@
 [{
         "id": "t-1",
         "label": "Economie / emploi",
+        "icon": "calculator",
         "sous-thematiques": ["st-1", "st-2", "st-3", "st-28", "st-29"]
     },
     {
         "id": "t-2",
         "label": "Éducation",
+        "icon": "bookmarks",
         "sous-thematiques": ["st-4", "st-5"]
     },
     {
         "id": "t-3",
         "label": "Environnement",
+        "icon": "leaf",
         "sous-thematiques": ["st-6", "st-7", "st-8"]
     },
     {
         "id": "t-4",
         "label": "Politiques publiques",
+        "icon": "megaphone",
         "sous-thematiques": [
             "st-12",
             "st-13",
@@ -30,26 +34,31 @@
     {
         "id": "t-5",
         "label": "Sécurité",
+        "icon": "people",
         "sous-thematiques": ["st-19", "st-25"]
     },
     {
         "id": "t-6",
         "label": "Transports / mobilite",
+        "icon": "car",
         "sous-thematiques": ["st-20", "st-21", "st-24", "st-22", "st-26"]
     },
     {
         "id": "t-7",
         "label": "Urbanisme / aménagement",
+        "icon": "home",
         "sous-thematiques": ["st-23"]
     },
     {
         "id": "t-8",
         "label": "Démocratie locale",
+        "icon": "chatbubbles",
         "sous-thematiques": ["st-10"]
     },
     {
         "id": "t-9",
         "label": "Culture et sport",
+        "icon": "book",
         "sous-thematiques": ["st-9", "st-11"]
     }
 ]

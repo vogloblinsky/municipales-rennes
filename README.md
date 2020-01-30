@@ -9,7 +9,7 @@ Plateforme de comparaison de programmes politiques aux municipales françaises �
 ## Features
 
 -   listing par candidat des propositions, groupées par thématiques et sous-thématiques
--   filtrage des candidats (TODO)
+-   filtrage des candidats
 -   affichage des polémiques de la campagne par candidat (TODO)
 -   affichage du bilan de la maire sortante (TODO)
 

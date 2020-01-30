@@ -71,9 +71,30 @@ a {
     width: 100%;
     position: relative;
     color: $white;
+    display: flex;
 
     label {
         display: none;
+    }
+
+    .button {
+        background: $color3;
+        width: 50px;
+        height: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &.disabled {
+            cursor: not-allowed;
+            opacity: 0.75;
+        }
+    }
+
+    .selector-button {
+        background: #525e79;
     }
 
     .second-nav__right {
@@ -81,22 +102,45 @@ a {
         right: 0;
         top: 0;
         display: flex;
+    }
+}
 
-        .button {
-            background: $color3;
-            width: 50px;
-            height: 50px;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
+.selector-nav {
+    background: rgba(0, 0, 0, 0.75);
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
-            &.disabled {
-                cursor: not-allowed;
-                opacity: 0.75;
-            }
+    .container {
+        flex: 0 0 420px;
+        background: $color2;
+    }
+
+    .checkmark {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 40px;
+        height: 100px;
+        cursor: pointer;
+        font-size: 20px;
+
+        ion-icon[name="close-circle-outline"] {
+            color: #e83d30;
         }
+
+        ion-icon[name="checkmark-circle-outline"] {
+            color: #01776c;
+        }
+    }
+
+    header {
+        flex-direction: row;
     }
 }
 
@@ -122,6 +166,7 @@ main {
     background: #a4b0be;
     width: 100%;
     overflow-x: hidden;
+    display: flex;
 }
 
 .candidats-wrapper {
@@ -180,62 +225,63 @@ main {
     font-weight: normal;
 }
 
+header {
+    flex: 0 0 380px;
+    display: flex;
+    flex-direction: column;
+    background: $color2;
+    color: #2f3542;
+    border-right: 1px solid #a5a5a5;
+
+    .header_main-infos {
+        display: flex;
+    }
+
+    .header_second-infos {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 2;
+        padding: 5px;
+
+        ion-icon {
+            margin: 2px 5px;
+            font-size: 20px;
+        }
+
+        &>div {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    a {
+        color: $color4;
+    }
+}
+
+.candidat-infos {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    flex: 0 0 260px;
+
+    .liste {
+        font-weight: bold;
+    }
+
+    .liste,
+    .tetes {
+        color: #2f3542;
+    }
+}
+
 .candidats-list {
     display: flex;
     overflow-x: hidden;
-
-    header {
-        flex: 0 0 380px;
-        display: flex;
-        flex-direction: column;
-        background: $color2;
-        color: #2f3542;
-        border-right: 1px solid #a5a5a5;
-
-        .header_main-infos {
-            display: flex;
-        }
-
-        .header_second-infos {
-            display: none;
-            flex-direction: column;
-            justify-content: center;
-            flex-grow: 2;
-            padding: 5px;
-
-            ion-icon {
-                margin: 2px 5px;
-                font-size: 20px;
-            }
-
-            &>div {
-                display: flex;
-                align-items: center;
-            }
-        }
-
-        a {
-            color: $color4;
-        }
-    }
-
-    .candidat-infos {
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 20px;
-        flex: 0 0 260px;
-
-        .liste {
-            font-weight: bold;
-        }
-
-        .liste,
-        .tetes {
-            color: #2f3542;
-        }
-    }
+    background: $color2;
 }
 
 @media (min-width: 650px) {
@@ -263,13 +309,24 @@ article {
     text-transform: uppercase;
     font-size: 18px;
     padding: 8px;
+    display: flex;
+    align-items: center;
 
+    ion-icon {
+        margin-right: 5px;
+    }
+
+    ion-icon,
     span {
         visibility: hidden;
     }
 }
 
 article:first-child h2>span {
+    visibility: visible;
+}
+
+article:first-child h2>ion-icon {
     visibility: visible;
 }
 
