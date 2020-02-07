@@ -926,5 +926,20 @@
         "website": "www.lutte-ouvriere.org",
         "twitter": "LutteOuvriere",
         "propositions": []
+    },
+    {
+        "id": "ouvrier",
+        "tetes": [{
+            "prenom": "Laurent & Pierre",
+            "nom": "Piret"
+        }, {
+            "prenom": "Louis",
+            "nom": "Renault"
+        }],
+        "parti": "Parti ouvrier démocratique indépendant (POID)",
+        "liste": "Lutte ouvrière – Faire entendre le camp des travailleurs",
+        "website": "parti-ouvrier-independant.fr",
+        "twitter": "Parti_Ouvrier",
+        "propositions": []
     }
 ]
