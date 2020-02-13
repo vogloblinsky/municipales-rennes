@@ -155,6 +155,241 @@
                 "id": "appere-p-27",
                 "st": "st-11",
                 "label": "Soutenir le sport-santé"
+            },
+            {
+                "id": "appere-p-28",
+                "st": "st-16",
+                "label": "Un Quartier de la Création sur le site de l'ancien Technicentre"
+            },
+            {
+                "id": "appere-p-29",
+                "st": "st-16",
+                "label": "Un plan pour l'emploi et la formation"
+            },
+            {
+                "id": "appere-p-30",
+                "st": "st-16",
+                "label": "Un campus industriel sur le site de La Janais"
+            },
+            {
+                "id": "appere-p-31",
+                "st": "st-12",
+                "label": "Des « maisons de retraite à domicile »"
+            },
+            {
+                "id": "appere-p-32",
+                "st": "st-5",
+                "label": "Un départ en vacances pour les enfants qui en sont privés"
+            },
+            {
+                "id": "appere-p-33",
+                "st": "st-5",
+                "label": "Des goûters gratuits dans les écoles"
+            },
+            {
+                "id": "appere-p-34",
+                "st": "st-5",
+                "label": "Un centre aqualudique à Villejean"
+            },
+            {
+                "id": "appere-p-35",
+                "st": "st-5",
+                "label": "Créer 350 places en crèche"
+            },
+            {
+                "id": "appere-p-36",
+                "st": "st-29",
+                "label": "Gratuité des abonnements Star pour les -12 ans"
+            },
+            {
+                "id": "appere-p-37",
+                "st": "st-5",
+                "label": "Ouvrir de nouvelles écoles et rénover les existantes"
+            },
+            {
+                "id": "appere-p-38",
+                "st": "st-29",
+                "label": "Un grand plan d’éducation au numérique avec l’Edulab et les FabLabs"
+            },
+            {
+                "id": "appere-p-39",
+                "st": "st-13",
+                "label": "Un plan de sortie de la pauvreté"
+            },
+            {
+                "id": "appere-p-40",
+                "st": "st-13",
+                "label": "Ouvrir un centre municipal d’hébergement d’urgence"
+            },
+            {
+                "id": "appere-p-41",
+                "st": "st-13",
+                "label": "Créer des conciergeries de quartier"
+            },
+            {
+                "id": "appere-p-42",
+                "st": "st-23",
+                "label": "Une charte de la concertation pour les projets de construction"
+            },
+            {
+                "id": "appere-p-43",
+                "st": "st-24",
+                "label": "Tester les arrêts à la demande sur les lignes de bus"
+            },
+            {
+                "id": "appere-p-44",
+                "st": "st-27",
+                "label": "Ouvrir une Maison du Handicap"
+            },
+            {
+                "id": "appere-p-45",
+                "st": "st-6",
+                "label": "Poursuivre l'adaptation des services de propreté au rythme de la ville"
+            },
+            {
+                "id": "appere-p-46",
+                "st": "st-17",
+                "label": "Pas de hausse des impôts locaux"
+            },
+            {
+                "id": "appere-p-47",
+                "st": "st-23",
+                "label": "Lancer un plan de rénovation thermique des bâtiments municipaux"
+            },
+            {
+                "id": "appere-p-48",
+                "st": "st-7",
+                "label": "Extension du parc des prairies Saint-Martin"
+            },
+            {
+                "id": "appere-p-49",
+                "st": "st-15",
+                "label": "Accompagner la rénovation thermique de 47 000 logements"
+            },
+            {
+                "id": "appere-p-50",
+                "st": "st-19",
+                "label": "Ouvrir une Maison de la Tranquillité publique au palais Saint-Georges"
+            },
+            {
+                "id": "appere-p-51",
+                "st": "st-12",
+                "label": "Lutter contre l'alcoolisation excessive"
+            },
+            {
+                "id": "appere-p-52",
+                "st": "st-13",
+                "label": "Renforcer les gratuités sociales et les tarifications solidaires"
+            },
+            {
+                "id": "appere-p-53",
+                "st": "st-13",
+                "label": "Maintenir la bonne santé financière"
+            },
+            {
+                "id": "appere-p-54",
+                "st": "st-25",
+                "label": "Remplacer les véhicules thermiques par des véhicules électriques ou au gaz"
+            },
+            {
+                "id": "appere-p-55",
+                "st": "st-13",
+                "label": "Instaurer des jurys citoyens"
+            },
+            {
+                "id": "appere-p-56",
+                "st": "st-10",
+                "label": "Multiplier les budgets participatifs"
+            },
+            {
+                "id": "appere-p-57",
+                "st": "st-10",
+                "label": "Rendre systématiques les comités d'usagers"
+            },
+            {
+                "id": "appere-p-58",
+                "st": "st-10",
+                "label": "Ouvrir une Maison de la Fabrique citoyenne"
+            },
+            {
+                "id": "appere-p-59",
+                "st": "st-7",
+                "label": "Découvrir la Vilaine sur la place de la République"
+            },
+            {
+                "id": "appere-p-60",
+                "st": "st-7",
+                "label": "Relier les quartiers par un parc en réseau"
+            },
+            {
+                "id": "appere-p-61",
+                "st": "st-7",
+                "label": "Un plan biodiversité à l'échelle de la métropole"
+            },
+            {
+                "id": "appere-p-62",
+                "st": "st-7",
+                "label": "Limiter l'artificialisation des sols"
+            },
+            {
+                "id": "appere-p-63",
+                "st": "st-29",
+                "label": "Ouvrir un guichet unique pour l'accueil des nouveaux étudiants"
+            },
+            {
+                "id": "appere-p-64",
+                "st": "st-29",
+                "label": "Un plan de lutte contre la précarité étudiante"
+            },
+            {
+                "id": "appere-p-65",
+                "st": "st-16",
+                "label": "Renforcer le Plan emploi quartier"
+            },
+            {
+                "id": "appere-p-66",
+                "st": "st-16",
+                "label": "Créer des pépinières économiques de quartier"
+            },
+            {
+                "id": "appere-p-67",
+                "st": "st-28",
+                "label": "Des locaux commerciaux et artisanaux en location-accession"
+            },
+            {
+                "id": "appere-p-68",
+                "st": "st-28",
+                "label": "Soutenir la renaissance du Palais du Commerce"
+            },
+            {
+                "id": "appere-p-69",
+                "st": "st-28",
+                "label": "Accompagner la relance et la rénovation du Colombia"
+            },
+            {
+                "id": "appere-p-70",
+                "st": "st-28",
+                "label": "Conforter tous les pôles commerciaux de quartier"
+            },
+            {
+                "id": "appere-p-71",
+                "st": "st-28",
+                "label": "Un village d'artisans dans le centre ancien"
+            },
+            {
+                "id": "appere-p-72",
+                "st": "st-28",
+                "label": "Abandon du projet OpenSky"
+            },
+            {
+                "id": "appere-p-73",
+                "st": "st-23",
+                "label": "Des contrats de coopération avec les intercommunalités voisines"
+            },
+            {
+                "id": "appere-p-74",
+                "st": "st-9",
+                "label": "Promouvoir les langues et les cultures de Bretagne"
             }
         ]
     },

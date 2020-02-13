@@ -8,7 +8,7 @@
         "id": "t-2",
         "label": "Éducation",
         "icon": "bookmarks",
-        "sous-thematiques": ["st-4", "st-5"]
+        "sous-thematiques": ["st-4", "st-5", "st-29"]
     },
     {
         "id": "t-3",

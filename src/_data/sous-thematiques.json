@@ -111,7 +111,11 @@
         "id": "st-28"
     },
     {
-        "label": "Entreprises",
+        "label": "Jeunesse",
         "id": "st-29"
+    },
+    {
+        "label": "Entreprises",
+        "id": "st-30"
     }
 ]
