@@ -1,8 +1,9 @@
-[{
+[
+    {
         "id": "t-1",
         "label": "Economie / emploi",
         "icon": "calculator",
-        "sous-thematiques": ["st-1", "st-2", "st-3", "st-28", "st-29"]
+        "sous-thematiques": ["st-1", "st-2", "st-3", "st-28", "st-30"]
     },
     {
         "id": "t-2",
