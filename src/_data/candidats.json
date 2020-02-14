@@ -1,9 +1,12 @@
-[{
+[
+    {
         "id": "appere",
-        "tetes": [{
-            "prenom": "Nathalie",
-            "nom": "Appéré"
-        }],
+        "tetes": [
+            {
+                "prenom": "Nathalie",
+                "nom": "Appéré"
+            }
+        ],
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "avecnathalieappere.fr",
@@ -11,7 +14,8 @@
         "twitterFollowers": "797",
         "facebook": "avecnathalieappere",
         "facebookFollowers": "444",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "appere-p-1",
                 "st": "st-21",
                 "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
@@ -395,10 +399,12 @@
     },
     {
         "id": "gandon",
-        "tetes": [{
-            "prenom": "Carole",
-            "nom": "Gandon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Carole",
+                "nom": "Gandon"
+            }
+        ],
         "parti": "LaREM",
         "liste": "Révéler Rennes",
         "website": "reveler-rennes.bzh",
@@ -406,14 +412,19 @@
         "twitterFollowers": "839",
         "facebook": "RevelerRennes",
         "facebookFollowers": "394",
-        "polemiques": [{
-            "label": "Mailing malencontreux",
-            "references": [{
-                "titre": "",
-                "url": ""
-            }]
-        }],
-        "propositions": [{
+        "polemiques": [
+            {
+                "label": "Mailing malencontreux",
+                "references": [
+                    {
+                        "titre": "",
+                        "url": ""
+                    }
+                ]
+            }
+        ],
+        "propositions": [
+            {
                 "id": "gandon-p-1",
                 "st": "st-19",
                 "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
@@ -597,7 +608,8 @@
     },
     {
         "id": "verts",
-        "tetes": [{
+        "tetes": [
+            {
                 "prenom": "Matthieu",
                 "nom": "Theurier"
             },
@@ -613,14 +625,1017 @@
         "twitterFollowers": "415",
         "facebook": "RennesEcologie",
         "facebookFollowers": "1009",
-        "propositions": []
+        "propositions": [
+            {
+                "st": "st-2",
+                "label": "Appuyer la multiplication des coopératives",
+                "id": "verts-p-0"
+            },
+            {
+                "st": "st-2",
+                "label": "Plus de moyens financiers dédiés spécifiquement au développement de structures ESS",
+                "id": "verts-p-1"
+            },
+            {
+                "st": "st-2",
+                "label": "Un revenu de transition écologique pour les porteurs de projets à impact écologique et social positif",
+                "id": "verts-p-2"
+            },
+            {
+                "st": "st-2",
+                "label": "Renforcer le soutien à Bretagne Active ",
+                "id": "verts-p-3"
+            },
+            {
+                "st": "st-2",
+                "label": "Une société foncière pour des locaux moins chers pour les structures de l'ESS, les commerces de proximité et les tiers-lieux",
+                "id": "verts-p-4"
+            },
+            {
+                "st": "st-2",
+                "label": "Une meilleure répartition des aides économiques métropolitaines vers les quartiers politique de la ville et toutes les communes de la métropole",
+                "id": "verts-p-5"
+            },
+            {
+                "st": "st-2",
+                "label": "Une subvention aux emplois associatifs d'intérêt métropolitain pour des emplois stables, non précaires et qui répondent à un besoin local",
+                "id": "verts-p-6"
+            },
+            {
+                "st": "st-2",
+                "label": "Une enveloppe budgétaire agile pour accompagner les innovations et expérimentations",
+                "id": "verts-p-7"
+            },
+            {
+                "st": "st-2",
+                "label": "Des Etats généraux de la vie associative pour revoir la charte des engagements réciproques et recréer les conditions de la coopération entre ville et associations",
+                "id": "verts-p-8"
+            },
+            {
+                "st": "st-28",
+                "label": "Un pass commerce à l'échelle de la métropole pour la rénovation et l'amélioration des locaix des petits commerces",
+                "id": "verts-p-9"
+            },
+            {
+                "st": "st-28",
+                "label": "Un Fonds Rennes Métropole Commerce Artisanat pour soutenir les commerces de proximité et l'artisanat en difficulté et aider à l'installation ou la reprise d'activités",
+                "id": "verts-p-10"
+            },
+            {
+                "st": "st-28",
+                "label": "Refus de tout projet de nouveau centre commercial ou d'agrandissement qui bétonnerait des terres naturelles ou agricoles ",
+                "id": "verts-p-11"
+            },
+            {
+                "st": "st-28",
+                "label": "Abandon du projet Open Sky à Pacé",
+                "id": "verts-p-12"
+            },
+            {
+                "st": "st-28",
+                "label": "Révision du projet du Palais du Commerce",
+                "id": "verts-p-13"
+            },
+            {
+                "st": "st-28",
+                "label": "Des assises du commerce et de l'artisanat éco-responsable",
+                "id": "verts-p-14"
+            },
+            {
+                "st": "st-28",
+                "label": "Développement d'une filière de consigne du verre",
+                "id": "verts-p-15"
+            },
+            {
+                "st": "st-28",
+                "label": "Soutien au Galléco",
+                "id": "verts-p-16"
+            },
+            {
+                "st": "st-28",
+                "label": "Favoriser les livraisons décarbonnées",
+                "id": "verts-p-17"
+            },
+            {
+                "st": "st-28",
+                "label": "Soutien au réemploi, à la réutilisation, la réparation",
+                "id": "verts-p-18"
+            },
+            {
+                "st": "st-28",
+                "label": "Fin du subventionnement des heures de parkings offertes par l'association des commerçants mais transports en commun gratuits certains week-ends",
+                "id": "verts-p-19"
+            },
+            {
+                "st": "st-28",
+                "label": "Chalets du marché de Noël réservés à l'économie du réemploi, circulaire, écologique, du commerce équitable, de la culture et de solidarité",
+                "id": "verts-p-20"
+            },
+            {
+                "st": "st-28",
+                "label": "Interdiction d'ouverture des grands pôles commerciaux le dimanche",
+                "id": "verts-p-21"
+            },
+            {
+                "st": "st-28",
+                "label": "Une commission de conciliation entre bars/restaurant et riverains",
+                "id": "verts-p-22"
+            },
+            {
+                "st": "st-30",
+                "label": "Adapter les aides économiques pour servir aux entreprises de toutes les tailles",
+                "id": "verts-p-23"
+            },
+            {
+                "st": "st-30",
+                "label": "Systématiser le développement des tiers lieux ",
+                "id": "verts-p-24"
+            },
+            {
+                "st": "st-30",
+                "label": "Aides publiques conditionnées à des critères sociaux, environnementaux et de lutte contre les discriminations",
+                "id": "verts-p-25"
+            },
+            {
+                "st": "st-5",
+                "label": "300 à 400 nouvelles places en crèches",
+                "id": "verts-p-26"
+            },
+            {
+                "st": "st-5",
+                "label": "Lancer un grand plan d'éducation à la nature de la crèche à l'école et dans les centres de loisirs",
+                "id": "verts-p-27"
+            },
+            {
+                "st": "st-5",
+                "label": "Obtention du label écolo-crèche pour les crèches municipales (engagement écologique fort)",
+                "id": "verts-p-28"
+            },
+            {
+                "st": "st-5",
+                "label": "Développer des Maisons des Assistantes Maternelles",
+                "id": "verts-p-29"
+            },
+            {
+                "st": "st-5",
+                "label": "Fermeture des rues adjacentes à la circulation aux heures d'ouverture et fermeture des écoles",
+                "id": "verts-p-30"
+            },
+            {
+                "st": "st-5",
+                "label": "Végétaliser les cours d'école, construire ou rénover des écoles et crèches économes en énergie et éco-construites",
+                "id": "verts-p-31"
+            },
+            {
+                "st": "st-5",
+                "label": "Gratuité sociale des cantines et des centres de loisirs",
+                "id": "verts-p-32"
+            },
+            {
+                "st": "st-5",
+                "label": "50% de bio dans les cantines avec un objectif de 100%, 2 repas végétariens par semaine",
+                "id": "verts-p-33"
+            },
+            {
+                "st": "st-5",
+                "label": "Etudier la construction de 5 à 6 groupes scolaires ",
+                "id": "verts-p-34"
+            },
+            {
+                "st": "st-5",
+                "label": "Un budget participatif des écoles",
+                "id": "verts-p-35"
+            },
+            {
+                "st": "st-5",
+                "label": "Mise en place de jeux coopératifs et non-genrés dans les cours d'écoles",
+                "id": "verts-p-36"
+            },
+            {
+                "st": "st-5",
+                "label": "Apprentissage du breton, de la LSF et des langues et cultures étrangères",
+                "id": "verts-p-37"
+            },
+            {
+                "st": "st-5",
+                "label": "Semaine d'école à 4,5 jours ",
+                "id": "verts-p-38"
+            },
+            {
+                "st": "st-6",
+                "label": "Plus de moyens (financiers et humains) aux services de propreté de la ville",
+                "id": "verts-p-39"
+            },
+            {
+                "st": "st-6",
+                "label": "Campagne de sensibilisation à direction des habitant.e.s et des fêtard.e.s ",
+                "id": "verts-p-40"
+            },
+            {
+                "st": "st-6",
+                "label": "Augmenter le nombre de poubelles dans la rue, notamment de tri",
+                "id": "verts-p-41"
+            },
+            {
+                "st": "st-6",
+                "label": "Organiser des collectes citoyennes de déchets avec les jeunes des communes et des quartiers",
+                "id": "verts-p-42"
+            },
+            {
+                "st": "st-6",
+                "label": "Lutter contre le jet de mégot (interdicition de fumer dans les parcs et lieux forts de passage, sensibilisation)",
+                "id": "verts-p-43"
+            },
+            {
+                "st": "st-6",
+                "label": "Garantir l'accès à des toilettes gratuites et propres pour tou.te.s",
+                "id": "verts-p-44"
+            },
+            {
+                "st": "st-6",
+                "label": "Des déchetteries et recycleries mobiles dans tous les quartiers",
+                "id": "verts-p-45"
+            },
+            {
+                "st": "st-6",
+                "label": "Sanction des dépôts sauvages d'ordures au pied des immeubles",
+                "id": "verts-p-46"
+            },
+            {
+                "st": "st-6",
+                "label": "Consigne de recyclables dans tous les événements festifs",
+                "id": "verts-p-47"
+            },
+            {
+                "st": "st-7",
+                "label": "1 milliard d'euros pour le climat",
+                "id": "verts-p-48"
+            },
+            {
+                "st": "st-7",
+                "label": "Végétaliser la ville, les boulevards, les places, les cours d'école",
+                "id": "verts-p-49"
+            },
+            {
+                "st": "st-7",
+                "label": "Planter 5000 arbres par an",
+                "id": "verts-p-50"
+            },
+            {
+                "st": "st-7",
+                "label": "Sanctuariser les espaces naturels, notamment la Prévalaye",
+                "id": "verts-p-51"
+            },
+            {
+                "st": "st-7",
+                "label": "Sortie des pesticide dès 2025 ",
+                "id": "verts-p-52"
+            },
+            {
+                "st": "st-7",
+                "label": "Développer une agriculture urbaine de proximité",
+                "id": "verts-p-53"
+            },
+            {
+                "st": "st-7",
+                "label": "Faciliter l'installation des producteurs bio",
+                "id": "verts-p-54"
+            },
+            {
+                "st": "st-7",
+                "label": "Soutien aux associations de protection de l'environnement et des animaux",
+                "id": "verts-p-55"
+            },
+            {
+                "st": "st-7",
+                "label": "50% de bio dans les cantines avec un objectif de 100%, 2 repas végétariens par semaine",
+                "id": "verts-p-56"
+            },
+            {
+                "st": "st-7",
+                "label": "Une carte sortir! Alimentation durable pour une alimentation bio et locale à petit prix",
+                "id": "verts-p-57"
+            },
+            {
+                "st": "st-7",
+                "label": "Réhabilitation énergétique de 6000 logements par an",
+                "id": "verts-p-58"
+            },
+            {
+                "st": "st-7",
+                "label": "Construire uniquement des bâtiments passifs ou à énergie positive",
+                "id": "verts-p-59"
+            },
+            {
+                "st": "st-7",
+                "label": "Soutien aux filières des éco-matériaux",
+                "id": "verts-p-60"
+            },
+            {
+                "st": "st-7",
+                "label": "Développer les énergies renouvelables (solaire, bois, méthanisation, éolien)",
+                "id": "verts-p-61"
+            },
+            {
+                "st": "st-7",
+                "label": "Interdiction des panneaux publicitaires, extinction nocturne de l'éclairage des enseignes commerciales",
+                "id": "verts-p-62"
+            },
+            {
+                "st": "st-7",
+                "label": "Ville zéro déchet et zéro plastique",
+                "id": "verts-p-63"
+            },
+            {
+                "st": "st-7",
+                "label": "Une ressourcerie à moins de 5 minutes de chez chaque habitant.e",
+                "id": "verts-p-64"
+            },
+            {
+                "st": "st-7",
+                "label": "Réfléchir à la tarification incitative pour les déchets grâce à un débat public",
+                "id": "verts-p-65"
+            },
+            {
+                "st": "st-7",
+                "label": "Reprendre en gestion publique les contrats encore confiés à des délégataires privés pour l'eau et l'assainissement",
+                "id": "verts-p-66"
+            },
+            {
+                "st": "st-7",
+                "label": "Un budget carbone des projets numériques",
+                "id": "verts-p-67"
+            },
+            {
+                "st": "st-7",
+                "label": "Un écodatacenter alimenté en énergie renouvelable et produisant de l'énergie",
+                "id": "verts-p-68"
+            },
+            {
+                "st": "st-7",
+                "label": "Favoriser la low-tech",
+                "id": "verts-p-69"
+            },
+            {
+                "st": "st-25",
+                "label": "Lancer des Etats généraux de la sécurité urbaine dans tous les quartiers",
+                "id": "verts-p-70"
+            },
+            {
+                "st": "st-25",
+                "label": "Renforcer la présence humaine éducative dans les quartiers",
+                "id": "verts-p-71"
+            },
+            {
+                "st": "st-25",
+                "label": "Une Maison des femmes ouverte en continu pour les femmes en détresse et leurs enfants",
+                "id": "verts-p-72"
+            },
+            {
+                "st": "st-19",
+                "label": "Renforcer les effectifs de la police municipale dans une logique de proximité, de prévention et de médiation",
+                "id": "verts-p-73"
+            },
+            {
+                "st": "st-19",
+                "label": "Etendre les missions de la police municipale en matière de verbalisation des incivilités et de prévention routière",
+                "id": "verts-p-74"
+            },
+            {
+                "st": "st-25",
+                "label": "Pas de vidéosurveillance fixe",
+                "id": "verts-p-75"
+            },
+            {
+                "st": "st-19",
+                "label": "Non à l'armement de la police municipale",
+                "id": "verts-p-76"
+            },
+            {
+                "st": "st-20",
+                "label": "Devenir la métropole du vélo : au moins 100km de pistes cyclables supplémentaires",
+                "id": "verts-p-77"
+            },
+            {
+                "st": "st-20",
+                "label": "Rennes, ville à 30 kmh",
+                "id": "verts-p-78"
+            },
+            {
+                "st": "st-20",
+                "label": "Sécuriser les pistes cyclables - chaque enfant doit pouvoir aller à l'école en vélo en sécurité",
+                "id": "verts-p-79"
+            },
+            {
+                "st": "st-20",
+                "label": "Impliquer les associations de cyclistes dans la conception des aménagements",
+                "id": "verts-p-80"
+            },
+            {
+                "st": "st-20",
+                "label": "Davantage de stationnements et d'équipements vélo",
+                "id": "verts-p-81"
+            },
+            {
+                "st": "st-21",
+                "label": "Supprimer les portillons d'accès ",
+                "id": "verts-p-82"
+            },
+            {
+                "st": "st-24",
+                "label": "Augmenter la fréquence et améliorer l'accessibilité des bus au niveau métropolitain",
+                "id": "verts-p-83"
+            },
+            {
+                "st": "st-24",
+                "label": "5 lignes de trambus (Poterie, Beauregard-Villejean, Longchamps, Arsenal-Redon)",
+                "id": "verts-p-84"
+            },
+            {
+                "st": "st-26",
+                "label": "Un RER métropolitain ",
+                "id": "verts-p-85"
+            },
+            {
+                "st": "st-26",
+                "label": "Nouvelles gares dans les quartiers Lorient, Baud-Chardonnet et Nord Saint-Martin",
+                "id": "verts-p-86"
+            },
+            {
+                "st": "st-22",
+                "label": "Rémunérer le covoiturage à hauteur de l'équivalent d'un ticket de bus par trajet",
+                "id": "verts-p-87"
+            },
+            {
+                "st": "st-22",
+                "label": "Des voies réservées au covoiturage et aux bus sur la rocade",
+                "id": "verts-p-88"
+            },
+            {
+                "st": "st-22",
+                "label": "Suspendre la circulation automobile devant les écoles aux heures d'entrée et de sortie de classe",
+                "id": "verts-p-89"
+            },
+            {
+                "st": "st-22",
+                "label": "Favoriser les modes de livraisons propres dans le centre-ville",
+                "id": "verts-p-90"
+            },
+            {
+                "st": "st-22",
+                "label": "Créer des liaisons piétonnes entre les quartiers",
+                "id": "verts-p-91"
+            },
+            {
+                "st": "st-22",
+                "label": "Elargir la zone piétonne du centre-ville, de la place de Bretagne au pont Pasteur, de l'Hôtel-Dieu au Colombier",
+                "id": "verts-p-92"
+            },
+            {
+                "st": "st-22",
+                "label": "Gratuité des transports en commun pour les moins de 25 ans, jury citoyen pour étudier la gratuité universelle",
+                "id": "verts-p-93"
+            },
+            {
+                "st": "st-22",
+                "label": "Etudier le passage en régie publique des services de transports de Rennes Métropole",
+                "id": "verts-p-94"
+            },
+            {
+                "st": "st-10",
+                "label": "Des élus transparents et militants qui ne cumulent pas les mandats",
+                "id": "verts-p-95"
+            },
+            {
+                "st": "st-10",
+                "label": "Découpage plus modeste des quartiers",
+                "id": "verts-p-96"
+            },
+            {
+                "st": "st-10",
+                "label": "Révision de la charte de la démocratie locale avec les habitant.e.s",
+                "id": "verts-p-97"
+            },
+            {
+                "st": "st-10",
+                "label": "Elargissement du budget participatif et création de budgets participatifs complémentaires (notamment des écoles)",
+                "id": "verts-p-98"
+            },
+            {
+                "st": "st-10",
+                "label": "Expérimentation des jurys citoyens pour les grands projets urbains",
+                "id": "verts-p-99"
+            },
+            {
+                "st": "st-10",
+                "label": "Elaboration d'une méthode participative pour les projets d'urbanisme et d'aménagement",
+                "id": "verts-p-100"
+            },
+            {
+                "st": "st-10",
+                "label": "Mise en œuvre du référendum local, quelle que soit la nationalité",
+                "id": "verts-p-101"
+            },
+            {
+                "st": "st-10",
+                "label": "Dispositifs de droit d'interpellation et de pétition pour les citoyen.ne.s ",
+                "id": "verts-p-102"
+            },
+            {
+                "st": "st-10",
+                "label": "Plus de démocratie directe et de transparence dans le fonctionnement métropolitain",
+                "id": "verts-p-103"
+            },
+            {
+                "st": "st-10",
+                "label": "Soutien à la revendication du droit de vote des étrangers aux élections locales ",
+                "id": "verts-p-104"
+            },
+            {
+                "st": "st-9",
+                "label": "Refus de la construction du zenith/arena",
+                "id": "verts-p-105"
+            },
+            {
+                "st": "st-9",
+                "label": "Une action culturelle publique co-construite avec les habitant.e.s et les acteur.trice.s culturel.le.s",
+                "id": "verts-p-106"
+            },
+            {
+                "st": "st-9",
+                "label": "Une action longue d'éducation artistique et culturelle pour 100% des enfants scolarisés",
+                "id": "verts-p-107"
+            },
+            {
+                "st": "st-9",
+                "label": "Un campus supérieur artistique rue Hoche pour des formations de qualité",
+                "id": "verts-p-108"
+            },
+            {
+                "st": "st-9",
+                "label": "Un lieu dédié aux arts du cirque et de la rue",
+                "id": "verts-p-109"
+            },
+            {
+                "st": "st-9",
+                "label": "Un lieu dédié à l'image animé dans l'ancien Arvor",
+                "id": "verts-p-110"
+            },
+            {
+                "st": "st-9",
+                "label": "Une tarification spécifique pour l'organisation d'événements culturels par les acteurs locaux au Couvent des Jacobins",
+                "id": "verts-p-111"
+            },
+            {
+                "st": "st-9",
+                "label": "Un lieu de concerts sans programmateur, accessible en autonomie et à un coût très abordable pour toute association locale",
+                "id": "verts-p-112"
+            },
+            {
+                "st": "st-9",
+                "label": "Réhabilitation du théâtre du vieux Saint Etienne",
+                "id": "verts-p-113"
+            },
+            {
+                "st": "st-9",
+                "label": "Renforcer l'aide à l'emploi artistique dans les cafés cultures",
+                "id": "verts-p-114"
+            },
+            {
+                "st": "st-9",
+                "label": "Deux bibliothèques dans les quartiers Baud-Chardonnet et Armorique-Plaisance-Saint-Martin",
+                "id": "verts-p-115"
+            },
+            {
+                "st": "st-9",
+                "label": "Aides publiques conditionnées à des critères d'égalité femme-homme et d'écoresponsabilité",
+                "id": "verts-p-116"
+            },
+            {
+                "st": "st-9",
+                "label": "Une tarification solidaire commune à l'échelle de la métropole",
+                "id": "verts-p-117"
+            },
+            {
+                "st": "st-9",
+                "label": "Soutien à la Langue des Signes Française au nom de l'accessibilité et des droits culturels",
+                "id": "verts-p-118"
+            },
+            {
+                "st": "st-9",
+                "label": "Soutien aux langues de Bretagne, notamment dans la vie quotidienne et les services publics",
+                "id": "verts-p-119"
+            },
+            {
+                "st": "st-11",
+                "label": "Un parcours d'éducation physique et sportive dès la crèche",
+                "id": "verts-p-120"
+            },
+            {
+                "st": "st-11",
+                "label": "Systématiser la découverte des sports pour les enfants",
+                "id": "verts-p-121"
+            },
+            {
+                "st": "st-11",
+                "label": "Développer les équipements sportifs en libre accès dans l'espace public et accessibles à tou.te.s",
+                "id": "verts-p-122"
+            },
+            {
+                "st": "st-11",
+                "label": "Développer le socio-sport et le sport-santé",
+                "id": "verts-p-123"
+            },
+            {
+                "st": "st-11",
+                "label": "Généralisation de la tarification Sortir!",
+                "id": "verts-p-124"
+            },
+            {
+                "st": "st-11",
+                "label": "Développer la place des filières handisport",
+                "id": "verts-p-125"
+            },
+            {
+                "st": "st-11",
+                "label": "Renover la piscine de Villejean",
+                "id": "verts-p-126"
+            },
+            {
+                "st": "st-11",
+                "label": "Nouveaux équipements sportifs dans les quartiers (Beauregard, Jean Coquelin, Haut Sancé)",
+                "id": "verts-p-127"
+            },
+            {
+                "st": "st-11",
+                "label": "Une salle dédié au handball de haut niveau à Géniaux",
+                "id": "verts-p-128"
+            },
+            {
+                "st": "st-11",
+                "label": "2 rénovations d'équipements énergétiquement exemplaires par an en concertation avec les usager.e.s ",
+                "id": "verts-p-129"
+            },
+            {
+                "st": "st-11",
+                "label": "Couvrir le Roazhon Park de panneaux photovoltaïques",
+                "id": "verts-p-130"
+            },
+            {
+                "st": "st-23",
+                "label": "Non au projet Aqueduc Vilaine Aval, d'Open Sky à Pacé et du développement de la piste de l'aéroport de Saint Jacques",
+                "id": "verts-p-131"
+            },
+            {
+                "st": "st-23",
+                "label": "Moratoire sur les projets de tours de grande hauteur",
+                "id": "verts-p-132"
+            },
+            {
+                "st": "st-23",
+                "label": "Ralentir le rythme de constructions (1800 logements par an)",
+                "id": "verts-p-133"
+            },
+            {
+                "st": "st-23",
+                "label": "Obliger la construction de bâtiments passifs ou à énergie positive",
+                "id": "verts-p-134"
+            },
+            {
+                "st": "st-23",
+                "label": "Favoriser les éco-matériaux et le réemploi",
+                "id": "verts-p-135"
+            },
+            {
+                "st": "st-23",
+                "label": "Définir une méthode de co-construction des projets urbains avec les habitant.e.s",
+                "id": "verts-p-136"
+            },
+            {
+                "st": "st-23",
+                "label": "Végétaliser la ville, les boulevards, les places, les cours d'école",
+                "id": "verts-p-137"
+            },
+            {
+                "st": "st-23",
+                "label": "Planter 5000 arbres par an",
+                "id": "verts-p-138"
+            },
+            {
+                "st": "st-23",
+                "label": "Sanctuariser les espaces naturels, notamment la Prévalaye",
+                "id": "verts-p-139"
+            },
+            {
+                "st": "st-23",
+                "label": "Supprimer le parking Vilaine",
+                "id": "verts-p-140"
+            },
+            {
+                "st": "st-23",
+                "label": "Pietonniser les bords de l'Ille et de la Vilaine",
+                "id": "verts-p-141"
+            },
+            {
+                "st": "st-23",
+                "label": "Une \"architecture à la rennaise\" qui préserve le patrimoine ",
+                "id": "verts-p-142"
+            },
+            {
+                "st": "st-23",
+                "label": "Recréer des quartiers-villages pour faire une ville conviviale",
+                "id": "verts-p-143"
+            },
+            {
+                "st": "st-23",
+                "label": "Privilégier la rénovation à la construction",
+                "id": "verts-p-144"
+            },
+            {
+                "st": "st-23",
+                "label": "Réhabilitation énergétique de 6000 logements par an",
+                "id": "verts-p-145"
+            },
+            {
+                "st": "st-23",
+                "label": "Plafonnement et encadrement des loyers",
+                "id": "verts-p-146"
+            },
+            {
+                "st": "st-23",
+                "label": "Mise en œuvre du loyer unique pour les bénéficiaires de logement social",
+                "id": "verts-p-147"
+            },
+            {
+                "st": "st-23",
+                "label": "Davantage de solutions de logement pour les femmes en situation de vulnérabilité et les personnes en situation de handicap",
+                "id": "verts-p-148"
+            },
+            {
+                "st": "st-23",
+                "label": "Une garantie locative pour tous les jeunes qui en ont besoin",
+                "id": "verts-p-149"
+            },
+            {
+                "st": "st-23",
+                "label": "Développer une véritable stratégie pour l'habitat participatif au niveau métropolitain",
+                "id": "verts-p-150"
+            },
+            {
+                "st": "st-23",
+                "label": "Libérer la ville de la publicité",
+                "id": "verts-p-151"
+            },
+            {
+                "st": "st-12",
+                "label": "Végétaliser la ville, les boulevards, les places, les cours d'école",
+                "id": "verts-p-152"
+            },
+            {
+                "st": "st-12",
+                "label": "Réduire le nombre de voitures en ville et sur la rocade",
+                "id": "verts-p-153"
+            },
+            {
+                "st": "st-12",
+                "label": "Développer les parcours piétons et cyclables sécurisés dans les quartiers",
+                "id": "verts-p-154"
+            },
+            {
+                "st": "st-12",
+                "label": "Sortie des pesticide dès 2025 ",
+                "id": "verts-p-155"
+            },
+            {
+                "st": "st-12",
+                "label": "Développer l'agriculture urbaine et l'agriculture paysanne et biologique dans la métropole",
+                "id": "verts-p-156"
+            },
+            {
+                "st": "st-12",
+                "label": "Création d'une carte Sortir! Alimentation bio pour une alimentation bio et locale à petit prix",
+                "id": "verts-p-157"
+            },
+            {
+                "st": "st-12",
+                "label": "50% de bio dans la restauration collective avec un objectif de 100%, 2 repas végétariens par semaine",
+                "id": "verts-p-158"
+            },
+            {
+                "st": "st-12",
+                "label": "Un parcours d'éducation à la santé de la crèche au lycée",
+                "id": "verts-p-159"
+            },
+            {
+                "st": "st-12",
+                "label": "Développer les centres de santé de quartiers et des équipes de santé mobile (un bus de soins dentaires)",
+                "id": "verts-p-160"
+            },
+            {
+                "st": "st-12",
+                "label": "Des Etats généraux de la santé mentale pour organiser une réponse collective au manque d'offre de soins",
+                "id": "verts-p-161"
+            },
+            {
+                "st": "st-12",
+                "label": "Non à l'arrivée de la 4G sans étude d'impact sanitaire",
+                "id": "verts-p-162"
+            },
+            {
+                "st": "st-12",
+                "label": "Limiter l'exposition aux ondes, notamment dans le métro et près des lieux recevant des publics sensibles",
+                "id": "verts-p-163"
+            },
+            {
+                "st": "st-13",
+                "label": "Etendre la gratuité sociale de l'eau ",
+                "id": "verts-p-164"
+            },
+            {
+                "st": "st-13",
+                "label": "Une gratuité sociale pour les cantines et les centres de loisirs",
+                "id": "verts-p-165"
+            },
+            {
+                "st": "st-13",
+                "label": "Des tarifs préférentiels de l'énergie ",
+                "id": "verts-p-166"
+            },
+            {
+                "st": "st-13",
+                "label": "Gratuité des transports en commun pour les moins de 25 ans, jury citoyen pour étudier la gratuité universelle",
+                "id": "verts-p-167"
+            },
+            {
+                "st": "st-13",
+                "label": "Tarif social d'abonnement à internet",
+                "id": "verts-p-168"
+            },
+            {
+                "st": "st-13",
+                "label": "Encadrement et plafonnement des loyers",
+                "id": "verts-p-169"
+            },
+            {
+                "st": "st-13",
+                "label": "Elargissement des bénéficiaires du dispositif Sortir! ",
+                "id": "verts-p-170"
+            },
+            {
+                "st": "st-13",
+                "label": "Création d'une carte Sortir! Alimentation bio pour une alimentation bio et locale à petit prix",
+                "id": "verts-p-171"
+            },
+            {
+                "st": "st-13",
+                "label": "Un Revenu Minimum Garanti pour les ménages dont le revenu est inférieur à 867€/mois",
+                "id": "verts-p-172"
+            },
+            {
+                "st": "st-14",
+                "label": "50% de bio dans la restauration collective avec un objectif de 100%, 2 repas végétariens par semaine",
+                "id": "verts-p-173"
+            },
+            {
+                "st": "st-14",
+                "label": "Une gratuité sociale pour les cantines",
+                "id": "verts-p-174"
+            },
+            {
+                "st": "st-14",
+                "label": "Une collation et un goûter dans les écoles",
+                "id": "verts-p-175"
+            },
+            {
+                "st": "st-15",
+                "label": "Encadrement et plafonnement des loyers",
+                "id": "verts-p-176"
+            },
+            {
+                "st": "st-15",
+                "label": "Mise en œuvre du loyer unique pour les bénéficiaires de logement social",
+                "id": "verts-p-177"
+            },
+            {
+                "st": "st-15",
+                "label": "Une garantie locative pour tous les jeunes qui en ont besoin",
+                "id": "verts-p-178"
+            },
+            {
+                "st": "st-15",
+                "label": "Développer une véritable stratégie de l'habitat participatif au niveau métropolitain",
+                "id": "verts-p-179"
+            },
+            {
+                "st": "st-15",
+                "label": "Un parc de logements réservés pour mettre à l'abri les personnes à la rue avec accompagnement social",
+                "id": "verts-p-180"
+            },
+            {
+                "st": "st-15",
+                "label": "Une mise à l'abri inconditionnelle des personnes migrantes à la rue",
+                "id": "verts-p-181"
+            },
+            {
+                "st": "st-16",
+                "label": "Devenir territoire zéro chomeur de longue durée (Maurepas, Villejean, le Blosne)",
+                "id": "verts-p-182"
+            },
+            {
+                "st": "st-16",
+                "label": "Soutien à l'insertion par l'activité économique",
+                "id": "verts-p-183"
+            },
+            {
+                "st": "st-16",
+                "label": "Soutien aux entreprises de travail adapté pour les personnes en situation de handicap",
+                "id": "verts-p-184"
+            },
+            {
+                "st": "st-16",
+                "label": "Soutien aux coopératives et conciergeries de quartier",
+                "id": "verts-p-185"
+            },
+            {
+                "st": "st-17",
+                "label": "Des élus transparents et militants qui ne cumulent pas les mandats",
+                "id": "verts-p-186"
+            },
+            {
+                "st": "st-17",
+                "label": "Plus de démocratie directe et de transparence dans le fonctionnement métropolitain",
+                "id": "verts-p-187"
+            },
+            {
+                "st": "st-18",
+                "label": "Arrêt de la politique de rayonnement économique ",
+                "id": "verts-p-188"
+            },
+            {
+                "st": "st-18",
+                "label": "Pour une politique de coopération entre les territoires avec l'expérimentation de partenariats et de contrat de réciprocité",
+                "id": "verts-p-189"
+            },
+            {
+                "st": "st-18",
+                "label": "Un développement économique qui regarde vers la Bretagne historique et pas vers Paris",
+                "id": "verts-p-190"
+            },
+            {
+                "st": "st-27",
+                "label": "Campagnes de sensbilisation à la question du handicap et des discriminations à ce sujet",
+                "id": "verts-p-191"
+            },
+            {
+                "st": "st-27",
+                "label": "Des Etats généraux de l'accessibilité pour rénover la politique d'accessibilité de la ville",
+                "id": "verts-p-192"
+            },
+            {
+                "st": "st-27",
+                "label": "Encourager les pratiques artistiques et culturelles des personnes en situation de handicap",
+                "id": "verts-p-193"
+            },
+            {
+                "st": "st-27",
+                "label": "Améliorer l'accessibilité des transports en commun",
+                "id": "verts-p-194"
+            },
+            {
+                "st": "st-27",
+                "label": "Plus de logements adaptés",
+                "id": "verts-p-195"
+            },
+            {
+                "st": "st-27",
+                "label": "Un urbanisme qui favorise l'égalité avec des aménagements et des signalétiques adaptés",
+                "id": "verts-p-196"
+            },
+            {
+                "st": "st-27",
+                "label": "Une communication institutionnelle et une information muncipale adaptée",
+                "id": "verts-p-197"
+            },
+            {
+                "st": "st-27",
+                "label": "Au moins une solution d'accueil des enfants en situation de handicap dans chaque quartier",
+                "id": "verts-p-198"
+            },
+            {
+                "st": "st-27",
+                "label": "Des jeux adaptés dans les écoles et les parcs",
+                "id": "verts-p-199"
+            }
+        ]
     },
     {
         "id": "compagnon",
-        "tetes": [{
-            "prenom": "Charles",
-            "nom": "Compagnon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Charles",
+                "nom": "Compagnon"
+            }
+        ],
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
         "website": "www.compagnon2020.fr",
@@ -628,7 +1643,8 @@
         "twitterFollowers": "295",
         "facebook": "Compagnon2020",
         "facebookFollowers": "612",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "compagnon-p-1",
                 "st": "st-7",
                 "label": "Verdir la ville (cours d'écoles, toits, abris-bus, rues et boulevards)"
@@ -742,7 +1758,8 @@
     },
     {
         "id": "lepape",
-        "tetes": [{
+        "tetes": [
+            {
                 "prenom": "Enora",
                 "nom": "Le Pape"
             },
@@ -758,7 +1775,8 @@
         "twitterFollowers": "346",
         "facebook": "RennesEnCommun",
         "facebookFollowers": "1910",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "lepape-p-1",
                 "st": "st-22",
                 "label": "La gratuité progressive des transports en commun"
@@ -837,10 +1855,12 @@
     },
     {
         "id": "darcel",
-        "tetes": [{
-            "prenom": "Franck",
-            "nom": "Darcel"
-        }],
+        "tetes": [
+            {
+                "prenom": "Franck",
+                "nom": "Darcel"
+            }
+        ],
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
@@ -848,7 +1868,8 @@
         "twitterFollowers": "181",
         "facebook": "DarcelRennesBretagneEurope",
         "facebookFollowers": "574",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "darcel-p-1",
                 "st": "st-19",
                 "label": "Redéfinir les tâches de la Police Municipale"
@@ -1137,10 +2158,12 @@
     },
     {
         "id": "salmon",
-        "tetes": [{
-            "prenom": "Émeric",
-            "nom": "Salmon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Émeric",
+                "nom": "Salmon"
+            }
+        ],
         "parti": "RN",
         "website": "rassemblement-national35.fr",
         "liste": "Rassemblement national",
@@ -1152,10 +2175,12 @@
     },
     {
         "id": "hamon",
-        "tetes": [{
-            "prenom": "Valérie",
-            "nom": "Hamon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Valérie",
+                "nom": "Hamon"
+            }
+        ],
         "parti": "LO",
         "liste": "Lutte ouvrière – Faire entendre le camp des travailleurs",
         "website": "www.lutte-ouvriere.org",
@@ -1164,13 +2189,16 @@
     },
     {
         "id": "ouvrier",
-        "tetes": [{
-            "prenom": "Laurent & Pierre",
-            "nom": "Piret"
-        }, {
-            "prenom": "Louis",
-            "nom": "Renault"
-        }],
+        "tetes": [
+            {
+                "prenom": "Laurent & Pierre",
+                "nom": "Piret"
+            },
+            {
+                "prenom": "Louis",
+                "nom": "Renault"
+            }
+        ],
         "parti": "Parti ouvrier démocratique indépendant (POID)",
         "liste": "Parti ouvrier démocratique indépendant",
         "website": "parti-ouvrier-independant.fr",
