@@ -394,208 +394,6 @@
         ]
     },
     {
-        "id": "gandon",
-        "tetes": [{
-            "prenom": "Carole",
-            "nom": "Gandon"
-        }],
-        "parti": "LaREM",
-        "liste": "Révéler Rennes",
-        "website": "reveler-rennes.bzh",
-        "twitter": "RevelerRennes",
-        "twitterFollowers": "839",
-        "facebook": "RevelerRennes",
-        "facebookFollowers": "394",
-        "polemiques": [{
-            "label": "Mailing malencontreux",
-            "references": [{
-                "titre": "",
-                "url": ""
-            }]
-        }],
-        "propositions": [{
-                "id": "gandon-p-1",
-                "st": "st-19",
-                "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
-            },
-            {
-                "id": "gandon-p-2",
-                "st": "st-19",
-                "label": "Triplement du nombre de caméras de vidéoprotection pour prévenir les actes de délinquance. Recrutement, formation et déploiement de 30 policiers municipaux supplémentaires pour améliorer la sécurité des habitants de tous les quartiers."
-            },
-            {
-                "id": "gandon-p-3",
-                "st": "st-19",
-                "label": "Généralisation de la sécurisation des zones à proximité de toutes les crèches, les écoles primaires et les maisons de retraite."
-            },
-            {
-                "id": "gandon-p-4",
-                "st": "st-5",
-                "label": "Ouverture de 400 nouvelles places en crèche"
-            },
-            {
-                "id": "gandon-p-5",
-                "st": "st-11",
-                "label": "« Mon premier club » : licence de sport gratuite pour chaque enfant âgé de 6 ans"
-            },
-            {
-                "id": "gandon-p-6",
-                "st": "st-22",
-                "label": "Baisse par deux pour les jeunes de moins de 25 ans des tarifs d'abonnement sur le réseau Star et facilitation de la location de vélo longue durée"
-            },
-            {
-                "id": "gandon-p-7",
-                "st": "st-21",
-                "label": "Prolongement des 2 lignes de métro, notamment l’aéroport et le Parc des expositions"
-            },
-            {
-                "id": "gandon-p-8",
-                "st": "st-24",
-                "label": "Création d'une ligne de bus à 360° autour de la rocade, avec un réseau de parkings relais de grande capacité; et à terme, sera connecté aux stations de métro hors rocade"
-            },
-            {
-                "id": "gandon-p-9",
-                "st": "st-24",
-                "label": "Expérimentation des bus à hydrogène propre"
-            },
-            {
-                "id": "gandon-p-10",
-                "st": "st-22",
-                "label": "Création d'une flotte de navettes fluviales sur la Vilaine, allant de Cesson vers le Théâtre National de Bretagne, et de la place de Bretagne jusqu’au Stade rennais"
-            },
-            {
-                "id": "gandon-p-11",
-                "st": "st-20",
-                "label": "Mise en œuvre intégrale du plaidoyer porté par l’association Rayons d’action (150 km de réseau express vélo, fin des discontinuités et sécurisation des pistes cyclables, etc.)"
-            },
-            {
-                "id": "gandon-p-12",
-                "st": "st-15",
-                "label": "Moratoire sur les tours"
-            },
-            {
-                "id": "gandon-p-13",
-                "st": "st-7",
-                "label": "Plantation d'un arbre pour chaque nouveau Rennais"
-            },
-            {
-                "id": "gandon-p-14",
-                "st": "st-18",
-                "label": "Porter la candidature de Rennes pour devenir capitale européenne de la culture"
-            },
-            {
-                "id": "gandon-p-15",
-                "st": "st-9",
-                "label": "Arena 5.0 des arts numériques et du jeu vidéo, avec accueil de compétitions de e-sport et d'ateliers pour tous les publics"
-            },
-            {
-                "id": "gandon-p-16",
-                "st": "st-10",
-                "label": "Votations citoyennes pour les projets nouveaux et d’envergure proposés par la majorité en cours de mandat"
-            },
-            {
-                "id": "gandon-p-17",
-                "st": "st-23",
-                "label": "Relancer la réflexion sur le projet du Palais du commerce en y associant les actuelles parties prenantes mais aussi les citoyens et les commerçants"
-            },
-            {
-                "id": "gandon-p-18",
-                "st": "st-19",
-                "label": "Installation dans chaque quartier d'une antenne de police municipale"
-            },
-            {
-                "id": "gandon-p-19",
-                "st": "st-19",
-                "label": "Renforcer l'accès à l'hébergement et au logement pour les femmes victimes de violence"
-            },
-            {
-                "id": "gandon-p-20",
-                "st": "st-19",
-                "label": "Faire de Rennes une ville anti-prostitution, notamment celle des mineurs"
-            },
-            {
-                "id": "gandon-p-21",
-                "st": "st-28",
-                "label": "Numéro unique pour les commerçants pour le traitement des tags ou dépôt d'ordures sauvages"
-            },
-            {
-                "id": "gandon-p-22",
-                "st": "st-20",
-                "label": "Expérimenter une ou plusieurs vélo-rues dans le centre-ville"
-            },
-            {
-                "id": "gandon-p-23",
-                "st": "st-22",
-                "label": "Création de parkings relais au-delà de la rocade"
-            },
-            {
-                "id": "gandon-p-24",
-                "st": "st-15",
-                "label": "Intégration de services, commerçants et équipements simultanément à toute construction de logements collectifs"
-            },
-            {
-                "id": "gandon-p-25",
-                "st": "st-15",
-                "label": "Partage de l'effort d'accueil et de densification à l'échelle de la métropole"
-            },
-            {
-                "id": "gandon-p-26",
-                "st": "st-7",
-                "label": "Végétaliser la ville"
-            },
-            {
-                "id": "gandon-p-26",
-                "st": "st-23",
-                "label": "Priorité à l'aménagement et requalification urbaine et économique de l'hôpital sud"
-            },
-            {
-                "id": "gandon-p-27",
-                "st": "st-15",
-                "label": "Préserver le patrimoine bâti"
-            },
-            {
-                "id": "gandon-p-28",
-                "st": "st-15",
-                "label": "Organisation d'Assises du Patrimoine Rennais"
-            },
-            {
-                "id": "gandon-p-29",
-                "st": "st-15",
-                "label": "Programme de rénovation des façades à colombage, labellisation du patrimoine européen"
-            },
-            {
-                "id": "gandon-p-30",
-                "st": "st-15",
-                "label": "Maintien du parking Vilaine en améliorant son esthétique"
-            },
-            {
-                "id": "gandon-p-30",
-                "st": "st-22",
-                "label": "Transport gratuit, un samedi par mois"
-            },
-            {
-                "id": "gandon-p-30",
-                "st": "st-15",
-                "label": "Vigilance sur la durée des baux commerciaux, organisation de mise à disposition éphémère de rez-de-jardin pour associations et artistes"
-            },
-            {
-                "id": "gandon-p-31",
-                "st": "st-29",
-                "label": "Bâtir une stratégie de développement économique métropolitaine avec une cartographie actualisée des entreprises et leurs besoins"
-            },
-            {
-                "id": "gandon-p-32",
-                "st": "st-29",
-                "label": "Améliorer la visiblité des dispositifs d'accompagnement à la création, l'inovation et l'export"
-            },
-            {
-                "id": "gandon-p-33",
-                "st": "st-29",
-                "label": "Encourager la création de nouveaux services pour accompagner l'implantation des entreprises"
-            }
-        ]
-    },
-    {
         "id": "verts",
         "tetes": [{
                 "prenom": "Matthieu",
@@ -1612,6 +1410,208 @@
                 "st": "st-27",
                 "label": "Des jeux adaptés dans les écoles et les parcs",
                 "id": "verts-p-199"
+            }
+        ]
+    },
+    {
+        "id": "gandon",
+        "tetes": [{
+            "prenom": "Carole",
+            "nom": "Gandon"
+        }],
+        "parti": "LaREM",
+        "liste": "Révéler Rennes",
+        "website": "reveler-rennes.bzh",
+        "twitter": "RevelerRennes",
+        "twitterFollowers": "839",
+        "facebook": "RevelerRennes",
+        "facebookFollowers": "394",
+        "polemiques": [{
+            "label": "Mailing malencontreux",
+            "references": [{
+                "titre": "",
+                "url": ""
+            }]
+        }],
+        "propositions": [{
+                "id": "gandon-p-1",
+                "st": "st-19",
+                "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
+            },
+            {
+                "id": "gandon-p-2",
+                "st": "st-19",
+                "label": "Triplement du nombre de caméras de vidéoprotection pour prévenir les actes de délinquance. Recrutement, formation et déploiement de 30 policiers municipaux supplémentaires pour améliorer la sécurité des habitants de tous les quartiers."
+            },
+            {
+                "id": "gandon-p-3",
+                "st": "st-19",
+                "label": "Généralisation de la sécurisation des zones à proximité de toutes les crèches, les écoles primaires et les maisons de retraite."
+            },
+            {
+                "id": "gandon-p-4",
+                "st": "st-5",
+                "label": "Ouverture de 400 nouvelles places en crèche"
+            },
+            {
+                "id": "gandon-p-5",
+                "st": "st-11",
+                "label": "« Mon premier club » : licence de sport gratuite pour chaque enfant âgé de 6 ans"
+            },
+            {
+                "id": "gandon-p-6",
+                "st": "st-22",
+                "label": "Baisse par deux pour les jeunes de moins de 25 ans des tarifs d'abonnement sur le réseau Star et facilitation de la location de vélo longue durée"
+            },
+            {
+                "id": "gandon-p-7",
+                "st": "st-21",
+                "label": "Prolongement des 2 lignes de métro, notamment l’aéroport et le Parc des expositions"
+            },
+            {
+                "id": "gandon-p-8",
+                "st": "st-24",
+                "label": "Création d'une ligne de bus à 360° autour de la rocade, avec un réseau de parkings relais de grande capacité; et à terme, sera connecté aux stations de métro hors rocade"
+            },
+            {
+                "id": "gandon-p-9",
+                "st": "st-24",
+                "label": "Expérimentation des bus à hydrogène propre"
+            },
+            {
+                "id": "gandon-p-10",
+                "st": "st-22",
+                "label": "Création d'une flotte de navettes fluviales sur la Vilaine, allant de Cesson vers le Théâtre National de Bretagne, et de la place de Bretagne jusqu’au Stade rennais"
+            },
+            {
+                "id": "gandon-p-11",
+                "st": "st-20",
+                "label": "Mise en œuvre intégrale du plaidoyer porté par l’association Rayons d’action (150 km de réseau express vélo, fin des discontinuités et sécurisation des pistes cyclables, etc.)"
+            },
+            {
+                "id": "gandon-p-12",
+                "st": "st-15",
+                "label": "Moratoire sur les tours"
+            },
+            {
+                "id": "gandon-p-13",
+                "st": "st-7",
+                "label": "Plantation d'un arbre pour chaque nouveau Rennais"
+            },
+            {
+                "id": "gandon-p-14",
+                "st": "st-18",
+                "label": "Porter la candidature de Rennes pour devenir capitale européenne de la culture"
+            },
+            {
+                "id": "gandon-p-15",
+                "st": "st-9",
+                "label": "Arena 5.0 des arts numériques et du jeu vidéo, avec accueil de compétitions de e-sport et d'ateliers pour tous les publics"
+            },
+            {
+                "id": "gandon-p-16",
+                "st": "st-10",
+                "label": "Votations citoyennes pour les projets nouveaux et d’envergure proposés par la majorité en cours de mandat"
+            },
+            {
+                "id": "gandon-p-17",
+                "st": "st-23",
+                "label": "Relancer la réflexion sur le projet du Palais du commerce en y associant les actuelles parties prenantes mais aussi les citoyens et les commerçants"
+            },
+            {
+                "id": "gandon-p-18",
+                "st": "st-19",
+                "label": "Installation dans chaque quartier d'une antenne de police municipale"
+            },
+            {
+                "id": "gandon-p-19",
+                "st": "st-19",
+                "label": "Renforcer l'accès à l'hébergement et au logement pour les femmes victimes de violence"
+            },
+            {
+                "id": "gandon-p-20",
+                "st": "st-19",
+                "label": "Faire de Rennes une ville anti-prostitution, notamment celle des mineurs"
+            },
+            {
+                "id": "gandon-p-21",
+                "st": "st-28",
+                "label": "Numéro unique pour les commerçants pour le traitement des tags ou dépôt d'ordures sauvages"
+            },
+            {
+                "id": "gandon-p-22",
+                "st": "st-20",
+                "label": "Expérimenter une ou plusieurs vélo-rues dans le centre-ville"
+            },
+            {
+                "id": "gandon-p-23",
+                "st": "st-22",
+                "label": "Création de parkings relais au-delà de la rocade"
+            },
+            {
+                "id": "gandon-p-24",
+                "st": "st-15",
+                "label": "Intégration de services, commerçants et équipements simultanément à toute construction de logements collectifs"
+            },
+            {
+                "id": "gandon-p-25",
+                "st": "st-15",
+                "label": "Partage de l'effort d'accueil et de densification à l'échelle de la métropole"
+            },
+            {
+                "id": "gandon-p-26",
+                "st": "st-7",
+                "label": "Végétaliser la ville"
+            },
+            {
+                "id": "gandon-p-26",
+                "st": "st-23",
+                "label": "Priorité à l'aménagement et requalification urbaine et économique de l'hôpital sud"
+            },
+            {
+                "id": "gandon-p-27",
+                "st": "st-15",
+                "label": "Préserver le patrimoine bâti"
+            },
+            {
+                "id": "gandon-p-28",
+                "st": "st-15",
+                "label": "Organisation d'Assises du Patrimoine Rennais"
+            },
+            {
+                "id": "gandon-p-29",
+                "st": "st-15",
+                "label": "Programme de rénovation des façades à colombage, labellisation du patrimoine européen"
+            },
+            {
+                "id": "gandon-p-30",
+                "st": "st-15",
+                "label": "Maintien du parking Vilaine en améliorant son esthétique"
+            },
+            {
+                "id": "gandon-p-30",
+                "st": "st-22",
+                "label": "Transport gratuit, un samedi par mois"
+            },
+            {
+                "id": "gandon-p-30",
+                "st": "st-15",
+                "label": "Vigilance sur la durée des baux commerciaux, organisation de mise à disposition éphémère de rez-de-jardin pour associations et artistes"
+            },
+            {
+                "id": "gandon-p-31",
+                "st": "st-29",
+                "label": "Bâtir une stratégie de développement économique métropolitaine avec une cartographie actualisée des entreprises et leurs besoins"
+            },
+            {
+                "id": "gandon-p-32",
+                "st": "st-29",
+                "label": "Améliorer la visiblité des dispositifs d'accompagnement à la création, l'inovation et l'export"
+            },
+            {
+                "id": "gandon-p-33",
+                "st": "st-29",
+                "label": "Encourager la création de nouveaux services pour accompagner l'implantation des entreprises"
             }
         ]
     },
