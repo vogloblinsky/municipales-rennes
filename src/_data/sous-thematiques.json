@@ -117,5 +117,9 @@
     {
         "label": "Entreprises",
         "id": "st-30"
+    },
+    {
+        "label": "Enseignement supérieur",
+        "id": "st-31"
     }
 ]

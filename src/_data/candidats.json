@@ -1660,8 +1660,43 @@
             },
             {
                 "id": "gandon-p-43",
-                "st": "st-9",
-                "label": "Soutenir et donner davantage de visibilité aux actions menées par les associations en matière de solidarité internationale et de coopéra-tion européenne"
+                "st": "st-31",
+                "label": "Soutenir activement le projet UNIR qui réunit les deux universités et plusieurs grandes écoles rennaises en jouant un rôle d'animateur et de médiateur"
+            },
+            {
+                "id": "gandon-p-44",
+                "st": "st-31",
+                "label": "Inciter à la mise en oeuvre effective du Schéma de Développement Universitaire dont les objectifs doivent constituer un cahier des charges pour la future Université de Rennes"
+            },
+            {
+                "id": "gandon-p-45",
+                "st": "st-31",
+                "label": "Contribuer, en lien avec la Région Bretagne, à améliorer l'adéquation entre l'offre de formation et les besoins des entreprises du territoire, pour favoriser employabilité des diplômés rennais et leur insertion professionnelle"
+            },
+            {
+                "id": "gandon-p-46",
+                "st": "st-31",
+                "label": "Porter un projet d'aménagement concerté avec l'État et les universités pour mieux intégrer les campus dans la ville"
+            },
+            {
+                "id": "gandon-p-47",
+                "st": "st-15",
+                "label": "Lutter contre le mal-logement : mettre en place un plan de détection et de lutte contre l'insalubrité des logements étudiants"
+            },
+            {
+                "id": "gandon-p-48",
+                "st": "st-31",
+                "label": "Revisiter les dispositifs Dazibao et la Nuit des 4 Jeudis pour les rendre plus attractifs et mieux connectés aux attentes actuelles des étudiants"
+            },
+            {
+                "id": "gandon-p-49",
+                "st": "st-31",
+                "label": "Accompagner la transformation des campus Beaulieu et Villejean pour en faire de vrais lieux de vie, adaptés au rythme et aux besoins des étudiants"
+            },
+            {
+                "id": "gandon-p-49",
+                "st": "st-31",
+                "label": "Désenclaver le campus de Ker Lann en préparant sa desserte par le prolongement de la ligne A du métro"
             }
         ]
     },

@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "t-1",
         "label": "Economie / emploi",
         "icon": "calculator",
@@ -9,7 +8,7 @@
         "id": "t-2",
         "label": "Éducation",
         "icon": "bookmarks",
-        "sous-thematiques": ["st-4", "st-5", "st-29"]
+        "sous-thematiques": ["st-4", "st-5", "st-29", "st-31"]
     },
     {
         "id": "t-3",
