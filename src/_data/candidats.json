@@ -1,9 +1,12 @@
-[{
+[
+    {
         "id": "appere",
-        "tetes": [{
-            "prenom": "Nathalie",
-            "nom": "Appéré"
-        }],
+        "tetes": [
+            {
+                "prenom": "Nathalie",
+                "nom": "Appéré"
+            }
+        ],
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "avecnathalieappere.fr",
@@ -11,7 +14,8 @@
         "twitterFollowers": "797",
         "facebook": "avecnathalieappere",
         "facebookFollowers": "444",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "appere-p-1",
                 "st": "st-21",
                 "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
@@ -395,7 +399,8 @@
     },
     {
         "id": "verts",
-        "tetes": [{
+        "tetes": [
+            {
                 "prenom": "Matthieu",
                 "nom": "Theurier"
             },
@@ -411,7 +416,8 @@
         "twitterFollowers": "415",
         "facebook": "RennesEcologie",
         "facebookFollowers": "1009",
-        "propositions": [{
+        "propositions": [
+            {
                 "st": "st-2",
                 "label": "Appuyer la multiplication des coopératives",
                 "id": "verts-p-0"
@@ -1415,10 +1421,12 @@
     },
     {
         "id": "gandon",
-        "tetes": [{
-            "prenom": "Carole",
-            "nom": "Gandon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Carole",
+                "nom": "Gandon"
+            }
+        ],
         "parti": "LaREM",
         "liste": "Révéler Rennes",
         "website": "reveler-rennes.bzh",
@@ -1426,14 +1434,19 @@
         "twitterFollowers": "839",
         "facebook": "RevelerRennes",
         "facebookFollowers": "394",
-        "polemiques": [{
-            "label": "Mailing malencontreux",
-            "references": [{
-                "titre": "",
-                "url": ""
-            }]
-        }],
-        "propositions": [{
+        "polemiques": [
+            {
+                "label": "Mailing malencontreux",
+                "references": [
+                    {
+                        "titre": "",
+                        "url": ""
+                    }
+                ]
+            }
+        ],
+        "propositions": [
+            {
                 "id": "gandon-p-1",
                 "st": "st-19",
                 "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
@@ -1617,10 +1630,12 @@
     },
     {
         "id": "compagnon",
-        "tetes": [{
-            "prenom": "Charles",
-            "nom": "Compagnon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Charles",
+                "nom": "Compagnon"
+            }
+        ],
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
         "website": "www.compagnon2020.fr",
@@ -1628,7 +1643,8 @@
         "twitterFollowers": "295",
         "facebook": "Compagnon2020",
         "facebookFollowers": "612",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "compagnon-p-1",
                 "st": "st-7",
                 "label": "Verdir la ville (cours d'écoles, toits, abris-bus, rues et boulevards)"
@@ -1742,7 +1758,8 @@
     },
     {
         "id": "lepape",
-        "tetes": [{
+        "tetes": [
+            {
                 "prenom": "Enora",
                 "nom": "Le Pape"
             },
@@ -1758,7 +1775,8 @@
         "twitterFollowers": "346",
         "facebook": "RennesEnCommun",
         "facebookFollowers": "1910",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "lepape-p-1",
                 "st": "st-22",
                 "label": "La gratuité progressive des transports en commun"
@@ -1832,15 +1850,72 @@
                 "id": "lepape-p-15",
                 "st": "st-17",
                 "label": "Instaurer la révocabilité des élu.e.s"
+            },
+            {
+                "id": "lepape-p-16",
+                "st": "st-10",
+                "label": "Tirage au sort intégral du collège « habitant·e·s » du Conseil de quartier et attribution du vrai pouvoir aux Assemblées de quartier"
+            },
+            {
+                "id": "lepape-p-17",
+                "st": "st-10",
+                "label": "Embauche d’un·e « manager » ou d’un·e « animateur·rice » de la démocratie dans chaque quartier"
+            },
+            {
+                "id": "lepape-p-18",
+                "st": "st-10",
+                "label": "Attribution d’un plus grand pouvoir décisionnaire aux Assemblées de quartier et à leur Conseil de quartier en fixant l’objectif, à terme, d’en faire des « mini conseils municipaux citoyens » de quartier"
+            },
+            {
+                "id": "lepape-p-19",
+                "st": "st-10",
+                "label": "Signature d’un « contrat moral » entre les élu·e·s et la population pour s’assurer qu’il sera respecté quel que soit le résultat d’une votation"
+            },
+            {
+                "id": "lepape-p-20",
+                "st": "st-10",
+                "label": "Systématisation de la votation lorsqu’il s’agit de gros investissements publics dépassant une certaine somme à déterminer pour Rennes et pour la Métropole"
+            },
+            {
+                "id": "lepape-p-21",
+                "st": "st-10",
+                "label": "Possibilité pour les citoyen·ne·s d’organiser des votations sur tous les sujets qui entrent dans les compétences de la Ville et de la Métropole"
+            },
+            {
+                "id": "lepape-p-22",
+                "st": "st-10",
+                "label": "Fléchage des ressources nécessaires pour répondre aux besoins de fonctionnement des projets votés dans le cadre du budget participatif"
+            },
+            {
+                "id": "lepape-p-23",
+                "st": "st-10",
+                "label": "Possibilité pour les porteur·se·s de projets de les présenter dans le cadre de la « Journée de la démocratie »"
+            },
+            {
+                "id": "lepape-p-24",
+                "st": "st-10",
+                "label": "Démultiplication des points de vote dans différents organismes publics ou parapublics"
+            },
+            {
+                "id": "lepape-p-25",
+                "st": "st-10",
+                "label": "Promotion de budgets participatifs sectoriels, pour les budgets des écoles ou des bailleurs sociaux par ex"
+            },
+            {
+                "id": "lepape-p-26",
+                "st": "st-10",
+                "label": "Expérimentation d’un budget participatif thématique par an. "
             }
         ]
     },
     {
         "id": "darcel",
-        "tetes": [{
-            "prenom": "Franck",
-            "nom": "Darcel"
-        }],
+        "tetes": [
+            {
+                "prenom": "Franck",
+                "nom": "Darcel"
+            }
+        ],
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
@@ -1848,7 +1923,8 @@
         "twitterFollowers": "181",
         "facebook": "DarcelRennesBretagneEurope",
         "facebookFollowers": "574",
-        "propositions": [{
+        "propositions": [
+            {
                 "id": "darcel-p-1",
                 "st": "st-19",
                 "label": "Redéfinir les tâches de la Police Municipale"
@@ -2137,10 +2213,12 @@
     },
     {
         "id": "salmon",
-        "tetes": [{
-            "prenom": "Émeric",
-            "nom": "Salmon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Émeric",
+                "nom": "Salmon"
+            }
+        ],
         "parti": "RN",
         "website": "rassemblement-national35.fr",
         "liste": "Rassemblement national",
@@ -2148,87 +2226,108 @@
         "twitterFollowers": "2913",
         "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
         "facebookFollowers": "212",
-        "propositions": [{
-            "id": "salmon-p-1",
-            "st": "st-7",
-            "label": "Développer la végétalisation et les îlots de fraîcheur"
-        }, {
-            "id": "salmon-p-2",
-            "st": "st-23",
-            "label": "Promouvoir l’éclairage public intelligent et atteindre le 100 % LED"
-        }, {
-            "id": "salmon-p-3",
-            "st": "st-24",
-            "label": "Encourager les bus à hydrogène et promouvoir la filière bretonne"
-        }, {
-            "id": "salmon-p-4",
-            "st": "st-20",
-            "label": "Sécuriser les pistes cyclables en privilégiant les voies en site propre"
-        }, {
-            "id": "salmon-p-5",
-            "st": "st-5",
-            "label": "Favoriser le localisme dans les cantines"
-        }, {
-            "id": "salmon-p-6",
-            "st": "st-3",
-            "label": "Compléter et encourager les AMAP pour la livraison de fruits et légumes locaux"
-        }, {
-            "id": "salmon-p-7",
-            "st": "st-2",
-            "label": "Développer les jardins partagés et familiaux"
-        }, {
-            "id": "salmon-p-8",
-            "st": "st-8",
-            "label": "Mettre en place des chaufferies bois pour nos piscines en les finançant grâce aux fonds « européens »"
-        }, {
-            "id": "salmon-p-8",
-            "st": "st-28",
-            "label": "Installer des marchés permanents dans les quartiers, ouverts aux producteurs locaux"
-        }, {
-            "id": "salmon-p-9",
-            "st": "st-15",
-            "label": "Fin au bétonnage en développant les identités de quartier et en respectant leur dimension paysagère"
-        }, {
-            "id": "salmon-p-10",
-            "st": "st-27",
-            "label": "Evaluer et à éliminer tous les obstacles rencontrés par les personnes à mobilité réduite"
-        }, {
-            "id": "salmon-p-11",
-            "st": "st-28",
-            "label": "Redynamiser les dalles commerciales dans chaque quartier"
-        }, {
-            "id": "salmon-p-12",
-            "st": "st-23",
-            "label": "Mener un audit sur les passoires énergétiques"
-        }, {
-            "id": "salmon-p-13",
-            "st": "st-19",
-            "label": "Triplement des effectifs de la police municipale"
-        }]
+        "propositions": [
+            {
+                "id": "salmon-p-1",
+                "st": "st-7",
+                "label": "Développer la végétalisation et les îlots de fraîcheur"
+            },
+            {
+                "id": "salmon-p-2",
+                "st": "st-23",
+                "label": "Promouvoir l’éclairage public intelligent et atteindre le 100 % LED"
+            },
+            {
+                "id": "salmon-p-3",
+                "st": "st-24",
+                "label": "Encourager les bus à hydrogène et promouvoir la filière bretonne"
+            },
+            {
+                "id": "salmon-p-4",
+                "st": "st-20",
+                "label": "Sécuriser les pistes cyclables en privilégiant les voies en site propre"
+            },
+            {
+                "id": "salmon-p-5",
+                "st": "st-5",
+                "label": "Favoriser le localisme dans les cantines"
+            },
+            {
+                "id": "salmon-p-6",
+                "st": "st-3",
+                "label": "Compléter et encourager les AMAP pour la livraison de fruits et légumes locaux"
+            },
+            {
+                "id": "salmon-p-7",
+                "st": "st-2",
+                "label": "Développer les jardins partagés et familiaux"
+            },
+            {
+                "id": "salmon-p-8",
+                "st": "st-8",
+                "label": "Mettre en place des chaufferies bois pour nos piscines en les finançant grâce aux fonds « européens »"
+            },
+            {
+                "id": "salmon-p-8",
+                "st": "st-28",
+                "label": "Installer des marchés permanents dans les quartiers, ouverts aux producteurs locaux"
+            },
+            {
+                "id": "salmon-p-9",
+                "st": "st-15",
+                "label": "Fin au bétonnage en développant les identités de quartier et en respectant leur dimension paysagère"
+            },
+            {
+                "id": "salmon-p-10",
+                "st": "st-27",
+                "label": "Evaluer et à éliminer tous les obstacles rencontrés par les personnes à mobilité réduite"
+            },
+            {
+                "id": "salmon-p-11",
+                "st": "st-28",
+                "label": "Redynamiser les dalles commerciales dans chaque quartier"
+            },
+            {
+                "id": "salmon-p-12",
+                "st": "st-23",
+                "label": "Mener un audit sur les passoires énergétiques"
+            },
+            {
+                "id": "salmon-p-13",
+                "st": "st-19",
+                "label": "Triplement des effectifs de la police municipale"
+            }
+        ]
     },
     {
         "id": "hamon",
-        "tetes": [{
-            "prenom": "Valérie",
-            "nom": "Hamon"
-        }],
+        "tetes": [
+            {
+                "prenom": "Valérie",
+                "nom": "Hamon"
+            }
+        ],
         "parti": "LO",
         "liste": "Lutte ouvrière – Faire entendre le camp des travailleurs",
         "website": "www.lutte-ouvriere.org",
         "twitter": "LutteOuvriere",
-        "propositions": [{
-            "id": "hamon-p-1",
-            "st": "st-7",
-            "label": "Seuls les travailleurs ont, par leur rôle au cœur de l’économie, la puissance sociale à même de renverser le capitalisme qui afflige l’humanité et la planète de dégâts irrémédiables"
-        }, {
-            "id": "hamon-p-2",
-            "st": "st-13",
-            "label": "Une mairie au service des travailleurs appuiera les habitants des quartiers ouvriers mobilisés pour réquisitionner les logements vides pour qu’aucune famille, aucun enfant ne dorme dehors"
-        }]
+        "propositions": [
+            {
+                "id": "hamon-p-1",
+                "st": "st-7",
+                "label": "Seuls les travailleurs ont, par leur rôle au cœur de l’économie, la puissance sociale à même de renverser le capitalisme qui afflige l’humanité et la planète de dégâts irrémédiables"
+            },
+            {
+                "id": "hamon-p-2",
+                "st": "st-13",
+                "label": "Une mairie au service des travailleurs appuiera les habitants des quartiers ouvriers mobilisés pour réquisitionner les logements vides pour qu’aucune famille, aucun enfant ne dorme dehors"
+            }
+        ]
     },
     {
         "id": "ouvrier",
-        "tetes": [{
+        "tetes": [
+            {
                 "prenom": "Laurent & Pierre",
                 "nom": "Piret"
             },
@@ -2241,34 +2340,42 @@
         "liste": "Parti ouvrier démocratique indépendant",
         "website": "parti-ouvrier-independant.fr",
         "twitter": "Parti_Ouvrier",
-        "propositions": [{
-            "id": "ouvrier-p-1",
-            "st": "st-26",
-            "label": "Priorité au ferroviaire en agissant pour la réouverture de la ligne Rennes, Fougères ainsi que les gares qui ont été fermées sous le dernier mandat"
-        }, {
-            "id": "ouvrier-p-2",
-            "st": "st-22",
-            "label": "Les transports en commun gratuits immédiatement"
-        }, {
-            "id": "ouvrier-p-3",
-            "st": "st-7",
-            "label": "Remunicipalisation de tous les services dépendants des jardins"
-        }, {
-            "id": "ouvrier-p-4",
-            "st": "st-7",
-            "label": "Création d’une pépinière municipale ou intercommunautaire"
-        }, {
-            "id": "ouvrier-p-5",
-            "st": "st-15",
-            "label": "Interdire les expulsions locatives"
-        }, {
-            "id": "ouvrier-p-6",
-            "st": "st-15",
-            "label": "Retour de l’aide à la pierre qui permet de mettre sur le marché des logements à loyers réellement modérés"
-        }, {
-            "id": "ouvrier-p-7",
-            "st": "st-6",
-            "label": "Collecte des ordures ménagères doit être reprise en régie municipale"
-        }]
+        "propositions": [
+            {
+                "id": "ouvrier-p-1",
+                "st": "st-26",
+                "label": "Priorité au ferroviaire en agissant pour la réouverture de la ligne Rennes, Fougères ainsi que les gares qui ont été fermées sous le dernier mandat"
+            },
+            {
+                "id": "ouvrier-p-2",
+                "st": "st-22",
+                "label": "Les transports en commun gratuits immédiatement"
+            },
+            {
+                "id": "ouvrier-p-3",
+                "st": "st-7",
+                "label": "Remunicipalisation de tous les services dépendants des jardins"
+            },
+            {
+                "id": "ouvrier-p-4",
+                "st": "st-7",
+                "label": "Création d’une pépinière municipale ou intercommunautaire"
+            },
+            {
+                "id": "ouvrier-p-5",
+                "st": "st-15",
+                "label": "Interdire les expulsions locatives"
+            },
+            {
+                "id": "ouvrier-p-6",
+                "st": "st-15",
+                "label": "Retour de l’aide à la pierre qui permet de mettre sur le marché des logements à loyers réellement modérés"
+            },
+            {
+                "id": "ouvrier-p-7",
+                "st": "st-6",
+                "label": "Collecte des ordures ménagères doit être reprise en régie municipale"
+            }
+        ]
     }
 ]
