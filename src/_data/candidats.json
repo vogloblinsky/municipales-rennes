@@ -2541,6 +2541,31 @@
                 "id": "darcel-p-75",
                 "st": "st-19",
                 "label": "Installer de manière pérenne des policiers dans l’enceinte de Pontchaillou"
+            },
+            {
+                "id": "darcel-p-76",
+                "st": "st-6",
+                "label": "Rappeler qu’une des missions premières de la police municipale est de combattre ces incivilités qui impactent souvent la propreté de la ville"
+            },
+            {
+                "id": "darcel-p-77",
+                "st": "st-6",
+                "label": "Insister pour que cette police municipale fasse respecter fermement les arrêtés municipaux concernant l’interdiction de la consommation d’alcool sur la voie publique"
+            },
+            {
+                "id": "darcel-p-78",
+                "st": "st-6",
+                "label": "Installer des vespasiennes dans plusieurs endroits de la ville"
+            },
+            {
+                "id": "darcel-p-79",
+                "st": "st-6",
+                "label": "Être beaucoup plus ferme en ce qui concerne les déjections canines"
+            },
+            {
+                "id": "darcel-p-80",
+                "st": "st-6",
+                "label": "Revoir les cadences de passage des éboueurs car elles ont sensiblement diminué ces derniers temps dans de nombreux quartiers"
             }
         ]
     },
