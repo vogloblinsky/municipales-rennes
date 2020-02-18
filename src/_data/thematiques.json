@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "t-1",
         "label": "Economie / emploi",
         "icon": "calculator",
@@ -60,5 +61,11 @@
         "label": "Culture et sport",
         "icon": "book",
         "sous-thematiques": ["st-9", "st-11"]
+    },
+    {
+        "id": "t-10",
+        "label": "Milieu associatif",
+        "icon": "body",
+        "sous-thematiques": ["st-32"]
     }
 ]

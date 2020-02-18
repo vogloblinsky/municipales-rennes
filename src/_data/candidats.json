@@ -50,7 +50,11 @@
                 "st": "st-13",
                 "label": "Travailler à un lieu d’accueil permanent pour les femmes victimes de violence"
             },
-            { "id": "appere-p-9", "st": "st-7", "label": "Planter 30 000 arbres durant le mandat" },
+            {
+                "id": "appere-p-9",
+                "st": "st-7",
+                "label": "Planter 30 000 arbres durant le mandat"
+            },
             {
                 "id": "appere-p-10",
                 "st": "st-20",
@@ -61,13 +65,41 @@
                 "st": "st-2",
                 "label": "Créer une Réserve Citoyenne de bénévoles pour les associations"
             },
-            { "id": "appere-p-12", "st": "st-23", "label": "Acquérir la prison Jacques-Cartier" },
-            { "id": "appere-p-13", "st": "st-9", "label": "Gratuité de l'abonnement aux bibliothèques et des musées" },
-            { "id": "appere-p-14", "st": "st-13", "label": "Délivrer automatiquement la carte Sortir" },
-            { "id": "appere-p-15", "st": "st-9", "label": "Rénover et agrandir le Musée des Beaux-arts" },
-            { "id": "appere-p-16", "st": "st-9", "label": "Ouvrir un lieu dédié à la photographie" },
-            { "id": "appere-p-17", "st": "st-23", "label": "Transformer l’ancien réservoir des Gallets" },
-            { "id": "appere-p-18", "st": "st-9", "label": "Multiplier les lieux de culture dans les quartiers" },
+            {
+                "id": "appere-p-12",
+                "st": "st-23",
+                "label": "Acquérir la prison Jacques-Cartier"
+            },
+            {
+                "id": "appere-p-13",
+                "st": "st-9",
+                "label": "Gratuité de l'abonnement aux bibliothèques et des musées"
+            },
+            {
+                "id": "appere-p-14",
+                "st": "st-13",
+                "label": "Délivrer automatiquement la carte Sortir"
+            },
+            {
+                "id": "appere-p-15",
+                "st": "st-9",
+                "label": "Rénover et agrandir le Musée des Beaux-arts"
+            },
+            {
+                "id": "appere-p-16",
+                "st": "st-9",
+                "label": "Ouvrir un lieu dédié à la photographie"
+            },
+            {
+                "id": "appere-p-17",
+                "st": "st-23",
+                "label": "Transformer l’ancien réservoir des Gallets"
+            },
+            {
+                "id": "appere-p-18",
+                "st": "st-9",
+                "label": "Multiplier les lieux de culture dans les quartiers"
+            },
             {
                 "id": "appere-p-19",
                 "st": "st-9",
@@ -78,106 +110,286 @@
                 "st": "st-9",
                 "label": "Attribuer une bourse au moment de la première création artistique"
             },
-            { "id": "appere-p-21", "st": "st-9", "label": "Instaurer des « Cartes blanches » pour les jeunes" },
-            { "id": "appere-p-22", "st": "st-11", "label": "Un centre aqualudique à Villejean" },
-            { "id": "appere-p-23", "st": "st-23", "label": "Rénovation thermique de tous les gymnases" },
-            { "id": "appere-p-23", "st": "st-11", "label": "Une salle de 2 500 places dédiée au sport collectif" },
-            { "id": "appere-p-23", "st": "st-11", "label": "Une halle sportive au Blosne" },
-            { "id": "appere-p-24", "st": "st-11", "label": "Rénover la piste d’athlétisme du stade Courtemanche" },
-            { "id": "appere-p-25", "st": "st-11", "label": "Créer un pôle sportif rugby au stade Alain-Crubillé" },
-            { "id": "appere-p-26", "st": "st-11", "label": "Rennes centre de préparation des JO 2024" },
-            { "id": "appere-p-27", "st": "st-11", "label": "Soutenir le sport-santé" },
+            {
+                "id": "appere-p-21",
+                "st": "st-9",
+                "label": "Instaurer des « Cartes blanches » pour les jeunes"
+            },
+            {
+                "id": "appere-p-22",
+                "st": "st-11",
+                "label": "Un centre aqualudique à Villejean"
+            },
+            {
+                "id": "appere-p-23",
+                "st": "st-23",
+                "label": "Rénovation thermique de tous les gymnases"
+            },
+            {
+                "id": "appere-p-23",
+                "st": "st-11",
+                "label": "Une salle de 2 500 places dédiée au sport collectif"
+            },
+            {
+                "id": "appere-p-23",
+                "st": "st-11",
+                "label": "Une halle sportive au Blosne"
+            },
+            {
+                "id": "appere-p-24",
+                "st": "st-11",
+                "label": "Rénover la piste d’athlétisme du stade Courtemanche"
+            },
+            {
+                "id": "appere-p-25",
+                "st": "st-11",
+                "label": "Créer un pôle sportif rugby au stade Alain-Crubillé"
+            },
+            {
+                "id": "appere-p-26",
+                "st": "st-11",
+                "label": "Rennes centre de préparation des JO 2024"
+            },
+            {
+                "id": "appere-p-27",
+                "st": "st-11",
+                "label": "Soutenir le sport-santé"
+            },
             {
                 "id": "appere-p-28",
                 "st": "st-16",
                 "label": "Un Quartier de la Création sur le site de l'ancien Technicentre"
             },
-            { "id": "appere-p-29", "st": "st-16", "label": "Un plan pour l'emploi et la formation" },
-            { "id": "appere-p-30", "st": "st-16", "label": "Un campus industriel sur le site de La Janais" },
-            { "id": "appere-p-31", "st": "st-12", "label": "Des « maisons de retraite à domicile »" },
-            { "id": "appere-p-32", "st": "st-5", "label": "Un départ en vacances pour les enfants qui en sont privés" },
-            { "id": "appere-p-33", "st": "st-5", "label": "Des goûters gratuits dans les écoles" },
-            { "id": "appere-p-34", "st": "st-5", "label": "Un centre aqualudique à Villejean" },
-            { "id": "appere-p-35", "st": "st-5", "label": "Créer 350 places en crèche" },
-            { "id": "appere-p-36", "st": "st-29", "label": "Gratuité des abonnements Star pour les -12 ans" },
-            { "id": "appere-p-37", "st": "st-5", "label": "Ouvrir de nouvelles écoles et rénover les existantes" },
+            {
+                "id": "appere-p-29",
+                "st": "st-16",
+                "label": "Un plan pour l'emploi et la formation"
+            },
+            {
+                "id": "appere-p-30",
+                "st": "st-16",
+                "label": "Un campus industriel sur le site de La Janais"
+            },
+            {
+                "id": "appere-p-31",
+                "st": "st-12",
+                "label": "Des « maisons de retraite à domicile »"
+            },
+            {
+                "id": "appere-p-32",
+                "st": "st-5",
+                "label": "Un départ en vacances pour les enfants qui en sont privés"
+            },
+            {
+                "id": "appere-p-33",
+                "st": "st-5",
+                "label": "Des goûters gratuits dans les écoles"
+            },
+            {
+                "id": "appere-p-34",
+                "st": "st-5",
+                "label": "Un centre aqualudique à Villejean"
+            },
+            {
+                "id": "appere-p-35",
+                "st": "st-5",
+                "label": "Créer 350 places en crèche"
+            },
+            {
+                "id": "appere-p-36",
+                "st": "st-29",
+                "label": "Gratuité des abonnements Star pour les -12 ans"
+            },
+            {
+                "id": "appere-p-37",
+                "st": "st-5",
+                "label": "Ouvrir de nouvelles écoles et rénover les existantes"
+            },
             {
                 "id": "appere-p-38",
                 "st": "st-29",
                 "label": "Un grand plan d’éducation au numérique avec l’Edulab et les FabLabs"
             },
-            { "id": "appere-p-39", "st": "st-13", "label": "Un plan de sortie de la pauvreté" },
-            { "id": "appere-p-40", "st": "st-13", "label": "Ouvrir un centre municipal d’hébergement d’urgence" },
-            { "id": "appere-p-41", "st": "st-13", "label": "Créer des conciergeries de quartier" },
+            {
+                "id": "appere-p-39",
+                "st": "st-13",
+                "label": "Un plan de sortie de la pauvreté"
+            },
+            {
+                "id": "appere-p-40",
+                "st": "st-13",
+                "label": "Ouvrir un centre municipal d’hébergement d’urgence"
+            },
+            {
+                "id": "appere-p-41",
+                "st": "st-13",
+                "label": "Créer des conciergeries de quartier"
+            },
             {
                 "id": "appere-p-42",
                 "st": "st-23",
                 "label": "Une charte de la concertation pour les projets de construction"
             },
-            { "id": "appere-p-43", "st": "st-24", "label": "Tester les arrêts à la demande sur les lignes de bus" },
-            { "id": "appere-p-44", "st": "st-27", "label": "Ouvrir une Maison du Handicap" },
+            {
+                "id": "appere-p-43",
+                "st": "st-24",
+                "label": "Tester les arrêts à la demande sur les lignes de bus"
+            },
+            {
+                "id": "appere-p-44",
+                "st": "st-27",
+                "label": "Ouvrir une Maison du Handicap"
+            },
             {
                 "id": "appere-p-45",
                 "st": "st-6",
                 "label": "Poursuivre l'adaptation des services de propreté au rythme de la ville"
             },
-            { "id": "appere-p-46", "st": "st-17", "label": "Pas de hausse des impôts locaux" },
+            {
+                "id": "appere-p-46",
+                "st": "st-17",
+                "label": "Pas de hausse des impôts locaux"
+            },
             {
                 "id": "appere-p-47",
                 "st": "st-23",
                 "label": "Lancer un plan de rénovation thermique des bâtiments municipaux"
             },
-            { "id": "appere-p-48", "st": "st-7", "label": "Extension du parc des prairies Saint-Martin" },
-            { "id": "appere-p-49", "st": "st-15", "label": "Accompagner la rénovation thermique de 47 000 logements" },
+            {
+                "id": "appere-p-48",
+                "st": "st-7",
+                "label": "Extension du parc des prairies Saint-Martin"
+            },
+            {
+                "id": "appere-p-49",
+                "st": "st-15",
+                "label": "Accompagner la rénovation thermique de 47 000 logements"
+            },
             {
                 "id": "appere-p-50",
                 "st": "st-19",
                 "label": "Ouvrir une Maison de la Tranquillité publique au palais Saint-Georges"
             },
-            { "id": "appere-p-51", "st": "st-12", "label": "Lutter contre l'alcoolisation excessive" },
+            {
+                "id": "appere-p-51",
+                "st": "st-12",
+                "label": "Lutter contre l'alcoolisation excessive"
+            },
             {
                 "id": "appere-p-52",
                 "st": "st-13",
                 "label": "Renforcer les gratuités sociales et les tarifications solidaires"
             },
-            { "id": "appere-p-53", "st": "st-13", "label": "Maintenir la bonne santé financière" },
+            {
+                "id": "appere-p-53",
+                "st": "st-13",
+                "label": "Maintenir la bonne santé financière"
+            },
             {
                 "id": "appere-p-54",
                 "st": "st-25",
                 "label": "Remplacer les véhicules thermiques par des véhicules électriques ou au gaz"
             },
-            { "id": "appere-p-55", "st": "st-13", "label": "Instaurer des jurys citoyens" },
-            { "id": "appere-p-56", "st": "st-10", "label": "Multiplier les budgets participatifs" },
-            { "id": "appere-p-57", "st": "st-10", "label": "Rendre systématiques les comités d'usagers" },
-            { "id": "appere-p-58", "st": "st-10", "label": "Ouvrir une Maison de la Fabrique citoyenne" },
-            { "id": "appere-p-59", "st": "st-7", "label": "Découvrir la Vilaine sur la place de la République" },
-            { "id": "appere-p-60", "st": "st-7", "label": "Relier les quartiers par un parc en réseau" },
-            { "id": "appere-p-61", "st": "st-7", "label": "Un plan biodiversité à l'échelle de la métropole" },
-            { "id": "appere-p-62", "st": "st-7", "label": "Limiter l'artificialisation des sols" },
+            {
+                "id": "appere-p-55",
+                "st": "st-13",
+                "label": "Instaurer des jurys citoyens"
+            },
+            {
+                "id": "appere-p-56",
+                "st": "st-10",
+                "label": "Multiplier les budgets participatifs"
+            },
+            {
+                "id": "appere-p-57",
+                "st": "st-10",
+                "label": "Rendre systématiques les comités d'usagers"
+            },
+            {
+                "id": "appere-p-58",
+                "st": "st-10",
+                "label": "Ouvrir une Maison de la Fabrique citoyenne"
+            },
+            {
+                "id": "appere-p-59",
+                "st": "st-7",
+                "label": "Découvrir la Vilaine sur la place de la République"
+            },
+            {
+                "id": "appere-p-60",
+                "st": "st-7",
+                "label": "Relier les quartiers par un parc en réseau"
+            },
+            {
+                "id": "appere-p-61",
+                "st": "st-7",
+                "label": "Un plan biodiversité à l'échelle de la métropole"
+            },
+            {
+                "id": "appere-p-62",
+                "st": "st-7",
+                "label": "Limiter l'artificialisation des sols"
+            },
             {
                 "id": "appere-p-63",
                 "st": "st-29",
                 "label": "Ouvrir un guichet unique pour l'accueil des nouveaux étudiants"
             },
-            { "id": "appere-p-64", "st": "st-29", "label": "Un plan de lutte contre la précarité étudiante" },
-            { "id": "appere-p-65", "st": "st-16", "label": "Renforcer le Plan emploi quartier" },
-            { "id": "appere-p-66", "st": "st-16", "label": "Créer des pépinières économiques de quartier" },
+            {
+                "id": "appere-p-64",
+                "st": "st-29",
+                "label": "Un plan de lutte contre la précarité étudiante"
+            },
+            {
+                "id": "appere-p-65",
+                "st": "st-16",
+                "label": "Renforcer le Plan emploi quartier"
+            },
+            {
+                "id": "appere-p-66",
+                "st": "st-16",
+                "label": "Créer des pépinières économiques de quartier"
+            },
             {
                 "id": "appere-p-67",
                 "st": "st-28",
                 "label": "Des locaux commerciaux et artisanaux en location-accession"
             },
-            { "id": "appere-p-68", "st": "st-28", "label": "Soutenir la renaissance du Palais du Commerce" },
-            { "id": "appere-p-69", "st": "st-28", "label": "Accompagner la relance et la rénovation du Colombia" },
-            { "id": "appere-p-70", "st": "st-28", "label": "Conforter tous les pôles commerciaux de quartier" },
-            { "id": "appere-p-71", "st": "st-28", "label": "Un village d'artisans dans le centre ancien" },
-            { "id": "appere-p-72", "st": "st-28", "label": "Abandon du projet OpenSky" },
+            {
+                "id": "appere-p-68",
+                "st": "st-28",
+                "label": "Soutenir la renaissance du Palais du Commerce"
+            },
+            {
+                "id": "appere-p-69",
+                "st": "st-28",
+                "label": "Accompagner la relance et la rénovation du Colombia"
+            },
+            {
+                "id": "appere-p-70",
+                "st": "st-28",
+                "label": "Conforter tous les pôles commerciaux de quartier"
+            },
+            {
+                "id": "appere-p-71",
+                "st": "st-28",
+                "label": "Un village d'artisans dans le centre ancien"
+            },
+            {
+                "id": "appere-p-72",
+                "st": "st-28",
+                "label": "Abandon du projet OpenSky"
+            },
             {
                 "id": "appere-p-73",
                 "st": "st-23",
                 "label": "Des contrats de coopération avec les intercommunalités voisines"
             },
-            { "id": "appere-p-74", "st": "st-9", "label": "Promouvoir les langues et les cultures de Bretagne" }
+            {
+                "id": "appere-p-74",
+                "st": "st-9",
+                "label": "Promouvoir les langues et les cultures de Bretagne"
+            }
         ]
     },
     {
@@ -194,7 +406,11 @@
         "facebook": "RennesEcologie",
         "facebookFollowers": "1009",
         "propositions": [
-            { "st": "st-2", "label": "Appuyer la multiplication des coopératives", "id": "verts-p-0" },
+            {
+                "st": "st-2",
+                "label": "Appuyer la multiplication des coopératives",
+                "id": "verts-p-0"
+            },
             {
                 "st": "st-2",
                 "label": "Plus de moyens financiers dédiés spécifiquement au développement de structures ESS",
@@ -205,7 +421,11 @@
                 "label": "Un revenu de transition écologique pour les porteurs de projets à impact écologique et social positif",
                 "id": "verts-p-2"
             },
-            { "st": "st-2", "label": "Renforcer le soutien à Bretagne Active ", "id": "verts-p-3" },
+            {
+                "st": "st-2",
+                "label": "Renforcer le soutien à Bretagne Active ",
+                "id": "verts-p-3"
+            },
             {
                 "st": "st-2",
                 "label": "Une société foncière pour des locaux moins chers pour les structures de l'ESS, les commerces de proximité et les tiers-lieux",
@@ -246,13 +466,41 @@
                 "label": "Refus de tout projet de nouveau centre commercial ou d'agrandissement qui bétonnerait des terres naturelles ou agricoles ",
                 "id": "verts-p-11"
             },
-            { "st": "st-28", "label": "Abandon du projet Open Sky à Pacé", "id": "verts-p-12" },
-            { "st": "st-28", "label": "Révision du projet du Palais du Commerce", "id": "verts-p-13" },
-            { "st": "st-28", "label": "Des assises du commerce et de l'artisanat éco-responsable", "id": "verts-p-14" },
-            { "st": "st-28", "label": "Développement d'une filière de consigne du verre", "id": "verts-p-15" },
-            { "st": "st-28", "label": "Soutien au Galléco", "id": "verts-p-16" },
-            { "st": "st-28", "label": "Favoriser les livraisons décarbonnées", "id": "verts-p-17" },
-            { "st": "st-28", "label": "Soutien au réemploi, à la réutilisation, la réparation", "id": "verts-p-18" },
+            {
+                "st": "st-28",
+                "label": "Abandon du projet Open Sky à Pacé",
+                "id": "verts-p-12"
+            },
+            {
+                "st": "st-28",
+                "label": "Révision du projet du Palais du Commerce",
+                "id": "verts-p-13"
+            },
+            {
+                "st": "st-28",
+                "label": "Des assises du commerce et de l'artisanat éco-responsable",
+                "id": "verts-p-14"
+            },
+            {
+                "st": "st-28",
+                "label": "Développement d'une filière de consigne du verre",
+                "id": "verts-p-15"
+            },
+            {
+                "st": "st-28",
+                "label": "Soutien au Galléco",
+                "id": "verts-p-16"
+            },
+            {
+                "st": "st-28",
+                "label": "Favoriser les livraisons décarbonnées",
+                "id": "verts-p-17"
+            },
+            {
+                "st": "st-28",
+                "label": "Soutien au réemploi, à la réutilisation, la réparation",
+                "id": "verts-p-18"
+            },
             {
                 "st": "st-28",
                 "label": "Fin du subventionnement des heures de parkings offertes par l'association des commerçants mais transports en commun gratuits certains week-ends",
@@ -278,13 +526,21 @@
                 "label": "Adapter les aides économiques pour servir aux entreprises de toutes les tailles",
                 "id": "verts-p-23"
             },
-            { "st": "st-30", "label": "Systématiser le développement des tiers lieux ", "id": "verts-p-24" },
+            {
+                "st": "st-30",
+                "label": "Systématiser le développement des tiers lieux ",
+                "id": "verts-p-24"
+            },
             {
                 "st": "st-30",
                 "label": "Aides publiques conditionnées à des critères sociaux, environnementaux et de lutte contre les discriminations",
                 "id": "verts-p-25"
             },
-            { "st": "st-5", "label": "300 à 400 nouvelles places en crèches", "id": "verts-p-26" },
+            {
+                "st": "st-5",
+                "label": "300 à 400 nouvelles places en crèches",
+                "id": "verts-p-26"
+            },
             {
                 "st": "st-5",
                 "label": "Lancer un grand plan d'éducation à la nature de la crèche à l'école et dans les centres de loisirs",
@@ -295,7 +551,11 @@
                 "label": "Obtention du label écolo-crèche pour les crèches municipales (engagement écologique fort)",
                 "id": "verts-p-28"
             },
-            { "st": "st-5", "label": "Développer des Maisons des Assistantes Maternelles", "id": "verts-p-29" },
+            {
+                "st": "st-5",
+                "label": "Développer des Maisons des Assistantes Maternelles",
+                "id": "verts-p-29"
+            },
             {
                 "st": "st-5",
                 "label": "Fermeture des rues adjacentes à la circulation aux heures d'ouverture et fermeture des écoles",
@@ -306,14 +566,26 @@
                 "label": "Végétaliser les cours d'école, construire ou rénover des écoles et crèches économes en énergie et éco-construites",
                 "id": "verts-p-31"
             },
-            { "st": "st-5", "label": "Gratuité sociale des cantines et des centres de loisirs", "id": "verts-p-32" },
+            {
+                "st": "st-5",
+                "label": "Gratuité sociale des cantines et des centres de loisirs",
+                "id": "verts-p-32"
+            },
             {
                 "st": "st-5",
                 "label": "50% de bio dans les cantines avec un objectif de 100%, 2 repas végétariens par semaine",
                 "id": "verts-p-33"
             },
-            { "st": "st-5", "label": "Etudier la construction de 5 à 6 groupes scolaires ", "id": "verts-p-34" },
-            { "st": "st-5", "label": "Un budget participatif des écoles", "id": "verts-p-35" },
+            {
+                "st": "st-5",
+                "label": "Etudier la construction de 5 à 6 groupes scolaires ",
+                "id": "verts-p-34"
+            },
+            {
+                "st": "st-5",
+                "label": "Un budget participatif des écoles",
+                "id": "verts-p-35"
+            },
             {
                 "st": "st-5",
                 "label": "Mise en place de jeux coopératifs et non-genrés dans les cours d'écoles",
@@ -324,7 +596,11 @@
                 "label": "Apprentissage du breton, de la LSF et des langues et cultures étrangères",
                 "id": "verts-p-37"
             },
-            { "st": "st-5", "label": "Semaine d'école à 4,5 jours ", "id": "verts-p-38" },
+            {
+                "st": "st-5",
+                "label": "Semaine d'école à 4,5 jours ",
+                "id": "verts-p-38"
+            },
             {
                 "st": "st-6",
                 "label": "Plus de moyens (financiers et humains) aux services de propreté de la ville",
@@ -365,18 +641,46 @@
                 "label": "Sanction des dépôts sauvages d'ordures au pied des immeubles",
                 "id": "verts-p-46"
             },
-            { "st": "st-6", "label": "Consigne de recyclables dans tous les événements festifs", "id": "verts-p-47" },
-            { "st": "st-7", "label": "1 milliard d'euros pour le climat", "id": "verts-p-48" },
+            {
+                "st": "st-6",
+                "label": "Consigne de recyclables dans tous les événements festifs",
+                "id": "verts-p-47"
+            },
+            {
+                "st": "st-7",
+                "label": "1 milliard d'euros pour le climat",
+                "id": "verts-p-48"
+            },
             {
                 "st": "st-7",
                 "label": "Végétaliser la ville, les boulevards, les places, les cours d'école",
                 "id": "verts-p-49"
             },
-            { "st": "st-7", "label": "Planter 5000 arbres par an", "id": "verts-p-50" },
-            { "st": "st-7", "label": "Sanctuariser les espaces naturels, notamment la Prévalaye", "id": "verts-p-51" },
-            { "st": "st-7", "label": "Sortie des pesticide dès 2025 ", "id": "verts-p-52" },
-            { "st": "st-7", "label": "Développer une agriculture urbaine de proximité", "id": "verts-p-53" },
-            { "st": "st-7", "label": "Faciliter l'installation des producteurs bio", "id": "verts-p-54" },
+            {
+                "st": "st-7",
+                "label": "Planter 5000 arbres par an",
+                "id": "verts-p-50"
+            },
+            {
+                "st": "st-7",
+                "label": "Sanctuariser les espaces naturels, notamment la Prévalaye",
+                "id": "verts-p-51"
+            },
+            {
+                "st": "st-7",
+                "label": "Sortie des pesticide dès 2025 ",
+                "id": "verts-p-52"
+            },
+            {
+                "st": "st-7",
+                "label": "Développer une agriculture urbaine de proximité",
+                "id": "verts-p-53"
+            },
+            {
+                "st": "st-7",
+                "label": "Faciliter l'installation des producteurs bio",
+                "id": "verts-p-54"
+            },
             {
                 "st": "st-7",
                 "label": "Soutien aux associations de protection de l'environnement et des animaux",
@@ -392,13 +696,21 @@
                 "label": "Une carte sortir! Alimentation durable pour une alimentation bio et locale à petit prix",
                 "id": "verts-p-57"
             },
-            { "st": "st-7", "label": "Réhabilitation énergétique de 6000 logements par an", "id": "verts-p-58" },
+            {
+                "st": "st-7",
+                "label": "Réhabilitation énergétique de 6000 logements par an",
+                "id": "verts-p-58"
+            },
             {
                 "st": "st-7",
                 "label": "Construire uniquement des bâtiments passifs ou à énergie positive",
                 "id": "verts-p-59"
             },
-            { "st": "st-7", "label": "Soutien aux filières des éco-matériaux", "id": "verts-p-60" },
+            {
+                "st": "st-7",
+                "label": "Soutien aux filières des éco-matériaux",
+                "id": "verts-p-60"
+            },
             {
                 "st": "st-7",
                 "label": "Développer les énergies renouvelables (solaire, bois, méthanisation, éolien)",
@@ -409,7 +721,11 @@
                 "label": "Interdiction des panneaux publicitaires, extinction nocturne de l'éclairage des enseignes commerciales",
                 "id": "verts-p-62"
             },
-            { "st": "st-7", "label": "Ville zéro déchet et zéro plastique", "id": "verts-p-63" },
+            {
+                "st": "st-7",
+                "label": "Ville zéro déchet et zéro plastique",
+                "id": "verts-p-63"
+            },
             {
                 "st": "st-7",
                 "label": "Une ressourcerie à moins de 5 minutes de chez chaque habitant.e",
@@ -425,13 +741,21 @@
                 "label": "Reprendre en gestion publique les contrats encore confiés à des délégataires privés pour l'eau et l'assainissement",
                 "id": "verts-p-66"
             },
-            { "st": "st-7", "label": "Un budget carbone des projets numériques", "id": "verts-p-67" },
+            {
+                "st": "st-7",
+                "label": "Un budget carbone des projets numériques",
+                "id": "verts-p-67"
+            },
             {
                 "st": "st-7",
                 "label": "Un écodatacenter alimenté en énergie renouvelable et produisant de l'énergie",
                 "id": "verts-p-68"
             },
-            { "st": "st-7", "label": "Favoriser la low-tech", "id": "verts-p-69" },
+            {
+                "st": "st-7",
+                "label": "Favoriser la low-tech",
+                "id": "verts-p-69"
+            },
             {
                 "st": "st-25",
                 "label": "Lancer des Etats généraux de la sécurité urbaine dans tous les quartiers",
@@ -457,14 +781,26 @@
                 "label": "Etendre les missions de la police municipale en matière de verbalisation des incivilités et de prévention routière",
                 "id": "verts-p-74"
             },
-            { "st": "st-25", "label": "Pas de vidéosurveillance fixe", "id": "verts-p-75" },
-            { "st": "st-19", "label": "Non à l'armement de la police municipale", "id": "verts-p-76" },
+            {
+                "st": "st-25",
+                "label": "Pas de vidéosurveillance fixe",
+                "id": "verts-p-75"
+            },
+            {
+                "st": "st-19",
+                "label": "Non à l'armement de la police municipale",
+                "id": "verts-p-76"
+            },
             {
                 "st": "st-20",
                 "label": "Devenir la métropole du vélo : au moins 100km de pistes cyclables supplémentaires",
                 "id": "verts-p-77"
             },
-            { "st": "st-20", "label": "Rennes, ville à 30 kmh", "id": "verts-p-78" },
+            {
+                "st": "st-20",
+                "label": "Rennes, ville à 30 kmh",
+                "id": "verts-p-78"
+            },
             {
                 "st": "st-20",
                 "label": "Sécuriser les pistes cyclables - chaque enfant doit pouvoir aller à l'école en vélo en sécurité",
@@ -475,8 +811,16 @@
                 "label": "Impliquer les associations de cyclistes dans la conception des aménagements",
                 "id": "verts-p-80"
             },
-            { "st": "st-20", "label": "Davantage de stationnements et d'équipements vélo", "id": "verts-p-81" },
-            { "st": "st-21", "label": "Supprimer les portillons d'accès ", "id": "verts-p-82" },
+            {
+                "st": "st-20",
+                "label": "Davantage de stationnements et d'équipements vélo",
+                "id": "verts-p-81"
+            },
+            {
+                "st": "st-21",
+                "label": "Supprimer les portillons d'accès ",
+                "id": "verts-p-82"
+            },
             {
                 "st": "st-24",
                 "label": "Augmenter la fréquence et améliorer l'accessibilité des bus au niveau métropolitain",
@@ -487,7 +831,11 @@
                 "label": "5 lignes de trambus (Poterie, Beauregard-Villejean, Longchamps, Arsenal-Redon)",
                 "id": "verts-p-84"
             },
-            { "st": "st-26", "label": "Un RER métropolitain ", "id": "verts-p-85" },
+            {
+                "st": "st-26",
+                "label": "Un RER métropolitain ",
+                "id": "verts-p-85"
+            },
             {
                 "st": "st-26",
                 "label": "Nouvelles gares dans les quartiers Lorient, Baud-Chardonnet et Nord Saint-Martin",
@@ -513,7 +861,11 @@
                 "label": "Favoriser les modes de livraisons propres dans le centre-ville",
                 "id": "verts-p-90"
             },
-            { "st": "st-22", "label": "Créer des liaisons piétonnes entre les quartiers", "id": "verts-p-91" },
+            {
+                "st": "st-22",
+                "label": "Créer des liaisons piétonnes entre les quartiers",
+                "id": "verts-p-91"
+            },
             {
                 "st": "st-22",
                 "label": "Elargir la zone piétonne du centre-ville, de la place de Bretagne au pont Pasteur, de l'Hôtel-Dieu au Colombier",
@@ -534,7 +886,11 @@
                 "label": "Des élus transparents et militants qui ne cumulent pas les mandats",
                 "id": "verts-p-95"
             },
-            { "st": "st-10", "label": "Découpage plus modeste des quartiers", "id": "verts-p-96" },
+            {
+                "st": "st-10",
+                "label": "Découpage plus modeste des quartiers",
+                "id": "verts-p-96"
+            },
             {
                 "st": "st-10",
                 "label": "Révision de la charte de la démocratie locale avec les habitant.e.s",
@@ -575,7 +931,11 @@
                 "label": "Soutien à la revendication du droit de vote des étrangers aux élections locales ",
                 "id": "verts-p-104"
             },
-            { "st": "st-9", "label": "Refus de la construction du zenith/arena", "id": "verts-p-105" },
+            {
+                "st": "st-9",
+                "label": "Refus de la construction du zenith/arena",
+                "id": "verts-p-105"
+            },
             {
                 "st": "st-9",
                 "label": "Une action culturelle publique co-construite avec les habitant.e.s et les acteur.trice.s culturel.le.s",
@@ -591,8 +951,16 @@
                 "label": "Un campus supérieur artistique rue Hoche pour des formations de qualité",
                 "id": "verts-p-108"
             },
-            { "st": "st-9", "label": "Un lieu dédié aux arts du cirque et de la rue", "id": "verts-p-109" },
-            { "st": "st-9", "label": "Un lieu dédié à l'image animé dans l'ancien Arvor", "id": "verts-p-110" },
+            {
+                "st": "st-9",
+                "label": "Un lieu dédié aux arts du cirque et de la rue",
+                "id": "verts-p-109"
+            },
+            {
+                "st": "st-9",
+                "label": "Un lieu dédié à l'image animé dans l'ancien Arvor",
+                "id": "verts-p-110"
+            },
             {
                 "st": "st-9",
                 "label": "Une tarification spécifique pour l'organisation d'événements culturels par les acteurs locaux au Couvent des Jacobins",
@@ -603,7 +971,11 @@
                 "label": "Un lieu de concerts sans programmateur, accessible en autonomie et à un coût très abordable pour toute association locale",
                 "id": "verts-p-112"
             },
-            { "st": "st-9", "label": "Réhabilitation du théâtre du vieux Saint Etienne", "id": "verts-p-113" },
+            {
+                "st": "st-9",
+                "label": "Réhabilitation du théâtre du vieux Saint Etienne",
+                "id": "verts-p-113"
+            },
             {
                 "st": "st-9",
                 "label": "Renforcer l'aide à l'emploi artistique dans les cafés cultures",
@@ -639,34 +1011,66 @@
                 "label": "Un parcours d'éducation physique et sportive dès la crèche",
                 "id": "verts-p-120"
             },
-            { "st": "st-11", "label": "Systématiser la découverte des sports pour les enfants", "id": "verts-p-121" },
+            {
+                "st": "st-11",
+                "label": "Systématiser la découverte des sports pour les enfants",
+                "id": "verts-p-121"
+            },
             {
                 "st": "st-11",
                 "label": "Développer les équipements sportifs en libre accès dans l'espace public et accessibles à tou.te.s",
                 "id": "verts-p-122"
             },
-            { "st": "st-11", "label": "Développer le socio-sport et le sport-santé", "id": "verts-p-123" },
-            { "st": "st-11", "label": "Généralisation de la tarification Sortir!", "id": "verts-p-124" },
-            { "st": "st-11", "label": "Développer la place des filières handisport", "id": "verts-p-125" },
-            { "st": "st-11", "label": "Renover la piscine de Villejean", "id": "verts-p-126" },
+            {
+                "st": "st-11",
+                "label": "Développer le socio-sport et le sport-santé",
+                "id": "verts-p-123"
+            },
+            {
+                "st": "st-11",
+                "label": "Généralisation de la tarification Sortir!",
+                "id": "verts-p-124"
+            },
+            {
+                "st": "st-11",
+                "label": "Développer la place des filières handisport",
+                "id": "verts-p-125"
+            },
+            {
+                "st": "st-11",
+                "label": "Renover la piscine de Villejean",
+                "id": "verts-p-126"
+            },
             {
                 "st": "st-11",
                 "label": "Nouveaux équipements sportifs dans les quartiers (Beauregard, Jean Coquelin, Haut Sancé)",
                 "id": "verts-p-127"
             },
-            { "st": "st-11", "label": "Une salle dédié au handball de haut niveau à Géniaux", "id": "verts-p-128" },
+            {
+                "st": "st-11",
+                "label": "Une salle dédié au handball de haut niveau à Géniaux",
+                "id": "verts-p-128"
+            },
             {
                 "st": "st-11",
                 "label": "2 rénovations d'équipements énergétiquement exemplaires par an en concertation avec les usager.e.s ",
                 "id": "verts-p-129"
             },
-            { "st": "st-11", "label": "Couvrir le Roazhon Park de panneaux photovoltaïques", "id": "verts-p-130" },
+            {
+                "st": "st-11",
+                "label": "Couvrir le Roazhon Park de panneaux photovoltaïques",
+                "id": "verts-p-130"
+            },
             {
                 "st": "st-23",
                 "label": "Non au projet Aqueduc Vilaine Aval, d'Open Sky à Pacé et du développement de la piste de l'aéroport de Saint Jacques",
                 "id": "verts-p-131"
             },
-            { "st": "st-23", "label": "Moratoire sur les projets de tours de grande hauteur", "id": "verts-p-132" },
+            {
+                "st": "st-23",
+                "label": "Moratoire sur les projets de tours de grande hauteur",
+                "id": "verts-p-132"
+            },
             {
                 "st": "st-23",
                 "label": "Ralentir le rythme de constructions (1800 logements par an)",
@@ -677,7 +1081,11 @@
                 "label": "Obliger la construction de bâtiments passifs ou à énergie positive",
                 "id": "verts-p-134"
             },
-            { "st": "st-23", "label": "Favoriser les éco-matériaux et le réemploi", "id": "verts-p-135" },
+            {
+                "st": "st-23",
+                "label": "Favoriser les éco-matériaux et le réemploi",
+                "id": "verts-p-135"
+            },
             {
                 "st": "st-23",
                 "label": "Définir une méthode de co-construction des projets urbains avec les habitant.e.s",
@@ -688,14 +1096,26 @@
                 "label": "Végétaliser la ville, les boulevards, les places, les cours d'école",
                 "id": "verts-p-137"
             },
-            { "st": "st-23", "label": "Planter 5000 arbres par an", "id": "verts-p-138" },
+            {
+                "st": "st-23",
+                "label": "Planter 5000 arbres par an",
+                "id": "verts-p-138"
+            },
             {
                 "st": "st-23",
                 "label": "Sanctuariser les espaces naturels, notamment la Prévalaye",
                 "id": "verts-p-139"
             },
-            { "st": "st-23", "label": "Supprimer le parking Vilaine", "id": "verts-p-140" },
-            { "st": "st-23", "label": "Pietonniser les bords de l'Ille et de la Vilaine", "id": "verts-p-141" },
+            {
+                "st": "st-23",
+                "label": "Supprimer le parking Vilaine",
+                "id": "verts-p-140"
+            },
+            {
+                "st": "st-23",
+                "label": "Pietonniser les bords de l'Ille et de la Vilaine",
+                "id": "verts-p-141"
+            },
             {
                 "st": "st-23",
                 "label": "Une \"architecture à la rennaise\" qui préserve le patrimoine ",
@@ -706,9 +1126,21 @@
                 "label": "Recréer des quartiers-villages pour faire une ville conviviale",
                 "id": "verts-p-143"
             },
-            { "st": "st-23", "label": "Privilégier la rénovation à la construction", "id": "verts-p-144" },
-            { "st": "st-23", "label": "Réhabilitation énergétique de 6000 logements par an", "id": "verts-p-145" },
-            { "st": "st-23", "label": "Plafonnement et encadrement des loyers", "id": "verts-p-146" },
+            {
+                "st": "st-23",
+                "label": "Privilégier la rénovation à la construction",
+                "id": "verts-p-144"
+            },
+            {
+                "st": "st-23",
+                "label": "Réhabilitation énergétique de 6000 logements par an",
+                "id": "verts-p-145"
+            },
+            {
+                "st": "st-23",
+                "label": "Plafonnement et encadrement des loyers",
+                "id": "verts-p-146"
+            },
             {
                 "st": "st-23",
                 "label": "Mise en œuvre du loyer unique pour les bénéficiaires de logement social",
@@ -729,19 +1161,31 @@
                 "label": "Développer une véritable stratégie pour l'habitat participatif au niveau métropolitain",
                 "id": "verts-p-150"
             },
-            { "st": "st-23", "label": "Libérer la ville de la publicité", "id": "verts-p-151" },
+            {
+                "st": "st-23",
+                "label": "Libérer la ville de la publicité",
+                "id": "verts-p-151"
+            },
             {
                 "st": "st-12",
                 "label": "Végétaliser la ville, les boulevards, les places, les cours d'école",
                 "id": "verts-p-152"
             },
-            { "st": "st-12", "label": "Réduire le nombre de voitures en ville et sur la rocade", "id": "verts-p-153" },
+            {
+                "st": "st-12",
+                "label": "Réduire le nombre de voitures en ville et sur la rocade",
+                "id": "verts-p-153"
+            },
             {
                 "st": "st-12",
                 "label": "Développer les parcours piétons et cyclables sécurisés dans les quartiers",
                 "id": "verts-p-154"
             },
-            { "st": "st-12", "label": "Sortie des pesticide dès 2025 ", "id": "verts-p-155" },
+            {
+                "st": "st-12",
+                "label": "Sortie des pesticide dès 2025 ",
+                "id": "verts-p-155"
+            },
             {
                 "st": "st-12",
                 "label": "Développer l'agriculture urbaine et l'agriculture paysanne et biologique dans la métropole",
@@ -757,7 +1201,11 @@
                 "label": "50% de bio dans la restauration collective avec un objectif de 100%, 2 repas végétariens par semaine",
                 "id": "verts-p-158"
             },
-            { "st": "st-12", "label": "Un parcours d'éducation à la santé de la crèche au lycée", "id": "verts-p-159" },
+            {
+                "st": "st-12",
+                "label": "Un parcours d'éducation à la santé de la crèche au lycée",
+                "id": "verts-p-159"
+            },
             {
                 "st": "st-12",
                 "label": "Développer les centres de santé de quartiers et des équipes de santé mobile (un bus de soins dentaires)",
@@ -768,27 +1216,51 @@
                 "label": "Des Etats généraux de la santé mentale pour organiser une réponse collective au manque d'offre de soins",
                 "id": "verts-p-161"
             },
-            { "st": "st-12", "label": "Non à l'arrivée de la 4G sans étude d'impact sanitaire", "id": "verts-p-162" },
+            {
+                "st": "st-12",
+                "label": "Non à l'arrivée de la 4G sans étude d'impact sanitaire",
+                "id": "verts-p-162"
+            },
             {
                 "st": "st-12",
                 "label": "Limiter l'exposition aux ondes, notamment dans le métro et près des lieux recevant des publics sensibles",
                 "id": "verts-p-163"
             },
-            { "st": "st-13", "label": "Etendre la gratuité sociale de l'eau ", "id": "verts-p-164" },
+            {
+                "st": "st-13",
+                "label": "Etendre la gratuité sociale de l'eau ",
+                "id": "verts-p-164"
+            },
             {
                 "st": "st-13",
                 "label": "Une gratuité sociale pour les cantines et les centres de loisirs",
                 "id": "verts-p-165"
             },
-            { "st": "st-13", "label": "Des tarifs préférentiels de l'énergie ", "id": "verts-p-166" },
+            {
+                "st": "st-13",
+                "label": "Des tarifs préférentiels de l'énergie ",
+                "id": "verts-p-166"
+            },
             {
                 "st": "st-13",
                 "label": "Gratuité des transports en commun pour les moins de 25 ans, jury citoyen pour étudier la gratuité universelle",
                 "id": "verts-p-167"
             },
-            { "st": "st-13", "label": "Tarif social d'abonnement à internet", "id": "verts-p-168" },
-            { "st": "st-13", "label": "Encadrement et plafonnement des loyers", "id": "verts-p-169" },
-            { "st": "st-13", "label": "Elargissement des bénéficiaires du dispositif Sortir! ", "id": "verts-p-170" },
+            {
+                "st": "st-13",
+                "label": "Tarif social d'abonnement à internet",
+                "id": "verts-p-168"
+            },
+            {
+                "st": "st-13",
+                "label": "Encadrement et plafonnement des loyers",
+                "id": "verts-p-169"
+            },
+            {
+                "st": "st-13",
+                "label": "Elargissement des bénéficiaires du dispositif Sortir! ",
+                "id": "verts-p-170"
+            },
             {
                 "st": "st-13",
                 "label": "Création d'une carte Sortir! Alimentation bio pour une alimentation bio et locale à petit prix",
@@ -804,9 +1276,21 @@
                 "label": "50% de bio dans la restauration collective avec un objectif de 100%, 2 repas végétariens par semaine",
                 "id": "verts-p-173"
             },
-            { "st": "st-14", "label": "Une gratuité sociale pour les cantines", "id": "verts-p-174" },
-            { "st": "st-14", "label": "Une collation et un goûter dans les écoles", "id": "verts-p-175" },
-            { "st": "st-15", "label": "Encadrement et plafonnement des loyers", "id": "verts-p-176" },
+            {
+                "st": "st-14",
+                "label": "Une gratuité sociale pour les cantines",
+                "id": "verts-p-174"
+            },
+            {
+                "st": "st-14",
+                "label": "Une collation et un goûter dans les écoles",
+                "id": "verts-p-175"
+            },
+            {
+                "st": "st-15",
+                "label": "Encadrement et plafonnement des loyers",
+                "id": "verts-p-176"
+            },
             {
                 "st": "st-15",
                 "label": "Mise en œuvre du loyer unique pour les bénéficiaires de logement social",
@@ -837,13 +1321,21 @@
                 "label": "Devenir territoire zéro chomeur de longue durée (Maurepas, Villejean, le Blosne)",
                 "id": "verts-p-182"
             },
-            { "st": "st-16", "label": "Soutien à l'insertion par l'activité économique", "id": "verts-p-183" },
+            {
+                "st": "st-16",
+                "label": "Soutien à l'insertion par l'activité économique",
+                "id": "verts-p-183"
+            },
             {
                 "st": "st-16",
                 "label": "Soutien aux entreprises de travail adapté pour les personnes en situation de handicap",
                 "id": "verts-p-184"
             },
-            { "st": "st-16", "label": "Soutien aux coopératives et conciergeries de quartier", "id": "verts-p-185" },
+            {
+                "st": "st-16",
+                "label": "Soutien aux coopératives et conciergeries de quartier",
+                "id": "verts-p-185"
+            },
             {
                 "st": "st-17",
                 "label": "Des élus transparents et militants qui ne cumulent pas les mandats",
@@ -854,7 +1346,11 @@
                 "label": "Plus de démocratie directe et de transparence dans le fonctionnement métropolitain",
                 "id": "verts-p-187"
             },
-            { "st": "st-18", "label": "Arrêt de la politique de rayonnement économique ", "id": "verts-p-188" },
+            {
+                "st": "st-18",
+                "label": "Arrêt de la politique de rayonnement économique ",
+                "id": "verts-p-188"
+            },
             {
                 "st": "st-18",
                 "label": "Pour une politique de coopération entre les territoires avec l'expérimentation de partenariats et de contrat de réciprocité",
@@ -880,8 +1376,16 @@
                 "label": "Encourager les pratiques artistiques et culturelles des personnes en situation de handicap",
                 "id": "verts-p-193"
             },
-            { "st": "st-27", "label": "Améliorer l'accessibilité des transports en commun", "id": "verts-p-194" },
-            { "st": "st-27", "label": "Plus de logements adaptés", "id": "verts-p-195" },
+            {
+                "st": "st-27",
+                "label": "Améliorer l'accessibilité des transports en commun",
+                "id": "verts-p-194"
+            },
+            {
+                "st": "st-27",
+                "label": "Plus de logements adaptés",
+                "id": "verts-p-195"
+            },
             {
                 "st": "st-27",
                 "label": "Un urbanisme qui favorise l'égalité avec des aménagements et des signalétiques adaptés",
@@ -897,7 +1401,11 @@
                 "label": "Au moins une solution d'accueil des enfants en situation de handicap dans chaque quartier",
                 "id": "verts-p-198"
             },
-            { "st": "st-27", "label": "Des jeux adaptés dans les écoles et les parcs", "id": "verts-p-199" }
+            {
+                "st": "st-27",
+                "label": "Des jeux adaptés dans les écoles et les parcs",
+                "id": "verts-p-199"
+            }
         ]
     },
     {
@@ -910,7 +1418,12 @@
         "twitterFollowers": "839",
         "facebook": "RevelerRennes",
         "facebookFollowers": "394",
-        "polemiques": [{ "label": "Mailing malencontreux", "references": [{ "titre": "", "url": "" }] }],
+        "polemiques": [
+            {
+                "label": "Mailing malencontreux",
+                "references": [{ "titre": "", "url": "" }]
+            }
+        ],
         "propositions": [
             {
                 "id": "gandon-p-1",
@@ -927,7 +1440,11 @@
                 "st": "st-19",
                 "label": "Généralisation de la sécurisation des zones à proximité de toutes les crèches, les écoles primaires et les maisons de retraite."
             },
-            { "id": "gandon-p-4", "st": "st-5", "label": "Ouverture de 400 nouvelles places en crèche" },
+            {
+                "id": "gandon-p-4",
+                "st": "st-5",
+                "label": "Ouverture de 400 nouvelles places en crèche"
+            },
             {
                 "id": "gandon-p-5",
                 "st": "st-11",
@@ -948,7 +1465,11 @@
                 "st": "st-24",
                 "label": "Création d'une ligne de bus à 360° autour de la rocade, avec un réseau de parkings relais de grande capacité; et à terme, sera connecté aux stations de métro hors rocade"
             },
-            { "id": "gandon-p-9", "st": "st-24", "label": "Expérimentation des bus à hydrogène propre" },
+            {
+                "id": "gandon-p-9",
+                "st": "st-24",
+                "label": "Expérimentation des bus à hydrogène propre"
+            },
             {
                 "id": "gandon-p-10",
                 "st": "st-22",
@@ -959,8 +1480,16 @@
                 "st": "st-20",
                 "label": "Mise en œuvre intégrale du plaidoyer porté par l’association Rayons d’action (150 km de réseau express vélo, fin des discontinuités et sécurisation des pistes cyclables, etc.)"
             },
-            { "id": "gandon-p-12", "st": "st-15", "label": "Moratoire sur les tours" },
-            { "id": "gandon-p-13", "st": "st-7", "label": "Plantation d'un arbre pour chaque nouveau Rennais" },
+            {
+                "id": "gandon-p-12",
+                "st": "st-15",
+                "label": "Moratoire sur les tours"
+            },
+            {
+                "id": "gandon-p-13",
+                "st": "st-7",
+                "label": "Plantation d'un arbre pour chaque nouveau Rennais"
+            },
             {
                 "id": "gandon-p-14",
                 "st": "st-18",
@@ -1006,7 +1535,11 @@
                 "st": "st-20",
                 "label": "Expérimenter une ou plusieurs vélo-rues dans le centre-ville"
             },
-            { "id": "gandon-p-23", "st": "st-22", "label": "Création de parkings relais au-delà de la rocade" },
+            {
+                "id": "gandon-p-23",
+                "st": "st-22",
+                "label": "Création de parkings relais au-delà de la rocade"
+            },
             {
                 "id": "gandon-p-24",
                 "st": "st-15",
@@ -1017,21 +1550,41 @@
                 "st": "st-15",
                 "label": "Partage de l'effort d'accueil et de densification à l'échelle de la métropole"
             },
-            { "id": "gandon-p-26", "st": "st-7", "label": "Végétaliser la ville" },
+            {
+                "id": "gandon-p-26",
+                "st": "st-7",
+                "label": "Végétaliser la ville"
+            },
             {
                 "id": "gandon-p-26",
                 "st": "st-23",
                 "label": "Priorité à l'aménagement et requalification urbaine et économique de l'hôpital sud"
             },
-            { "id": "gandon-p-27", "st": "st-15", "label": "Préserver le patrimoine bâti" },
-            { "id": "gandon-p-28", "st": "st-15", "label": "Organisation d'Assises du Patrimoine Rennais" },
+            {
+                "id": "gandon-p-27",
+                "st": "st-15",
+                "label": "Préserver le patrimoine bâti"
+            },
+            {
+                "id": "gandon-p-28",
+                "st": "st-15",
+                "label": "Organisation d'Assises du Patrimoine Rennais"
+            },
             {
                 "id": "gandon-p-29",
                 "st": "st-15",
                 "label": "Programme de rénovation des façades à colombage, labellisation du patrimoine européen"
             },
-            { "id": "gandon-p-30", "st": "st-15", "label": "Maintien du parking Vilaine en améliorant son esthétique" },
-            { "id": "gandon-p-30", "st": "st-22", "label": "Transport gratuit, un samedi par mois" },
+            {
+                "id": "gandon-p-30",
+                "st": "st-15",
+                "label": "Maintien du parking Vilaine en améliorant son esthétique"
+            },
+            {
+                "id": "gandon-p-30",
+                "st": "st-22",
+                "label": "Transport gratuit, un samedi par mois"
+            },
             {
                 "id": "gandon-p-30",
                 "st": "st-15",
@@ -1072,7 +1625,11 @@
                 "st": "st-18",
                 "label": "Soutenir et donner davantage de visibilité aux actions menées par les associations en matière de solidarité internationale et de coopéra-tion européenne"
             },
-            { "id": "gandon-p-38", "st": "st-9", "label": "Soutenir les pratiques culturelles en amateur" },
+            {
+                "id": "gandon-p-38",
+                "st": "st-9",
+                "label": "Soutenir les pratiques culturelles en amateur"
+            },
             {
                 "id": "gandon-p-39",
                 "st": "st-9",
@@ -1206,9 +1763,21 @@
                 "st": "st-7",
                 "label": "Trame verte et bleue de Rennes, faire entrer la nature dans Rennes"
             },
-            { "id": "compagnon-p-3", "st": "st-7", "label": "Tous éco-responsables" },
-            { "id": "compagnon-p-4", "st": "st-7", "label": "Parc solaire dans la ville" },
-            { "id": "compagnon-p-5", "st": "st-7", "label": "Manifestations éco-responsables" },
+            {
+                "id": "compagnon-p-3",
+                "st": "st-7",
+                "label": "Tous éco-responsables"
+            },
+            {
+                "id": "compagnon-p-4",
+                "st": "st-7",
+                "label": "Parc solaire dans la ville"
+            },
+            {
+                "id": "compagnon-p-5",
+                "st": "st-7",
+                "label": "Manifestations éco-responsables"
+            },
             {
                 "id": "compagnon-p-6",
                 "st": "st-22",
@@ -1234,7 +1803,11 @@
                 "st": "st-22",
                 "label": "Faciliter l'accès à la Bretagne : contournement de Rennes hors rocade"
             },
-            { "id": "compagnon-p-11", "st": "st-22", "label": "Changer les comportements : #digital" },
+            {
+                "id": "compagnon-p-11",
+                "st": "st-22",
+                "label": "Changer les comportements : #digital"
+            },
             {
                 "id": "compagnon-p-12",
                 "st": "st-22",
@@ -1275,9 +1848,21 @@
                 "st": "st-19",
                 "label": "Développer les coopérations avec les habitants (conseils de quartier, voisins vigilants, opérations de sensibilisation/prévention)"
             },
-            { "id": "compagnon-p-19", "st": "st-19", "label": "Doublement des effectifs de la police municipale" },
-            { "id": "compagnon-p-20", "st": "st-19", "label": "Former et équiper la police municipale" },
-            { "id": "compagnon-p-21", "st": "st-19", "label": "Etendre la vidéoprotection" }
+            {
+                "id": "compagnon-p-19",
+                "st": "st-19",
+                "label": "Doublement des effectifs de la police municipale"
+            },
+            {
+                "id": "compagnon-p-20",
+                "st": "st-19",
+                "label": "Former et équiper la police municipale"
+            },
+            {
+                "id": "compagnon-p-21",
+                "st": "st-19",
+                "label": "Etendre la vidéoprotection"
+            }
         ]
     },
     {
@@ -1294,37 +1879,81 @@
         "facebook": "RennesEnCommun",
         "facebookFollowers": "1910",
         "propositions": [
-            { "id": "lepape-p-1", "st": "st-22", "label": "La gratuité progressive des transports en commun" },
-            { "id": "lepape-p-2", "st": "st-22", "label": "La mise en place du RER métropolitain" },
-            { "id": "lepape-p-3", "st": "st-14", "label": "100% d'alimentation bio" },
+            {
+                "id": "lepape-p-1",
+                "st": "st-22",
+                "label": "La gratuité progressive des transports en commun"
+            },
+            {
+                "id": "lepape-p-2",
+                "st": "st-22",
+                "label": "La mise en place du RER métropolitain"
+            },
+            {
+                "id": "lepape-p-3",
+                "st": "st-14",
+                "label": "100% d'alimentation bio"
+            },
             {
                 "id": "lepape-p-4",
                 "st": "st-10",
                 "label": "Une journée du référendum d'initiative citoyenne (RIC) chaque année"
             },
-            { "id": "lepape-p-5", "st": "st-13", "label": "Un centre d'hébergement pour sans-abris" },
+            {
+                "id": "lepape-p-5",
+                "st": "st-13",
+                "label": "Un centre d'hébergement pour sans-abris"
+            },
             {
                 "id": "lepape-p-6",
                 "st": "st-15",
                 "label": "La priorité aux 3R (Réquisition, Rénovation, Reconstruction) en matière de logement"
             },
-            { "id": "lepape-p-7", "st": "st-7", "label": "L'interdiction des pesticides" },
-            { "id": "lepape-p-8", "st": "st-10", "label": "Des votations systématiques" },
-            { "id": "lepape-p-9", "st": "st-17", "label": "Création d'un Fond Public Métropolitain" },
-            { "id": "lepape-p-10", "st": "st-16", "label": "L'extension du projet de territoire 'zéro chômeur'" },
+            {
+                "id": "lepape-p-7",
+                "st": "st-7",
+                "label": "L'interdiction des pesticides"
+            },
+            {
+                "id": "lepape-p-8",
+                "st": "st-10",
+                "label": "Des votations systématiques"
+            },
+            {
+                "id": "lepape-p-9",
+                "st": "st-17",
+                "label": "Création d'un Fond Public Métropolitain"
+            },
+            {
+                "id": "lepape-p-10",
+                "st": "st-16",
+                "label": "L'extension du projet de territoire 'zéro chômeur'"
+            },
             {
                 "id": "lepape-p-11",
                 "st": "st-16",
                 "label": "Inciter et faciliter l’installation d’artisans et de petit.e.s commerçant.e.s"
             },
-            { "id": "lepape-p-12", "st": "st-20", "label": "Sécuriser en urgence des voies cyclables" },
-            { "id": "lepape-p-13", "st": "st-12", "label": "Construire des EHPAD de qualité" },
+            {
+                "id": "lepape-p-12",
+                "st": "st-20",
+                "label": "Sécuriser en urgence des voies cyclables"
+            },
+            {
+                "id": "lepape-p-13",
+                "st": "st-12",
+                "label": "Construire des EHPAD de qualité"
+            },
             {
                 "id": "lepape-p-14",
                 "st": "st-9",
                 "label": "Favoriser la culture populaire et l’organisation d'événements gratuit"
             },
-            { "id": "lepape-p-15", "st": "st-17", "label": "Instaurer la révocabilité des élu.e.s" },
+            {
+                "id": "lepape-p-15",
+                "st": "st-17",
+                "label": "Instaurer la révocabilité des élu.e.s"
+            },
             {
                 "id": "lepape-p-16",
                 "st": "st-10",
@@ -1538,7 +2167,11 @@
         "facebook": "DarcelRennesBretagneEurope",
         "facebookFollowers": "574",
         "propositions": [
-            { "id": "darcel-p-1", "st": "st-19", "label": "Redéfinir les tâches de la Police Municipale" },
+            {
+                "id": "darcel-p-1",
+                "st": "st-19",
+                "label": "Redéfinir les tâches de la Police Municipale"
+            },
             {
                 "id": "darcel-p-2",
                 "st": "st-19",
@@ -1559,7 +2192,11 @@
                 "st": "st-25",
                 "label": "Les horaires d'ouverture et de fermeture des établissements de nuit en ville doivent dépendre à l'avenir d’une discussion constructive entre la mairie et la préfecture"
             },
-            { "id": "darcel-p-6", "st": "st-25", "label": "Limitation de détention de Licence IV." },
+            {
+                "id": "darcel-p-6",
+                "st": "st-25",
+                "label": "Limitation de détention de Licence IV."
+            },
             {
                 "id": "darcel-p-7",
                 "st": "st-19",
@@ -1580,8 +2217,16 @@
                 "st": "st-25",
                 "label": "Augmentation des peines, et réelle application, envers les personnes agressant les pompiers et les personnels médicaux et paramédicaux"
             },
-            { "id": "darcel-p-11", "st": "st-25", "label": "Consultation citoyenne quant à l'installation de caméras" },
-            { "id": "darcel-p-12", "st": "st-25", "label": "Création d'un poste de médiateur dédié à la sécurité" },
+            {
+                "id": "darcel-p-11",
+                "st": "st-25",
+                "label": "Consultation citoyenne quant à l'installation de caméras"
+            },
+            {
+                "id": "darcel-p-12",
+                "st": "st-25",
+                "label": "Création d'un poste de médiateur dédié à la sécurité"
+            },
             {
                 "id": "darcel-p-13",
                 "st": "st-25",
@@ -1627,7 +2272,11 @@
                 "st": "st-26",
                 "label": "Augmentation des haltes SNCF et des fréquences sur les ligne TER qui relient les communes du Pays de Rennes à la gare de Rennes"
             },
-            { "id": "darcel-p-22", "st": "st-22", "label": "gratuité des transports pour tous les étudiants" },
+            {
+                "id": "darcel-p-22",
+                "st": "st-22",
+                "label": "Gratuité des transports pour tous les étudiants"
+            },
             {
                 "id": "darcel-p-23",
                 "st": "st-20",
@@ -1673,13 +2322,21 @@
                 "st": "st-9",
                 "label": "Travailler à l'idée d'un grand musée des peintres de Bretagne"
             },
-            { "id": "darcel-p-32", "st": "st-9", "label": "Pérenniser un lieu d'exposition pour la photographie" },
+            {
+                "id": "darcel-p-32",
+                "st": "st-9",
+                "label": "Pérenniser un lieu d'exposition pour la photographie"
+            },
             {
                 "id": "darcel-p-33",
                 "st": "st-9",
                 "label": "Création d'un Musée du Patrimoine Ducal dans les Portes Mordelaises"
             },
-            { "id": "darcel-p-34", "st": "st-9", "label": "Création d'une maison des langues patrimoniales" },
+            {
+                "id": "darcel-p-34",
+                "st": "st-9",
+                "label": "Création d'une maison des langues patrimoniales"
+            },
             {
                 "id": "darcel-p-35",
                 "st": "st-9",
@@ -1745,8 +2402,16 @@
                 "st": "st-27",
                 "label": "Faire évoluer la connaissance de tous vis-à-vis des handicaps invisibles"
             },
-            { "id": "darcel-p-48", "st": "st-27", "label": "Création d’un guide du respect de la différence" },
-            { "id": "darcel-p-49", "st": "st-27", "label": "Développer les feux (passages piétons) sonores" },
+            {
+                "id": "darcel-p-48",
+                "st": "st-27",
+                "label": "Création d’un guide du respect de la différence"
+            },
+            {
+                "id": "darcel-p-49",
+                "st": "st-27",
+                "label": "Développer les feux (passages piétons) sonores"
+            },
             {
                 "id": "darcel-p-50",
                 "st": "st-27",
@@ -1786,6 +2451,96 @@
                 "id": "darcel-p-57",
                 "st": "st-23",
                 "label": "Agrandissement du plateau piétonnier est susceptible d’augmenter l’attrait du centre-ville"
+            },
+            {
+                "id": "darcel-p-58",
+                "st": "st-32",
+                "label": "Rester vigilants pour que les associations continuent de bénéficier d’un mode de fonctionnement simplifié vis-à-vis de l’administration d’État"
+            },
+            {
+                "id": "darcel-p-59",
+                "st": "st-32",
+                "label": "Rester vigilants pour que les associations continuent de bénéficier d’un mode de fonctionnement simplifié vis-à-vis de l’administration d’État"
+            },
+            {
+                "id": "darcel-p-60",
+                "st": "st-32",
+                "label": "Veiller à ce que les associations conservent le maximum de liberté d’action vis-à- vis des autorités politiques"
+            },
+            {
+                "id": "darcel-p-61",
+                "st": "st-32",
+                "label": "Maintenir le niveau des subventions acté jusque-là"
+            },
+            {
+                "id": "darcel-p-62",
+                "st": "st-32",
+                "label": "Création d'un Conseil des Associations, devra compter en son sein, en plus du conseiller municipal aux associations, ceux qui sont délégués aux sports, à la culture et aux relations internationales, des représentants du MAR et d’autres membres élus par l’ensemble des associations"
+            },
+            {
+                "id": "darcel-p-63",
+                "st": "st-32",
+                "label": "Conseil des Associations qui mettra en lien des associations en recherche de mécénat avec des associations entrepreneuriales bretonnes et la diaspora"
+            },
+            {
+                "id": "darcel-p-64",
+                "st": "st-32",
+                "label": "Sanctuariser de nouveaux lieux vers les associations"
+            },
+            {
+                "id": "darcel-p-65",
+                "st": "st-32",
+                "label": "Mettre en avant et cultiver la cohérence et les synergies entre les associations de Rennes et celles des villes de la première couronne"
+            },
+            {
+                "id": "darcel-p-66",
+                "st": "st-32",
+                "label": "Mettre en place une campagne de communication récurrente à l’intention de tous les Rennais et des habitants de la première couronne"
+            },
+            {
+                "id": "darcel-p-67",
+                "st": "st-12",
+                "label": "S’engager pour que le personnel médical partage à égale proportion la prise de décisions concernant les orientations et l’avenir de l’hôpital public"
+            },
+            {
+                "id": "darcel-p-68",
+                "st": "st-12",
+                "label": "Faire en sorte de lier profondément santé et écologie"
+            },
+            {
+                "id": "darcel-p-69",
+                "st": "st-7",
+                "label": "Végétaliser la ville, planter plus et protéger les arbres. Penser aux arbres fruitiers pour planifier à terme des politiques d’autosuffisance"
+            },
+            {
+                "id": "darcel-p-70",
+                "st": "st-12",
+                "label": "Prendre en main à l’échelon local le principe de précaution"
+            },
+            {
+                "id": "darcel-p-71",
+                "st": "st-12",
+                "label": "Prendre en compte à l’échelle de la ville les approches médicales différentes qui évitent les dépenses inutiles et augmentent la sur-médication"
+            },
+            {
+                "id": "darcel-p-72",
+                "st": "st-7",
+                "label": "Création d’un pôle de développement et d’enseignement d’agriculture écologique"
+            },
+            {
+                "id": "darcel-p-73",
+                "st": "st-12",
+                "label": "Mener une politique sans tabou contre les addictions en prenant exemple sur ce qui fonctionne bien ailleurs"
+            },
+            {
+                "id": "darcel-p-74",
+                "st": "st-12",
+                "label": "Désengorger l’hôpital de Pontchaillou en créant une nouvelle structure hors rocade pour les maladies longue durée"
+            },
+            {
+                "id": "darcel-p-75",
+                "st": "st-19",
+                "label": "Installer de manière pérenne des policiers dans l’enceinte de Pontchaillou"
             }
         ]
     },
@@ -1800,7 +2555,11 @@
         "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
         "facebookFollowers": "212",
         "propositions": [
-            { "id": "salmon-p-1", "st": "st-7", "label": "Développer la végétalisation et les îlots de fraîcheur" },
+            {
+                "id": "salmon-p-1",
+                "st": "st-7",
+                "label": "Développer la végétalisation et les îlots de fraîcheur"
+            },
             {
                 "id": "salmon-p-2",
                 "st": "st-23",
@@ -1816,13 +2575,21 @@
                 "st": "st-20",
                 "label": "Sécuriser les pistes cyclables en privilégiant les voies en site propre"
             },
-            { "id": "salmon-p-5", "st": "st-5", "label": "Favoriser le localisme dans les cantines" },
+            {
+                "id": "salmon-p-5",
+                "st": "st-5",
+                "label": "Favoriser le localisme dans les cantines"
+            },
             {
                 "id": "salmon-p-6",
                 "st": "st-3",
                 "label": "Compléter et encourager les AMAP pour la livraison de fruits et légumes locaux"
             },
-            { "id": "salmon-p-7", "st": "st-2", "label": "Développer les jardins partagés et familiaux" },
+            {
+                "id": "salmon-p-7",
+                "st": "st-2",
+                "label": "Développer les jardins partagés et familiaux"
+            },
             {
                 "id": "salmon-p-8",
                 "st": "st-8",
@@ -1843,9 +2610,21 @@
                 "st": "st-27",
                 "label": "Evaluer et à éliminer tous les obstacles rencontrés par les personnes à mobilité réduite"
             },
-            { "id": "salmon-p-11", "st": "st-28", "label": "Redynamiser les dalles commerciales dans chaque quartier" },
-            { "id": "salmon-p-12", "st": "st-23", "label": "Mener un audit sur les passoires énergétiques" },
-            { "id": "salmon-p-13", "st": "st-19", "label": "Triplement des effectifs de la police municipale" }
+            {
+                "id": "salmon-p-11",
+                "st": "st-28",
+                "label": "Redynamiser les dalles commerciales dans chaque quartier"
+            },
+            {
+                "id": "salmon-p-12",
+                "st": "st-23",
+                "label": "Mener un audit sur les passoires énergétiques"
+            },
+            {
+                "id": "salmon-p-13",
+                "st": "st-19",
+                "label": "Triplement des effectifs de la police municipale"
+            }
         ]
     },
     {
@@ -1884,14 +2663,26 @@
                 "st": "st-26",
                 "label": "Priorité au ferroviaire en agissant pour la réouverture de la ligne Rennes, Fougères ainsi que les gares qui ont été fermées sous le dernier mandat"
             },
-            { "id": "ouvrier-p-2", "st": "st-22", "label": "Les transports en commun gratuits immédiatement" },
+            {
+                "id": "ouvrier-p-2",
+                "st": "st-22",
+                "label": "Les transports en commun gratuits immédiatement"
+            },
             {
                 "id": "ouvrier-p-3",
                 "st": "st-7",
                 "label": "Remunicipalisation de tous les services dépendants des jardins"
             },
-            { "id": "ouvrier-p-4", "st": "st-7", "label": "Création d’une pépinière municipale ou intercommunautaire" },
-            { "id": "ouvrier-p-5", "st": "st-15", "label": "Interdire les expulsions locatives" },
+            {
+                "id": "ouvrier-p-4",
+                "st": "st-7",
+                "label": "Création d’une pépinière municipale ou intercommunautaire"
+            },
+            {
+                "id": "ouvrier-p-5",
+                "st": "st-15",
+                "label": "Interdire les expulsions locatives"
+            },
             {
                 "id": "ouvrier-p-6",
                 "st": "st-15",
