@@ -1697,6 +1697,56 @@
                 "id": "gandon-p-49",
                 "st": "st-31",
                 "label": "Désenclaver le campus de Ker Lann en préparant sa desserte par le prolongement de la ligne A du métro"
+            },
+            {
+                "id": "gandon-p-50",
+                "st": "st-7",
+                "label": "Désenclaver le campus de Ker Lann en préparant sa desserte par le prolongement de la ligne A du métro"
+            },
+            {
+                "id": "gandon-p-51",
+                "st": "st-14",
+                "label": "Accélérer le réhabilitation énergétique dans le parc privé existant (en particulier dans les quartiers prioritaires) et la poursuivre dans le parc public"
+            },
+            {
+                "id": "gandon-p-52",
+                "st": "st-7",
+                "label": "Multiplier les espaces verte de proximité pour désimperméabiliser les sols, lancer un plan de végétalisation des parkings et des cours d'école et encourager la végétalisation des murs et des abords des maisons des particuliers"
+            },
+            {
+                "id": "gandon-p-53",
+                "st": "st-7",
+                "label": "Créer des plans d'eau et des fontaines en privilégiant la réutilisation des eaux de pluie"
+            },
+            {
+                "id": "gandon-p-54",
+                "st": "st-7",
+                "label": "Renforcer les commissions «cadre de vie» des conseils de quartier avec un volet biodiversité pour faciliter l'adhésion des citoyens sur les projets de protection de la biodiversité en ville"
+            },
+            {
+                "id": "gandon-p-55",
+                "st": "st-7",
+                "label": "Ouvrir au sein de Rennes Métropole une réflexion sur a un territoire «0 pollution nocturne», avec comme objectif l'extinction progressive de l'éclairage public entre 23h00 et 6h00"
+            },
+            {
+                "id": "gandon-p-56",
+                "st": "st-7",
+                "label": "Améliorer le qualité des eaux superficielles, valoriser les abords et lutter contre les phénomènes d'eutrophisation des eaux"
+            },
+            {
+                "id": "gandon-p-57",
+                "st": "st-7",
+                "label": "Étudier une solution alternative à l'incinérateur de Villejean pour tenir compte de l'arrivée à maturité de nouvelles technologies qui s'inscrivent dans un contexte régional favorable avec la nouvelle trajectoire du pacte gazier breton"
+            },
+            {
+                "id": "gandon-p-58",
+                "st": "st-7",
+                "label": "Installer à proximité des écoles et des équipements de quartier un container de dépôt d'objets, et conventionner avec toutes les recycleries de Rennes pour créer un réseau associatif du réemploi"
+            },
+            {
+                "id": "gandon-p-59",
+                "st": "st-7",
+                "label": "Développer le compostage de quartier et étudier la mise en place d'un troisième container de tri des matières organiques"
             }
         ]
     },
@@ -2386,7 +2436,7 @@
         "id": "ouvrier",
         "tetes": [{
                 "prenom": "Laurent & Pierre",
-                "nom": "Piret"
+                "nom": "Priet"
             },
             {
                 "prenom": "Louis",
@@ -2394,7 +2444,7 @@
             }
         ],
         "parti": "Parti ouvrier démocratique indépendant (POID)",
-        "liste": "Parti ouvrier démocratique indépendant",
+        "liste": "Rennes 100% public",
         "website": "parti-ouvrier-independant.fr",
         "twitter": "Parti_Ouvrier",
         "propositions": [{
