@@ -1218,7 +1218,7 @@
             },
             {
                 "st": "st-12",
-                "label": "Non à l'arrivée de la 4G sans étude d'impact sanitaire",
+                "label": "Non à l'arrivée de la 5G sans étude d'impact sanitaire",
                 "id": "verts-p-162"
             },
             {
@@ -1405,6 +1405,51 @@
                 "st": "st-27",
                 "label": "Des jeux adaptés dans les écoles et les parcs",
                 "id": "verts-p-199"
+            },
+            {
+                "st": "st-3",
+                "label": "Un schéma du réemploi ambitieux avec des moyens à la hauteur des objectifs",
+                "id": "verts-p-200"
+            },
+            {
+                "st": "st-3",
+                "label": "Aide aux entreprises de l'ESS engagées dans le domaine du réemploi",
+                "id": "verts-p-201"
+            },
+            {
+                "st": "st-3",
+                "label": "Une ressourcerie à moins de 5 min de chez chaque habitant.e et un epace de réemploi dans chaque déchetterie de la métropole",
+                "id": "verts-p-202"
+            },
+            {
+                "st": "st-3",
+                "label": "Des espaces de collecte et de tri dans chaque zone industrielle",
+                "id": "verts-p-203"
+            },
+            {
+                "st": "st-3",
+                "label": "Permis de démolir conditionné à la mise en place d'une fiche identifiant les matériaux et produits réemployables transmise aux structures de réemploi locales",
+                "id": "verts-p-204"
+            },
+            {
+                "st": "st-3",
+                "label": "Une charte chantier vert pour systématiser le recyclage, le réemploi et éviter les dépôts sauvages",
+                "id": "verts-p-205"
+            },
+            {
+                "st": "st-3",
+                "label": "Amplification de la politique de dons de matériels usagé de la collectivité (ordinateurs, mobilier, vêtements professionnels)",
+                "id": "verts-p-206"
+            },
+            {
+                "st": "st-3",
+                "label": "Chalets du marché de Noël réservés à l'économie du réemploi, circulaire, écologique, du commerce équitable, de la culture et de la solidarité",
+                "id": "verts-p-207"
+            },
+            {
+                "st": "st-3",
+                "label": "Un diagnostic déchet avant chaque chantier de la collectivité pour évaluer les matériaux à récupérer d'autres chantiers et ceux à donner",
+                "id": "verts-p-208"
             }
         ]
     },
