@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs-extra');
 
 const URL =
-    'https://rennes-en-commun-2020.fr/programme-des-municipales-2020-rennes-en-commun-partie2-maillage-du-territoire';
+    'https://rennes-en-commun-2020.fr/programme-des-municipales-2020-rennes-en-commun-partie2-gratuite-des-transports-en-commun';
 const candidatIndex = 4;
 const sousThematiqueId = 'st-22';
 const propositionPrefixId = 'lepape-p-';

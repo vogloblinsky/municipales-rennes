@@ -126,5 +126,9 @@
     {
         "label": "Associatif",
         "id": "st-32"
+    },
+    {
+        "label": "Services publics",
+        "id": "st-33"
     }
 ]
