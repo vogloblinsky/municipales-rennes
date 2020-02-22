@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "t-1",
         "label": "Economie / emploi",
         "icon": "calculator",
@@ -43,7 +42,7 @@
         "id": "t-6",
         "label": "Transports / mobilite",
         "icon": "car",
-        "sous-thematiques": ["st-20", "st-21", "st-24", "st-22", "st-26"]
+        "sous-thematiques": ["st-20", "st-21", "st-22", "st-24", "st-26"]
     },
     {
         "id": "t-7",

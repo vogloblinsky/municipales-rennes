@@ -1,7 +1,9 @@
-[
-    {
+[{
         "id": "appere",
-        "tetes": [{ "prenom": "Nathalie", "nom": "Appéré" }],
+        "tetes": [{
+            "prenom": "Nathalie",
+            "nom": "Appéré"
+        }],
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "avecnathalieappere.fr",
@@ -9,8 +11,7 @@
         "twitterFollowers": "797",
         "facebook": "avecnathalieappere",
         "facebookFollowers": "444",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "appere-p-1",
                 "st": "st-21",
                 "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
@@ -394,9 +395,14 @@
     },
     {
         "id": "verts",
-        "tetes": [
-            { "prenom": "Matthieu", "nom": "Theurier" },
-            { "prenom": "Priscilla", "nom": "Zamord" }
+        "tetes": [{
+                "prenom": "Matthieu",
+                "nom": "Theurier"
+            },
+            {
+                "prenom": "Priscilla",
+                "nom": "Zamord"
+            }
         ],
         "parti": "EELV-UDB-ND",
         "liste": "Choisir l'écologie pour Rennes",
@@ -405,8 +411,7 @@
         "twitterFollowers": "415",
         "facebook": "RennesEcologie",
         "facebookFollowers": "1009",
-        "propositions": [
-            {
+        "propositions": [{
                 "st": "st-2",
                 "label": "Appuyer la multiplication des coopératives",
                 "id": "verts-p-0"
@@ -1455,7 +1460,10 @@
     },
     {
         "id": "gandon",
-        "tetes": [{ "prenom": "Carole", "nom": "Gandon" }],
+        "tetes": [{
+            "prenom": "Carole",
+            "nom": "Gandon"
+        }],
         "parti": "LaREM",
         "liste": "Révéler Rennes",
         "website": "reveler-rennes.bzh",
@@ -1463,14 +1471,14 @@
         "twitterFollowers": "839",
         "facebook": "RevelerRennes",
         "facebookFollowers": "394",
-        "polemiques": [
-            {
-                "label": "Mailing malencontreux",
-                "references": [{ "titre": "", "url": "" }]
-            }
-        ],
-        "propositions": [
-            {
+        "polemiques": [{
+            "label": "Mailing malencontreux",
+            "references": [{
+                "titre": "",
+                "url": ""
+            }]
+        }],
+        "propositions": [{
                 "id": "gandon-p-1",
                 "st": "st-19",
                 "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
@@ -1789,7 +1797,10 @@
     },
     {
         "id": "compagnon",
-        "tetes": [{ "prenom": "Charles", "nom": "Compagnon" }],
+        "tetes": [{
+            "prenom": "Charles",
+            "nom": "Compagnon"
+        }],
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
         "website": "www.compagnon2020.fr",
@@ -1797,8 +1808,7 @@
         "twitterFollowers": "295",
         "facebook": "Compagnon2020",
         "facebookFollowers": "612",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "compagnon-p-1",
                 "st": "st-7",
                 "label": "Verdir la ville (cours d'écoles, toits, abris-bus, rues et boulevards)"
@@ -1912,9 +1922,14 @@
     },
     {
         "id": "lepape",
-        "tetes": [
-            { "prenom": "Enora", "nom": "Le Pape" },
-            { "prenom": "Jean-Paul", "nom": "Tual" }
+        "tetes": [{
+                "prenom": "Enora",
+                "nom": "Le Pape"
+            },
+            {
+                "prenom": "Jean-Paul",
+                "nom": "Tual"
+            }
         ],
         "parti": "LFI",
         "liste": "Rennes en commun",
@@ -1923,8 +1938,7 @@
         "twitterFollowers": "346",
         "facebook": "RennesEnCommun",
         "facebookFollowers": "1910",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "lepape-p-1",
                 "st": "st-22",
                 "label": "La gratuité progressive des transports en commun"
@@ -2403,7 +2417,10 @@
     },
     {
         "id": "darcel",
-        "tetes": [{ "prenom": "Franck", "nom": "Darcel" }],
+        "tetes": [{
+            "prenom": "Franck",
+            "nom": "Darcel"
+        }],
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
@@ -2411,8 +2428,7 @@
         "twitterFollowers": "181",
         "facebook": "DarcelRennesBretagneEurope",
         "facebookFollowers": "574",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "darcel-p-1",
                 "st": "st-19",
                 "label": "Redéfinir les tâches de la Police Municipale"
@@ -2876,7 +2892,10 @@
     },
     {
         "id": "salmon",
-        "tetes": [{ "prenom": "Émeric", "nom": "Salmon" }],
+        "tetes": [{
+            "prenom": "Émeric",
+            "nom": "Salmon"
+        }],
         "parti": "RN",
         "website": "rassemblement-national35.fr",
         "liste": "Rassemblement national",
@@ -2884,8 +2903,7 @@
         "twitterFollowers": "2913",
         "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
         "facebookFollowers": "212",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "salmon-p-1",
                 "st": "st-7",
                 "label": "Développer la végétalisation et les îlots de fraîcheur"
@@ -2953,19 +2971,81 @@
             {
                 "id": "salmon-p-13",
                 "st": "st-19",
-                "label": "Triplement des effectifs de la police municipale"
+                "label": "Augmentation des effectifs de police municipale: doublement sous 2 ans, triplement d'ici 2026"
+            },
+            {
+                "id": "salmon-p-14",
+                "st": "st-19",
+                "label": "Armement immédiat avec armes électriques puis armes létales identiques à la Police Nationale. Disponibilité 7j/7; 24h/24"
+            },
+            {
+                "id": "salmon-p-15",
+                "st": "st-19",
+                "label": "Mise en place d’une brigade de nuit"
+            },
+            {
+                "id": "salmon-p-16",
+                "st": "st-25",
+                "label": "Augmentation du nombre de caméras fixes et mobiles et acquisition de caméras intelligentes"
+            },
+            {
+                "id": "salmon-p-17",
+                "st": "st-25",
+                "label": "Mise en place du dispositif « Rennes Ville Sûre » permettant aux rennais qui le souhaitent d’alerter en cas d’urgence d’un simple clic les forces de l’ordre"
+            },
+            {
+                "id": "salmon-p-18",
+                "st": "st-25",
+                "label": "Travaux d’Intérêt Général pour réparation suite à une incivilité"
+            },
+            {
+                "id": "salmon-p-19",
+                "st": "st-22",
+                "label": "Gratuité des transports en commun le samedi"
+            },
+            {
+                "id": "salmon-p-20",
+                "st": "st-22",
+                "label": "Baisser de 10% l’ensemble des tarifs d’abonnement pour tous"
+            },
+            {
+                "id": "salmon-p-21",
+                "st": "st-22",
+                "label": "Réduction de 50% pour les étudiants sur la grille tarifaire d’abonnement"
+            },
+            {
+                "id": "salmon-p-22",
+                "st": "st-22",
+                "label": "Gratuité du transport 1h avant et 1h après un trajet au départ ou à l’arrivée de la gare de Rennes avec un titre de transport SNCF valide"
+            },
+            {
+                "id": "salmon-p-23",
+                "st": "st-22",
+                "label": "Encouragement du télétravail par la réduction du versement mobilité des entreprises mettant en place cette solution pour leurs employés"
+            },
+            {
+                "id": "salmon-p-24",
+                "st": "st-22",
+                "label": "Développement des transports et des parkings relais en dehors de la rocade"
+            },
+            {
+                "id": "salmon-p-25",
+                "st": "st-22",
+                "label": "Mise à l’étude du contournement de la rocade par le nord"
             }
         ]
     },
     {
         "id": "hamon",
-        "tetes": [{ "prenom": "Valérie", "nom": "Hamon" }],
+        "tetes": [{
+            "prenom": "Valérie",
+            "nom": "Hamon"
+        }],
         "parti": "LO",
         "liste": "Lutte ouvrière – Faire entendre le camp des travailleurs",
         "website": "www.lutte-ouvriere.org",
         "twitter": "LutteOuvriere",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "hamon-p-1",
                 "st": "st-7",
                 "label": "Seuls les travailleurs ont, par leur rôle au cœur de l’économie, la puissance sociale à même de renverser le capitalisme qui afflige l’humanité et la planète de dégâts irrémédiables"
@@ -2979,16 +3059,20 @@
     },
     {
         "id": "ouvrier",
-        "tetes": [
-            { "prenom": "Laurent & Pierre", "nom": "Priet" },
-            { "prenom": "Louis", "nom": "Renault" }
+        "tetes": [{
+                "prenom": "Laurent & Pierre",
+                "nom": "Priet"
+            },
+            {
+                "prenom": "Louis",
+                "nom": "Renault"
+            }
         ],
         "parti": "Parti ouvrier démocratique indépendant (POID)",
         "liste": "Rennes 100% public",
         "website": "parti-ouvrier-independant.fr",
         "twitter": "Parti_Ouvrier",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "ouvrier-p-1",
                 "st": "st-26",
                 "label": "Priorité au ferroviaire en agissant pour la réouverture de la ligne Rennes, Fougères ainsi que les gares qui ont été fermées sous le dernier mandat"
