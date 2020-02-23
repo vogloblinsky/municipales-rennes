@@ -2906,7 +2906,7 @@
         "propositions": [{
                 "id": "salmon-p-1",
                 "st": "st-7",
-                "label": "Développer la végétalisation et les îlots de fraîcheur"
+                "label": "Développer la végétalisation et les îlots de fraîcheur en transformant des places et dalles actuellement sans usage"
             },
             {
                 "id": "salmon-p-2",
@@ -3032,6 +3032,26 @@
                 "id": "salmon-p-25",
                 "st": "st-22",
                 "label": "Mise à l’étude du contournement de la rocade par le nord"
+            },
+            {
+                "id": "salmon-p-26",
+                "st": "st-23",
+                "label": "Tout aménagement urbain devra être réfléchi en concertation avec les riverains et associations pour garantir un minimum de 10 ans sans travaux"
+            },
+            {
+                "id": "salmon-p-27",
+                "st": "st-20",
+                "label": "Mise en sécurité des pistes cyclables dangereuses : fin des discontinuités, réaménagement des partages cyclistes-piétons, couleur de revêtement spécifique pour l’ensemble du réseau vélo"
+            },
+            {
+                "id": "salmon-p-28",
+                "st": "st-20",
+                "label": "Etude de la possibilité de mise en place de Vélo-rues"
+            },
+            {
+                "id": "salmon-p-29",
+                "st": "st-20",
+                "label": "Développement du système de location de vélos électriques STAR"
             }
         ]
     },
