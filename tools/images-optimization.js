@@ -10,7 +10,7 @@ compress_images(
     OUTPUT_path,
     { compress_force: false, statistic: true, autoupdate: true },
     false,
-    { jpg: { engine: 'mozjpeg', command: ['-quality', '80'] } },
+    { jpg: { engine: 'mozjpeg', command: ['-quality', '90'] } },
     { png: { engine: 'pngquant', command: ['--quality=40-70'] } },
     { svg: { engine: 'svgo', command: '--multipass' } },
     {
