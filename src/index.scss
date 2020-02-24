@@ -50,6 +50,12 @@ a {
         flex-grow: 2;
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .info {
+        font-size: 11px;
+        color: #FFC107;
     }
 }
 

@@ -64,6 +64,8 @@
                 <span><b>Rennes 2020</b></span>
                 <span class="bull">&bull;</span>
                 <span>Comparateur de programmes</span>
+                <span class="bull">&bull;</span>
+                <span class="info"><i>Intégration des programmes en cours...</i></span>
             </div>
             <div class="copyright">
                 <ion-icon name="information-circle-outline" data-toggle="modal" data-target="#infoModal"></ion-icon>
@@ -197,7 +199,7 @@
                                 <p class="empty"><i>Aucune proposition référencée</i></p>
                                 {{else}}
                                 {{#each this.propositions}}
-                                <p>{{this.label}}</p>
+                                <p>{{#if this.important}}<b>{{this.label}}</b>{{else}}{{this.label}}{{/if}}</p>
                                 {{/each}}
                                 {{/compare}}
 
@@ -226,7 +228,7 @@
                 <div class="modal-body">
                     <p>
                         Ce site a été réalisé de manière citoyenne par <a href="https://www.vincentogloblinsky.com"
-                            target="_blank">Vincent Ogloblinsky</a>.
+                            target="_blank">Vincent Ogloblinsky</a>
                     </p>
                     <p>
                         Les sources du projet sont disponible sur Github : <a
@@ -236,7 +238,7 @@
                     <p>
                         Pour toute demande de modification/correction, merci d'utiliser le volet <a
                             href="https://github.com/vogloblinsky/municipales-rennes/issues"
-                            target="_blank">"issues"</a> de Github.
+                            target="_blank">"issues"</a> de Github
                     </p>
                 </div>
             </div>
