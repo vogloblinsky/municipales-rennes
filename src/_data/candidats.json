@@ -419,7 +419,8 @@
             {
                 "st": "st-2",
                 "label": "Plus de moyens financiers dédiés spécifiquement au développement de structures ESS",
-                "id": "verts-p-1"
+                "id": "verts-p-1",
+                "important": true
             },
             {
                 "st": "st-2",
@@ -2906,7 +2907,8 @@
         "propositions": [{
                 "id": "salmon-p-1",
                 "st": "st-7",
-                "label": "Développer la végétalisation et les îlots de fraîcheur en transformant des places et dalles actuellement sans usage"
+                "label": "Développer la végétalisation et les îlots de fraîcheur en transformant des places et dalles actuellement sans usage",
+                "important": true
             },
             {
                 "id": "salmon-p-2",
@@ -2926,7 +2928,8 @@
             {
                 "id": "salmon-p-5",
                 "st": "st-5",
-                "label": "Favoriser le localisme dans les cantines"
+                "label": "Favoriser le localisme dans les cantines",
+                "important": true
             },
             {
                 "id": "salmon-p-6",
@@ -2946,7 +2949,8 @@
             {
                 "id": "salmon-p-8",
                 "st": "st-28",
-                "label": "Installer des marchés permanents dans les quartiers, ouverts aux producteurs locaux"
+                "label": "Installer des marchés permanents dans les quartiers, ouverts aux producteurs locaux",
+                "important": true
             },
             {
                 "id": "salmon-p-9",
@@ -2971,7 +2975,8 @@
             {
                 "id": "salmon-p-13",
                 "st": "st-19",
-                "label": "Augmentation des effectifs de police municipale: doublement sous 2 ans, triplement d'ici 2026"
+                "label": "Augmentation des effectifs de police municipale: doublement sous 2 ans, triplement d'ici 2026",
+                "important": true
             },
             {
                 "id": "salmon-p-14",
@@ -3001,7 +3006,8 @@
             {
                 "id": "salmon-p-19",
                 "st": "st-22",
-                "label": "Gratuité des transports en commun le samedi"
+                "label": "Gratuité des transports en commun le samedi",
+                "important": true
             },
             {
                 "id": "salmon-p-20",
@@ -3021,7 +3027,8 @@
             {
                 "id": "salmon-p-23",
                 "st": "st-22",
-                "label": "Encouragement du télétravail par la réduction du versement mobilité des entreprises mettant en place cette solution pour leurs employés"
+                "label": "Encouragement du télétravail par la réduction du versement mobilité des entreprises mettant en place cette solution pour leurs employés",
+                "important": true
             },
             {
                 "id": "salmon-p-24",
@@ -3041,7 +3048,8 @@
             {
                 "id": "salmon-p-27",
                 "st": "st-20",
-                "label": "Mise en sécurité des pistes cyclables dangereuses : fin des discontinuités, réaménagement des partages cyclistes-piétons, couleur de revêtement spécifique pour l’ensemble du réseau vélo"
+                "label": "Mise en sécurité des pistes cyclables dangereuses : fin des discontinuités, réaménagement des partages cyclistes-piétons, couleur de revêtement spécifique pour l’ensemble du réseau vélo",
+                "important": true
             },
             {
                 "id": "salmon-p-28",
@@ -3052,6 +3060,93 @@
                 "id": "salmon-p-29",
                 "st": "st-20",
                 "label": "Développement du système de location de vélos électriques STAR"
+            },
+            {
+                "id": "salmon-p-30",
+                "st": "st-28",
+                "label": "Mise en place d’un système : 1 € dépensé en centre-ville donne droit à 1 minute de stationnement gratuit"
+            },
+            {
+                "id": "salmon-p-31",
+                "st": "st-28",
+                "label": "Information dans le magazine municipal sur les créations de nouveaux commerces"
+            },
+            {
+                "id": "salmon-p-32",
+                "st": "st-30",
+                "label": "Facilitation de l’ouverture de pépinières d’entreprise dans les quartiers"
+            },
+            {
+                "id": "salmon-p-33",
+                "st": "st-12",
+                "label": "Mise en place d’une mutuelle municipale afin de garantir l’accès à des offres de soins à prix abordable à l’ensemble des Rennais",
+                "important": true
+            },
+            {
+                "id": "salmon-p-34",
+                "st": "st-12",
+                "label": "Conservation du caractère de service public et de santé pour les locaux de l’hôpital sud"
+            },
+            {
+                "id": "salmon-p-35",
+                "st": "st-12",
+                "label": "Développement des maisons communes de santé dans les quartiers afin de réduire les délais d’attente chez les praticiens"
+            },
+            {
+                "id": "salmon-p-36",
+                "st": "st-11",
+                "label": "Mise en oeuvre d’un Plan Piscine : Rénovation des piscines de Bréquigny et Saint-Georges, développement d’une filière d’excellence de formation des maitres-nageurs sauveteurs"
+            },
+            {
+                "id": "salmon-p-37",
+                "st": "st-11",
+                "label": "Aide au développement des activités sportives par les clubs amateurs et également par un soutien au sport de haut niveau"
+            },
+            {
+                "id": "salmon-p-38",
+                "st": "st-9",
+                "label": "Création d’un événement important culturel sur l’histoire de la ville de Rennes (autour de Condate)"
+            },
+            {
+                "id": "salmon-p-39",
+                "st": "st-9",
+                "label": "Aide au développement des spectacles par des artistes locaux"
+            },
+            {
+                "id": "salmon-p-40",
+                "st": "st-9",
+                "label": "Soutien et accompagnement des associations de théâtre, musique, beaux-arts…mise à disposition de locaux"
+            },
+            {
+                "id": "salmon-p-41",
+                "st": "st-9",
+                "label": "Conservation de l’Arvor rue d’Antrain en cinéma de quartier associatif spécialisé"
+            },
+            {
+                "id": "salmon-p-42",
+                "st": "st-9",
+                "label": "Festival de musique consacré à Gabriel Fauré, grand compositeur qui a été Rennais"
+            },
+            {
+                "id": "salmon-p-43",
+                "st": "st-9",
+                "label": "Gestion des subventions aux associations sous condition de neutralité politique"
+            },
+            {
+                "id": "salmon-p-44",
+                "st": "st-9",
+                "label": "Aucune subvention ne sera versée à des associations commettant des actes illégaux"
+            },
+            {
+                "id": "salmon-p-45",
+                "st": "st-17",
+                "label": "Aucune augmentation des impôts locaux sur la durée du mandat",
+                "important": true
+            },
+            {
+                "id": "salmon-p-46",
+                "st": "st-17",
+                "label": "Réduction du nombre d’adjoints au maire à 12 adjoints. Chaque adjoint aura une responsabilité fonctionnelle et une responsabilité d’un quartier de Rennes"
             }
         ]
     },
