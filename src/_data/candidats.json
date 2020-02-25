@@ -1982,47 +1982,56 @@
             {
                 "id": "lepape-p-2",
                 "st": "st-22",
-                "label": "La mise en place du RER métropolitain"
+                "label": "La mise en place du RER métropolitain",
+                "important": true
             },
             {
                 "id": "lepape-p-3",
                 "st": "st-14",
-                "label": "100% d'alimentation bio"
+                "label": "100% d'alimentation bio",
+                "important": true
             },
             {
                 "id": "lepape-p-4",
                 "st": "st-10",
-                "label": "Une journée du référendum d'initiative citoyenne (RIC) chaque année"
+                "label": "Une journée du référendum d'initiative citoyenne (RIC) chaque année",
+                "important": true
             },
             {
                 "id": "lepape-p-5",
                 "st": "st-13",
-                "label": "Un centre d'hébergement pour sans-abris"
+                "label": "Un centre d'hébergement pour sans-abris",
+                "important": true
             },
             {
                 "id": "lepape-p-6",
                 "st": "st-15",
-                "label": "La priorité aux 3R (Réquisition, Rénovation, Reconstruction) en matière de logement"
+                "label": "La priorité aux 3R (Réquisition, Rénovation, Reconstruction) en matière de logement",
+                "important": true
             },
             {
                 "id": "lepape-p-7",
                 "st": "st-7",
-                "label": "L'interdiction des pesticides"
+                "label": "L'interdiction des pesticides",
+                "important": true
             },
             {
                 "id": "lepape-p-8",
                 "st": "st-10",
-                "label": "Des votations systématiques"
+                "label": "Des votations systématiques",
+                "important": true
             },
             {
                 "id": "lepape-p-9",
                 "st": "st-17",
-                "label": "Création d'un Fond Public Métropolitain"
+                "label": "Création d'un Fond Public Métropolitain",
+                "important": true
             },
             {
                 "id": "lepape-p-10",
                 "st": "st-16",
-                "label": "L'extension du projet de territoire 'zéro chômeur'"
+                "label": "L'extension du projet de territoire 'zéro chômeur'",
+                "important": true
             },
             {
                 "id": "lepape-p-11",
@@ -2032,22 +2041,26 @@
             {
                 "id": "lepape-p-12",
                 "st": "st-20",
-                "label": "Sécuriser en urgence des voies cyclables"
+                "label": "Sécuriser en urgence des voies cyclables",
+                "important": true
             },
             {
                 "id": "lepape-p-13",
                 "st": "st-12",
-                "label": "Construire des EHPAD de qualité"
+                "label": "Construire des EHPAD de qualité",
+                "important": true
             },
             {
                 "id": "lepape-p-14",
                 "st": "st-9",
-                "label": "Favoriser la culture populaire et l’organisation d'événements gratuit"
+                "label": "Favoriser la culture populaire et l’organisation d'événements gratuit",
+                "important": true
             },
             {
                 "id": "lepape-p-15",
                 "st": "st-17",
-                "label": "Instaurer la révocabilité des élu.e.s"
+                "label": "Instaurer la révocabilité des élu.e.s",
+                "important": true
             },
             {
                 "id": "lepape-p-16",
