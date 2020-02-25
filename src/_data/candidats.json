@@ -1918,6 +1918,41 @@
                 "id": "compagnon-p-21",
                 "st": "st-19",
                 "label": "Etendre la vidéoprotection"
+            },
+            {
+                "id": "compagnon-p-22",
+                "st": "st-2",
+                "label": "Création d’emplois, en encourageant les commerces de proximité et les artisans dans les quartiers, en soutenant la création d’activités de l’économie sociale et solidaire en faisant de Rennes Métropole une Fab City"
+            },
+            {
+                "id": "compagnon-p-22",
+                "st": "st-2",
+                "label": "Intégration d’un volet économique dans le développement des coopérations et des jumelages, notamment en constituant un pôle européen de l’économie sociale et solidaire"
+            },
+            {
+                "id": "compagnon-p-23",
+                "st": "st-30",
+                "label": "Création de deux évènements internationaux : le Space du numérique et faire de Rennes une capitale du bien manger. Notre ville doit être connectée pour les Rennais par l’expérimentation de toutes les technologies de smartcity"
+            },
+            {
+                "id": "compagnon-p-24",
+                "st": "st-30",
+                "label": "Action pour le développement de l’Aéroport de Rennes et la mise en place d’une liaison ferroviaire rénovée vers Nantes afin de renforcer notre attractivité économique"
+            },
+            {
+                "id": "compagnon-p-25",
+                "st": "st-5",
+                "label": "Amélioration de la qualité d’accueil des moins de 3 ans à Rennes en créant 300 places d’accueil en crèches (3,6 millions d’€/an)"
+            },
+            {
+                "id": "compagnon-p-26",
+                "st": "st-5",
+                "label": "Favoriser la création d’une maison d’assistantes maternelles"
+            },
+            {
+                "id": "compagnon-p-27",
+                "st": "st-5",
+                "label": "Transformation du centre d’information de l’Étoile en un véritable guichet unique d’inscription et de gestion des différents types de modes de garde"
             }
         ]
     },
