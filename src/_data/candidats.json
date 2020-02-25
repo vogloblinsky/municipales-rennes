@@ -1952,6 +1952,41 @@
                 "id": "compagnon-p-27",
                 "st": "st-5",
                 "label": "Transformation du centre d’information de l’Étoile en un véritable guichet unique d’inscription et de gestion des différents types de modes de garde"
+            },
+            {
+                "id": "compagnon-p-28",
+                "st": "st-8",
+                "label": "Organiser une collecte bimensuelle de compost"
+            },
+            {
+                "id": "compagnon-p-29",
+                "st": "st-8",
+                "label": "Valorisation énergétique des biodéchets en construisant un centre de méthanisation"
+            },
+            {
+                "id": "compagnon-p-30",
+                "st": "st-13",
+                "label": "Sur critères sociaux, financement total des licences de sport pour les enfants de moins de 10 ans ainsi qu’un financement à hauteur de 50 % pour les étudiants boursiers"
+            },
+            {
+                "id": "compagnon-p-31",
+                "st": "st-14",
+                "label": "Poursuite des efforts pour privilégier les circuits courts et des repas sains"
+            },
+            {
+                "id": "compagnon-p-32",
+                "st": "st-17",
+                "label": "Un Maire de Rennes à Plein temps et un Président de Rennes Métropole qui ne soit pas le Maire de Rennes"
+            },
+            {
+                "id": "compagnon-p-33",
+                "st": "st-20",
+                "label": "Un vrai plan vélo avec la réalisation de 150 km de pistes cyclables réellement en site propre et la suppression des points accidentogènes"
+            },
+            {
+                "id": "compagnon-p-34",
+                "st": "st-20",
+                "label": "Favoriser la mise en place de l’indemnité kilométrique pour les cyclistes"
             }
         ]
     },
