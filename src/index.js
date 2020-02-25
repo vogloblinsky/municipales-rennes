@@ -7,6 +7,7 @@ import Sticky from 'sticky-js';
 import bsn from 'bootstrap.native/dist/bootstrap-native-v4_light';
 
 const thematiques = allData.thematiques;
+const candidats = allData.candidats;
 
 const findThematiqueForSousThematique = sousThematiqueToFind => {
     let finalThematique;
@@ -164,6 +165,36 @@ const initUI = () => {
     updateCellsHeight();
 
     /**
+     * Shuffle order of candidats
+     */
+    const candidatsListHeader = document.querySelector('.candidats-list');
+    let i = 0;
+    for (i; i < candidatsListHeader.children.length; i++) {
+        const shuffleOrder = (Math.random() * i) | 0;
+        candidatsListHeader.appendChild(candidatsListHeader.children[shuffleOrder]);
+    }
+
+    const shuffleOrderedCandidats = Array.from(document.querySelectorAll('.candidats-list header'));
+    shuffleOrderedCandidats.forEach((candidatHeader, shuffleIndex) => {
+        candidats.forEach((candidat, initialIndex) => {
+            if (candidatHeader.getAttribute('data-candidatid') === candidat.id) {
+                candidat.initialOrder = initialIndex;
+                candidat.shuffleOrder = shuffleIndex;
+            }
+        });
+    });
+
+    const candidatsListWrapper = document.querySelector('.candidats-wrapper');
+    let candidatsShuffleSorted = [];
+    candidats.forEach(candidat => {
+        candidatsShuffleSorted[candidat.shuffleOrder] = candidat;
+    });
+    candidatsShuffleSorted.forEach((candidat, index) => {
+        const currentCandidatNodeInList = candidatsListWrapper.querySelector(`[data-candidatid=${candidat.id}]`);
+        candidatsListWrapper.appendChild(currentCandidatNodeInList);
+    });
+
+    /**
      * Manage thematiques selector
      */
 
@@ -290,7 +321,7 @@ const initUI = () => {
 
     let candidatsSelectorStatus = {};
 
-    allData.candidats.forEach(candidat => {
+    candidats.forEach(candidat => {
         candidatsSelectorStatus[candidat.id] = true;
     });
 
