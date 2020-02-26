@@ -1501,12 +1501,13 @@
         "propositions": [{
                 "id": "gandon-p-1",
                 "st": "st-19",
-                "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
+                "label": "Création au sein de la police municipale une brigade verte de 15 agents à cheval ou à vélo"
             },
             {
                 "id": "gandon-p-2",
                 "st": "st-19",
-                "label": "Triplement du nombre de caméras de vidéoprotection pour prévenir les actes de délinquance. Recrutement, formation et déploiement de 30 policiers municipaux supplémentaires pour améliorer la sécurité des habitants de tous les quartiers."
+                "label": "Triplement du nombre de caméras de vidéoprotection pour prévenir les actes de délinquance. Recrutement, formation et déploiement de 30 policiers municipaux supplémentaires pour améliorer la sécurité des habitants de tous les quartiers",
+                "important": true
             },
             {
                 "id": "gandon-p-3",
@@ -1812,6 +1813,68 @@
                 "id": "gandon-p-59",
                 "st": "st-7",
                 "label": "Développer le compostage de quartier et étudier la mise en place d'un troisième container de tri des matières organiques"
+            },
+            {
+                "id": "gandon-p-60",
+                "st": "st-12",
+                "label": "Créer un Conseil des seniors pour co-construire avec nos aînés les solutions pour accompagner le vieillissement"
+            },
+            {
+                "id": "gandon-p-61",
+                "st": "st-12",
+                "label": "Lutter contre « l’âgisme », Rennes, cité qui se veut amie des aînés, doit développer des actions de sensibilisation et de lutte contre l’âgisme"
+            },
+            {
+                "id": "gandon-p-62",
+                "st": "st-15",
+                "label": "Développer l’habitat inclusif et/ou regroupé, le béguinage"
+            },
+            {
+                "id": "gandon-p-63",
+                "st": "st-12",
+                "label": "Expérimenter la « Tinell » : dans cette cantine solidaire intergénérationnelle, les bénéficiaires des repas portés par le CCAS pourront déjeuner au côté d’étudiants et d’habitants, pour rompre l’isolement"
+            },
+            {
+                "id": "gandon-p-64",
+                "st": "st-25",
+                "label": "Désigner un adjoint totalement dédié à la sécurité, à la médiation et à la prévention de la délinquance"
+            },
+            {
+                "id": "gandon-p-65",
+                "st": "st-25",
+                "label": "Développer l’embauche de gardiens d’immeubles avec Archipel Habitat"
+            },
+            {
+                "id": "gandon-p-66",
+                "st": "st-25",
+                "label": "Adapter l’offre de transport pour permettre les arrêts à la demande dans le réseau Star la nuit"
+            },
+            {
+                "id": "gandon-p-67",
+                "st": "st-19",
+                "label": "Œuvrer avec la police nationale à la création de nouveaux centres d’éducation citoyenne et de loisirs dans les quartiers prioritaires"
+            },
+            {
+                "id": "gandon-p-68",
+                "st": "st-32",
+                "label": "Favoriser le lien inter-quartiers à travers les activités associatives en pensant la mobilité à l’échelle de la ville",
+                "important": true
+            },
+            {
+                "id": "gandon-p-69",
+                "st": "st-25",
+                "label": "Améliorer la médiation sociale, une approche au cœur des politiques de sécurité et de prévention"
+            },
+            {
+                "id": "gandon-p-69",
+                "st": "st-25",
+                "label": "Plan local de prévention et de lutte contre les violences sexistes qui reposera sur trois piliers (Prévenir / Agir et accompagner les victimes, leur famille et leurs aidants / Prêter une attention spécifique aux publics les plus fragiles )",
+                "important": true
+            },
+            {
+                "id": "gandon-p-70",
+                "st": "st-25",
+                "label": "Systématiser le dépôt de plainte pour les dégradations et incivilités qui dégradent notre cadre de vie et encourager le recours à des travaux d’intérêt général"
             }
         ]
     },

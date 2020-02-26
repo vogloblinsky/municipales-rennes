@@ -53,12 +53,14 @@ La partie dynamisme est réalisé en VanillaJS à l'aide de quelques légères l
 
 ## Intégration des données - 20200226
 
--   Appéré : ok
 -   Gandon : à finir + mise en valeur
 -   Compagnon : à finir + mise en valeur
 -   Verts : à alléger + mise en valeur
 -   Le pape : à finir / mise en valeur ok
+
+-   Darcel : ok + manque mise en valeur
+
+-   Appéré : ok
 -   Salmon : ok
 -   Hamon : ok
 -   Ouvriers : ok
--   Darcel : à finir + mise en valeur
