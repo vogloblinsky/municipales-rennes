@@ -1,12 +1,9 @@
-[
-    {
+[{
         "id": "appere",
-        "tetes": [
-            {
-                "prenom": "Nathalie",
-                "nom": "Appéré"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Nathalie",
+            "nom": "Appéré"
+        }],
         "partis": "PS-PC-G·s-PRG-PP",
         "liste": "Pour Rennes",
         "website": "avecnathalieappere.fr",
@@ -14,16 +11,17 @@
         "twitterFollowers": "797",
         "facebook": "avecnathalieappere",
         "facebookFollowers": "444",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "appere-p-1",
                 "st": "st-21",
-                "label": "Créer 5 lignes express de tramways sur roues connectées au métro"
+                "label": "Créer 5 lignes express de tramways sur roues connectées au métro",
+                "important": true
             },
             {
                 "id": "appere-p-2",
                 "st": "st-13",
-                "label": "Baisser fortement les tarifs des abonnements STAR en particulier pour les moins de 25 ans"
+                "label": "Baisser fortement les tarifs des abonnements STAR en particulier pour les moins de 25 ans",
+                "important": true
             },
             {
                 "id": "appere-p-3",
@@ -38,7 +36,8 @@
             {
                 "id": "appere-p-5",
                 "st": "st-19",
-                "label": "Créer une police municipale de nuit et une brigade anti-incivilités"
+                "label": "Créer une police municipale de nuit et une brigade anti-incivilités",
+                "important": true
             },
             {
                 "id": "appere-p-6",
@@ -73,7 +72,8 @@
             {
                 "id": "appere-p-12",
                 "st": "st-23",
-                "label": "Acquérir la prison Jacques-Cartier"
+                "label": "Acquérir la prison Jacques-Cartier",
+                "important": true
             },
             {
                 "id": "appere-p-13",
@@ -163,7 +163,8 @@
             {
                 "id": "appere-p-28",
                 "st": "st-16",
-                "label": "Un Quartier de la Création sur le site de l'ancien Technicentre"
+                "label": "Un Quartier de la Création sur le site de l'ancien Technicentre",
+                "important": true
             },
             {
                 "id": "appere-p-29",
@@ -183,7 +184,8 @@
             {
                 "id": "appere-p-32",
                 "st": "st-5",
-                "label": "Un départ en vacances pour les enfants qui en sont privés"
+                "label": "Un départ en vacances pour les enfants qui en sont privés",
+                "important": true
             },
             {
                 "id": "appere-p-33",
@@ -223,7 +225,8 @@
             {
                 "id": "appere-p-40",
                 "st": "st-13",
-                "label": "Ouvrir un centre municipal d’hébergement d’urgence"
+                "label": "Ouvrir un centre municipal d’hébergement d’urgence",
+                "important": true
             },
             {
                 "id": "appere-p-41",
@@ -253,7 +256,8 @@
             {
                 "id": "appere-p-46",
                 "st": "st-17",
-                "label": "Pas de hausse des impôts locaux"
+                "label": "Pas de hausse des impôts locaux",
+                "important": true
             },
             {
                 "id": "appere-p-47",
@@ -394,13 +398,24 @@
                 "id": "appere-p-74",
                 "st": "st-9",
                 "label": "Promouvoir les langues et les cultures de Bretagne"
+            },
+            {
+                "id": "appere-p-75",
+                "st": "st-19",
+                "label": "Recruter 40 policiers municipaux",
+                "important": true
+            },
+            {
+                "id": "appere-p-76",
+                "st": "st-14",
+                "label": "Proposer des repas 100% bio ou locaux dès 2025",
+                "important": true
             }
         ]
     },
     {
         "id": "verts",
-        "tetes": [
-            {
+        "tetes": [{
                 "prenom": "Matthieu",
                 "nom": "Theurier"
             },
@@ -416,8 +431,7 @@
         "twitterFollowers": "415",
         "facebook": "RennesEcologie",
         "facebookFollowers": "1009",
-        "propositions": [
-            {
+        "propositions": [{
                 "st": "st-2",
                 "label": "Appuyer la multiplication des coopératives",
                 "id": "verts-p-0"
@@ -1466,12 +1480,10 @@
     },
     {
         "id": "gandon",
-        "tetes": [
-            {
-                "prenom": "Carole",
-                "nom": "Gandon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Carole",
+            "nom": "Gandon"
+        }],
         "parti": "LaREM",
         "liste": "Révéler Rennes",
         "website": "reveler-rennes.bzh",
@@ -1479,19 +1491,14 @@
         "twitterFollowers": "839",
         "facebook": "RevelerRennes",
         "facebookFollowers": "394",
-        "polemiques": [
-            {
-                "label": "Mailing malencontreux",
-                "references": [
-                    {
-                        "titre": "",
-                        "url": ""
-                    }
-                ]
-            }
-        ],
-        "propositions": [
-            {
+        "polemiques": [{
+            "label": "Mailing malencontreux",
+            "references": [{
+                "titre": "",
+                "url": ""
+            }]
+        }],
+        "propositions": [{
                 "id": "gandon-p-1",
                 "st": "st-19",
                 "label": "Création au sein de la police municipale une brigade de 15 agents à cheval ou à vélo"
@@ -1810,12 +1817,10 @@
     },
     {
         "id": "compagnon",
-        "tetes": [
-            {
-                "prenom": "Charles",
-                "nom": "Compagnon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Charles",
+            "nom": "Compagnon"
+        }],
         "parti": "DVD-LR-MoDem-UDI-PB",
         "liste": "Libres d’agir pour Rennes",
         "website": "www.compagnon2020.fr",
@@ -1823,8 +1828,7 @@
         "twitterFollowers": "295",
         "facebook": "Compagnon2020",
         "facebookFollowers": "612",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "compagnon-p-1",
                 "st": "st-7",
                 "label": "Verdir la ville (cours d'écoles, toits, abris-bus, rues et boulevards)"
@@ -2043,8 +2047,7 @@
     },
     {
         "id": "lepape",
-        "tetes": [
-            {
+        "tetes": [{
                 "prenom": "Enora",
                 "nom": "Le Pape"
             },
@@ -2060,8 +2063,7 @@
         "twitterFollowers": "346",
         "facebook": "RennesEnCommun",
         "facebookFollowers": "1910",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "lepape-p-1",
                 "st": "st-22",
                 "label": "La gratuité progressive des transports en commun"
@@ -2553,12 +2555,10 @@
     },
     {
         "id": "darcel",
-        "tetes": [
-            {
-                "prenom": "Franck",
-                "nom": "Darcel"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Franck",
+            "nom": "Darcel"
+        }],
         "parti": "REG",
         "liste": "Rennes Bretagne Europe",
         "website": "rbe2020darcel.bzh",
@@ -2566,8 +2566,7 @@
         "twitterFollowers": "181",
         "facebook": "DarcelRennesBretagneEurope",
         "facebookFollowers": "574",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "darcel-p-1",
                 "st": "st-19",
                 "label": "Redéfinir les tâches de la Police Municipale"
@@ -3031,12 +3030,10 @@
     },
     {
         "id": "salmon",
-        "tetes": [
-            {
-                "prenom": "Émeric",
-                "nom": "Salmon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Émeric",
+            "nom": "Salmon"
+        }],
         "parti": "RN",
         "website": "rassemblement-national35.fr",
         "liste": "Rassemblement national",
@@ -3044,8 +3041,7 @@
         "twitterFollowers": "2913",
         "facebook": "Emeric-Salmon-Candidat-RN-aux-Municipales-2020-à-Rennes-102165164544829",
         "facebookFollowers": "212",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "salmon-p-1",
                 "st": "st-7",
                 "label": "Développer la végétalisation et les îlots de fraîcheur en transformant des places et dalles actuellement sans usage",
@@ -3293,18 +3289,15 @@
     },
     {
         "id": "hamon",
-        "tetes": [
-            {
-                "prenom": "Valérie",
-                "nom": "Hamon"
-            }
-        ],
+        "tetes": [{
+            "prenom": "Valérie",
+            "nom": "Hamon"
+        }],
         "parti": "LO",
         "liste": "Lutte ouvrière – Faire entendre le camp des travailleurs",
         "website": "www.lutte-ouvriere.org",
         "twitter": "LutteOuvriere",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "hamon-p-1",
                 "st": "st-7",
                 "label": "Seuls les travailleurs ont, par leur rôle au cœur de l’économie, la puissance sociale à même de renverser le capitalisme qui afflige l’humanité et la planète de dégâts irrémédiables"
@@ -3318,8 +3311,7 @@
     },
     {
         "id": "ouvrier",
-        "tetes": [
-            {
+        "tetes": [{
                 "prenom": "Laurent & Pierre",
                 "nom": "Priet"
             },
@@ -3332,8 +3324,7 @@
         "liste": "Rennes 100% public",
         "website": "parti-ouvrier-independant.fr",
         "twitter": "Parti_Ouvrier",
-        "propositions": [
-            {
+        "propositions": [{
                 "id": "ouvrier-p-1",
                 "st": "st-26",
                 "label": "Priorité au ferroviaire en agissant pour la réouverture de la ligne Rennes, Fougères ainsi que les gares qui ont été fermées sous le dernier mandat"

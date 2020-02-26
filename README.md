@@ -50,3 +50,15 @@ Une génération au build est donc préférable à un rendu côté navigateur, p
 ## Dynamisme
 
 La partie dynamisme est réalisé en VanillaJS à l'aide de quelques légères librairies JavaScript pour plus de simplicité.
+
+## Intégration des données - 20200226
+
+-   Appéré : ok
+-   Gandon : à finir + mise en valeur
+-   Compagnon : à finir + mise en valeur
+-   Verts : à alléger + mise en valeur
+-   Le pape : à finir / mise en valeur ok
+-   Salmon : ok
+-   Hamon : ok
+-   Ouvriers : ok
+-   Darcel : à finir + mise en valeur
