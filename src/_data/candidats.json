@@ -1557,7 +1557,7 @@
             {
                 "id": "gandon-p-12",
                 "st": "st-15",
-                "label": "Moratoire sur les tours"
+                "label": "Moratoire sur la construction de tours"
             },
             {
                 "id": "gandon-p-13",
@@ -1760,11 +1760,6 @@
                 "label": "Accompagner la transformation des campus Beaulieu et Villejean pour en faire de vrais lieux de vie, adaptés au rythme et aux besoins des étudiants"
             },
             {
-                "id": "gandon-p-49",
-                "st": "st-31",
-                "label": "Désenclaver le campus de Ker Lann en préparant sa desserte par le prolongement de la ligne A du métro"
-            },
-            {
                 "id": "gandon-p-50",
                 "st": "st-7",
                 "label": "Désenclaver le campus de Ker Lann en préparant sa desserte par le prolongement de la ligne A du métro"
@@ -1875,6 +1870,46 @@
                 "id": "gandon-p-70",
                 "st": "st-25",
                 "label": "Systématiser le dépôt de plainte pour les dégradations et incivilités qui dégradent notre cadre de vie et encourager le recours à des travaux d’intérêt général"
+            },
+            {
+                "id": "gandon-p-71",
+                "st": "st-30",
+                "label": "Encourager le covoiturage et le télétravail"
+            },
+            {
+                "id": "gandon-p-72",
+                "st": "st-30",
+                "label": "Développement de zones d'activités économiques hors de la rocade"
+            },
+            {
+                "id": "gandon-p-73",
+                "st": "st-22",
+                "label": "Favoriser le pouvoir d'achat des étudiants grâce à la baisse du prix des abonnements Star"
+            },
+            {
+                "id": "gandon-p-74",
+                "st": "st-7",
+                "label": "Planter ou aider à planter un arbre pour chaque nouvel arrivant"
+            },
+            {
+                "id": "gandon-p-75",
+                "st": "st-23",
+                "label": "Installer des hotspots de Wifi public dans des lieux stratégiques de la ville (parcs, places)"
+            },
+            {
+                "id": "gandon-p-76",
+                "st": "st-23",
+                "label": "Moderniser l'éclairage public sur la ville en passant progressivement aux LED, expérimenter l'éclairage à la demande"
+            },
+            {
+                "id": "gandon-p-77",
+                "st": "st-23",
+                "label": "Lancer un programme ambitieux d'infrastructure de monitoring urbain pour une gestion optimisée des ressources"
+            },
+            {
+                "id": "gandon-p-78",
+                "st": "st-33",
+                "label": "Créer une application fédératrice et personnalisable centralisant les différents services et informations provenant des acteurs locaux (Star, Ici Rennes, ...)"
             }
         ]
     },
