@@ -194,6 +194,13 @@ const initUI = () => {
         candidatsListWrapper.appendChild(currentCandidatNodeInList);
     });
 
+    const candidatsListFilter = document.querySelector('.selector-nav .container');
+    i = 0;
+    for (i; i < candidatsListFilter.children.length; i++) {
+        const shuffleOrder = (Math.random() * i) | 0;
+        candidatsListFilter.appendChild(candidatsListFilter.children[shuffleOrder]);
+    }
+
     /**
      * Manage thematiques selector
      */
