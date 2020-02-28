@@ -9,7 +9,7 @@
         "watch:dev": "npm-watch",
         "11ty": "npx @11ty/eleventy --serve",
         "prebuild": "rimraf dist && mkdir dist",
-        "build": "ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run js:prod && npm run images-optimization",
+        "build": "npm run js:prod && ENV=prod npx @11ty/eleventy --pathprefix=\"/municipales-rennes/\" && npm run sass:prod && npm run images-optimization",
         "sass:dev": "ENV=dev node tools/sass-process.js",
         "sass:prod": "ENV=prod node tools/sass-process.js",
         "build-bootstrap-native": "node ./node_modules/bootstrap.native/lib/build.js --bs_version 4 --only modal > node_modules/bootstrap.native/dist/bootstrap-native-v4_light.js",
