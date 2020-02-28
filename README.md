@@ -53,7 +53,7 @@ La partie dynamisme est réalisé en VanillaJS à l'aide de quelques légères l
 
 ## Intégration des données - 20200226
 
--   Gandon : à finir + mise en valeur, stop page 16 du programme
+-   Gandon : à finir + mise en valeur, stop page 17 du programme
 -   Compagnon : à finir + mise en valeur
 -   Verts : à alléger + mise en valeur
 -   Le pape : à finir / mise en valeur ok, stop page mobilité
