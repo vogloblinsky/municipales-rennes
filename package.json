@@ -15,9 +15,10 @@
         "build-bootstrap-native": "node ./node_modules/bootstrap.native/lib/build.js --bs_version 4 --only modal > node_modules/bootstrap.native/dist/bootstrap-native-v4_light.js",
         "lighten-candidats": "node tools/lighten-candidats.js",
         "merge-thematiques-et-sous-thematiques": "node tools/merge-thematiques-et-sous-thematiques.js",
-        "prejs:dev": "run-s build-bootstrap-native lighten-candidats merge-thematiques-et-sous-thematiques",
+        "prepare-bootstrap-and-data": "run-s build-bootstrap-native lighten-candidats merge-thematiques-et-sous-thematiques",
+        "prejs:dev": "npm run prepare-bootstrap-and-data",
         "js:dev": "ENV=dev rollup -c rollup.config.js",
-        "prejs:prod": "npm run build-bootstrap-native",
+        "prejs:prod": "npm run prepare-bootstrap-and-data",
         "js:prod": "ENV=prod rollup -c rollup.config.js",
         "images-optimization": "node tools/images-optimization && cp -R dist2/* dist && rm -rf dist2"
     },
