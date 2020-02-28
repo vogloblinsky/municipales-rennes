@@ -67,3 +67,5 @@ node_modules/
 .firebase
 
 dist
+src/_data/candidats-light.json
+src/_data/thematiques-et-sous-thematiques.json

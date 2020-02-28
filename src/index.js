@@ -1,13 +1,12 @@
 import sousThematiques from './_data/sous-thematiques.json';
 
-import allData from './_data/alldata';
+import candidats from './_data/candidats-light.json';
+
+import thematiques from './_data/thematiques-et-sous-thematiques.json';
 
 import Sticky from 'sticky-js';
 
 import bsn from 'bootstrap.native/dist/bootstrap-native-v4_light';
-
-const thematiques = allData.thematiques;
-const candidats = allData.candidats;
 
 const findThematiqueForSousThematique = sousThematiqueToFind => {
     let finalThematique;
@@ -185,6 +184,7 @@ const initUI = () => {
     });
 
     const candidatsListWrapper = document.querySelector('.candidats-wrapper');
+    const candidatsListFilter = document.querySelector('.selector-nav .container');
     let candidatsShuffleSorted = [];
     candidats.forEach(candidat => {
         candidatsShuffleSorted[candidat.shuffleOrder] = candidat;
@@ -192,14 +192,9 @@ const initUI = () => {
     candidatsShuffleSorted.forEach((candidat, index) => {
         const currentCandidatNodeInList = candidatsListWrapper.querySelector(`[data-candidatid=${candidat.id}]`);
         candidatsListWrapper.appendChild(currentCandidatNodeInList);
+        const currentCandidatNodeInFilterList = candidatsListFilter.querySelector(`[data-candidatid=${candidat.id}]`);
+        candidatsListFilter.appendChild(currentCandidatNodeInFilterList);
     });
-
-    const candidatsListFilter = document.querySelector('.selector-nav .container');
-    i = 0;
-    for (i; i < candidatsListFilter.children.length; i++) {
-        const shuffleOrder = (Math.random() * i) | 0;
-        candidatsListFilter.appendChild(candidatsListFilter.children[shuffleOrder]);
-    }
 
     /**
      * Manage thematiques selector

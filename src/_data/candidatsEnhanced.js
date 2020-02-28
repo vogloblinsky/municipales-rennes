@@ -54,6 +54,5 @@ candidats.forEach(candidat => {
 });
 
 module.exports = {
-    candidats: candidats,
-    thematiques: thematiques
+    candidats: candidats
 };

@@ -83,7 +83,7 @@
                 <label for="thematiques">Choisissez votre thématique</label>
                 <select class="thematiques-selector" id="thematiques">
                     <option value="">Toutes les thématiques</option>
-                    {{#each alldata.thematiques}}
+                    {{#each thematiques}}
                     <option value="{{this.id}}">
                         {{this.label}}
                     </option>
@@ -92,7 +92,7 @@
                 <label for="sous-thematiques">Choisissez votre sous-thématique</label>
                 <select class="thematiques-selector" id="sous-thematiques" disabled>
                     <option value="">Toutes les sous-thématiques</option>
-                    {{#each alldata.sousthematiques}}
+                    {{#each sousThematiques}}
                     <option value="{{this.id}}">
                         {{this.label}}
                     </option>
@@ -110,7 +110,7 @@
         </nav>
 
         <nav class="candidats-list">
-            {{#each alldata.candidats}}
+            {{#each candidats-light}}
             {{#if this.liste}}
             <header data-candidatid="{{this.id}}">
                 <div class="header_main-infos">
@@ -150,7 +150,7 @@
 
     <nav class="selector-nav">
         <div class="container">
-            {{#each alldata.candidats}}
+            {{#each candidats-light}}
             {{#if this.liste}}
             <header data-candidatid="{{this.id}}">
                 <div class="checkmark">
@@ -181,7 +181,7 @@
 
     <main class="main-container">
         <div class="candidats-wrapper">
-            {{#each alldata.candidats}}
+            {{#each candidatsEnhanced.candidats}}
             {{#if this.liste}}
             <article data-candidatid="{{this.id}}" class="visible">
                 <div class="candidat-content">
