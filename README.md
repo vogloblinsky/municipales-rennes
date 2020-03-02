@@ -55,11 +55,11 @@ La partie dynamisme est réalisé en VanillaJS à l'aide de quelques légères l
 
 -   Gandon : à finir + mise en valeur, stop page 17 du programme
 -   Compagnon : à finir + mise en valeur
--   Verts : à alléger + mise en valeur
 -   Le pape : à finir / mise en valeur ok, stop page mobilité
 
 -   Darcel : ok + manque mise en valeur
 
+-   Verts : ok
 -   Appéré : ok
 -   Salmon : ok
 -   Hamon : ok
